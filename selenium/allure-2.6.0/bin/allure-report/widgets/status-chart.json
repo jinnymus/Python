@@ -1,0 +1,11 @@
+[ {
+  "uid" : "797b26a63c3055b8",
+  "name" : "Test_site_url.test_example_uri",
+  "time" : {
+    "start" : 1528703705706,
+    "stop" : 1528703724424,
+    "duration" : 18718
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

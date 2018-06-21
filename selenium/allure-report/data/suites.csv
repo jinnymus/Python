@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"failed","test_url.Test_site_url.test_example_uri","39996","
+        Открытие браузера Firefox
+        Проверка открытия страницы
+        "

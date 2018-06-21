@@ -1,0 +1,63 @@
+1529535187322	geckodriver	INFO	geckodriver 0.20.1
+1529535187388	geckodriver	INFO	Listening on 127.0.0.1:58397
+1529535188396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XxxadrtFlImJ"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529535202010	Marionette	INFO	Listening on port 45475
+1529535202464	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529535326968	geckodriver	INFO	geckodriver 0.20.1
+1529535327006	geckodriver	INFO	Listening on 127.0.0.1:43473
+1529535328005	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aCQIGwP7ET6r"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529535341562	Marionette	INFO	Listening on port 32985
+1529535341666	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1281304511, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1281304511, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1281304511 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 6404, Gecko_IOThread] WARNING: pipe error (73): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529535759772	geckodriver	INFO	geckodriver 0.20.1
+1529535759811	geckodriver	INFO	Listening on 127.0.0.1:41667
+1529535760813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aEaSeIxROet1"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529535777110	Marionette	INFO	Listening on port 38037
+1529535777206	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 6654, Gecko_IOThread] WARNING: pipe error (87): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529536147712	geckodriver	INFO	geckodriver 0.20.1
+1529536147745	geckodriver	INFO	Listening on 127.0.0.1:44015
+1529536148751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vhCv4CyOyvGo"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529536166129	Marionette	INFO	Listening on port 46823
+1529536166206	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 6855, Gecko_IOThread] WARNING: pipe error (42): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529536931762	geckodriver	INFO	geckodriver 0.20.1
+1529536931789	geckodriver	INFO	Listening on 127.0.0.1:47163
+1529536932819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BFJbgtCCYF1a"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529536948918	Marionette	INFO	Listening on port 33793
+1529536949005	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+JavaScript error: http://pokazuha.ru/js/common.js, line 7: TypeError: null has no properties
+JavaScript error: http://pokazuha.ru/js/common.js, line 7: TypeError: null has no properties

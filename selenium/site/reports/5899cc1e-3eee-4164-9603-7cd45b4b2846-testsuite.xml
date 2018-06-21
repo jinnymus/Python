@@ -1,0 +1,308 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1528733357788" stop="1528733399726">
+  <name>test_url</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1528733357788" status="passed" stop="1528733371324">
+      <description>
+
+        Открытие браузера
+
+        </description>
+      <name>Test_authorization.test_open_link_in_browser</name>
+      <attachments>
+        <attachment source="dfb01111-528d-41e2-8cfc-134a1bfb8083-attachment.txt" title="Captured log setup" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1528733371323" status="passed" stop="1528733371324">
+          <name>Открытие страницы в браузере</name>
+          <title>Открытие страницы в браузере</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1528733371331" status="passed" stop="1528733371361">
+      <description>
+
+        Ввод данных в полня формы
+
+        </description>
+      <name>Test_authorization.test_enter_values_in_form</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1528733371360" status="passed" stop="1528733371360">
+          <name>Ввод данных в поля</name>
+          <title>Ввод данных в поля</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1528733371363" status="passed" stop="1528733371393">
+      <description>
+
+        Проверка авторизации при неверном пароле
+
+        </description>
+      <name>Test_authorization.test_invalid_pass_auth</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1528733371412" status="passed" stop="1528733371428">
+      <description>
+
+        Проверка авторизации при неверном пользователе
+
+        </description>
+      <name>Test_authorization.test_invalid_user_auth</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1528733371435" status="passed" stop="1528733371447">
+      <description>
+
+        Проверка авторизации при пустых полях формы
+
+        </description>
+      <name>Test_authorization.test_empty_form</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1528733371473" status="passed" stop="1528733371488">
+      <description>
+
+        Проверка формы восттановления пароля
+
+        </description>
+      <name>Test_authorization.test_restore_form_valid</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1528733371498" status="passed" stop="1528733371503">
+      <description>
+
+        Проверка формы восттановления пароля при несоответствии паролей
+
+        </description>
+      <name>Test_authorization.test_restore_form_invalid_pass</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1528733371512" status="passed" stop="1528733371520">
+      <description>
+
+        Проверка формы восттановления пароля при пустых значениях в полях
+
+        </description>
+      <name>Test_authorization.test_restore_form_empty_valued</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1528733371532" status="passed" stop="1528733371548">
+      <description>
+        Проверка успешной авторизации
+        </description>
+      <name>Test_authorization.test_valid_auth</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1528733371553" status="passed" stop="1528733390842">
+      <description>
+
+        Авторизация и открытие браузера
+
+        </description>
+      <name>Test_refill_balance.test_auth_open_link_in_browser</name>
+      <attachments>
+        <attachment source="485d2fd6-6d26-48d4-b0c3-4f756b5e9454-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="eba53dfe-a124-4b80-bbc6-09664eb39a8b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1528733384028" status="passed" stop="1528733390842">
+          <name>Открытие страницы в браузере</name>
+          <title>Открытие страницы в браузере</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1528733390848" status="passed" stop="1528733399614">
+      <description>
+
+        Пополнение баланса
+        используется бонус, валюта, сумма, платежная система
+            password.send_keys('pass1')
+
+        </description>
+      <name>Test_refill_balance.test_refill_balanse</name>
+      <attachments>
+        <attachment source="00abbd3a-fc85-444f-be08-5ac0b9f65651-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1528733390880" status="passed" stop="1528733395069">
+          <name>Открытие страницы в браузере</name>
+          <title>Открытие страницы в браузере</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1528733399619" status="passed" stop="1528733399632">
+      <description>
+
+        Проверка статуса пользователя после пополнения
+        Mini, Silver, Gold, VIP
+
+        </description>
+      <name>Test_refill_balance.test_user_status</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1528733399654" status="passed" stop="1528733399670">
+      <description>
+
+        Проверка привилегий статусов
+
+        </description>
+      <name>Test_refill_balance.test_user_privelege</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1528733399672" status="passed" stop="1528733399726">
+      <description>
+
+        Проверка условий бонусной программы
+
+        </description>
+      <name>Test_refill_balance.test_terms_of_the_bonus_program</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29192-MainThread"/>
+        <label name="host" value="ub-ya"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

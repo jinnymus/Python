@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Функциональное тестирование",
+    "children" : [ {
+      "name" : "Юзер стори",
+      "children" : [ {
+        "name" : "Test_site_url.test_example_uri",
+        "uid" : "8effd95361bb004c",
+        "parentUid" : "4801a57fa93678351d92d88f4ae7b63f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1528709230518,
+          "stop" : 1528709270514,
+          "duration" : 39996
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4801a57fa93678351d92d88f4ae7b63f"
+    } ],
+    "uid" : "76b02de8bb610231853b101e59ea0b9b"
+  } ]
+}

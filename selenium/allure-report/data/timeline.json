@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ub-ya",
+    "children" : [ {
+      "name" : "9203-MainThread",
+      "children" : [ {
+        "name" : "Test_site_url.test_example_uri",
+        "uid" : "8effd95361bb004c",
+        "parentUid" : "c2ac7b7837a61adcb1269a54e6eae63b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1528709230518,
+          "stop" : 1528709270514,
+          "duration" : 39996
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2ac7b7837a61adcb1269a54e6eae63b"
+    } ],
+    "uid" : "96a8ae4ccd35119768a3e0f457a60047"
+  } ]
+}

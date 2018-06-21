@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_url",
+    "children" : [ {
+      "name" : "Test_site_url.test_example_uri",
+      "uid" : "8effd95361bb004c",
+      "parentUid" : "4fcda11354919a0e321a1f7e6b724cb1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1528709230518,
+        "stop" : 1528709270514,
+        "duration" : 39996
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4fcda11354919a0e321a1f7e6b724cb1"
+  } ]
+}

@@ -1,0 +1,106 @@
+{
+  "uid" : "8effd95361bb004c",
+  "name" : "Test_site_url.test_example_uri",
+  "fullName" : "test_url.Test_site_url.test_example_uri",
+  "historyId" : "507c964c1c08e27ffaf5879484c5c290",
+  "time" : {
+    "start" : 1528709230518,
+    "stop" : 1528709270514,
+    "duration" : 39996
+  },
+  "description" : "\n        Открытие браузера Firefox\n        Проверка открытия страницы\n        ",
+  "descriptionHtml" : "<pre><code>    Открытие браузера Firefox\n    Проверка открытия страницы\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_url.Test_site_url object at 0xb6172b2c>\n\n    @allure.step('Проверка URI')\n    @pytest.mark.custom\n    def test_example_uri(self):\n    \n        \"\"\"\n            Открытие браузера Firefox\n            Проверка открытия страницы\n            \"\"\"\n    \n        logger.debug('[test_example_uri] start')\n        self.driver.get(\"http://www.python.org\")\n        assert \"Python\" in self.driver.title\n        elem = self.driver.find_element_by_name(\"q\")\n        elem.send_keys(\"pycon\")\n        elem.send_keys(Keys.RETURN)\n        assert \"No results found.\" not in self.driver.page_source\n        logger.debug('[test_example_uri] end')\n>       assert False\nE       assert False\n\ntest_one/test_url.py:31: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <test_url.Test_site_url object at 0xb6172b2c>\n\n    @allure.step('Проверка URI')\n    @pytest.mark.custom\n    def test_example_uri(self):\n    \n        \"\"\"\n            Открытие браузера Firefox\n            Проверка открытия страницы\n            \"\"\"\n    \n        logger.debug('[test_example_uri] start')\n        self.driver.get(\"http://www.python.org\")\n        assert \"Python\" in self.driver.title\n        elem = self.driver.find_element_by_name(\"q\")\n        elem.send_keys(\"pycon\")\n        elem.send_keys(Keys.RETURN)\n        assert \"No results found.\" not in self.driver.page_source\n        logger.debug('[test_example_uri] end')\n>       assert False\nE       assert False\n\ntest_one/test_url.py:31: AssertionError",
+    "steps" : [ {
+      "name" : "Проверка URI",
+      "time" : {
+        "start" : 1528709256908,
+        "stop" : 1528709269452,
+        "duration" : 12544
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_url.Test_site_url object at 0xb6172b2c>\n\n    @allure.step('Проверка URI')\n    @pytest.mark.custom\n    def test_example_uri(self):\n    \n        \"\"\"\n            Открытие браузера Firefox\n            Проверка открытия страницы\n            \"\"\"\n    \n        logger.debug('[test_example_uri] start')\n        self.driver.get(\"http://www.python.org\")\n        assert \"Python\" in self.driver.title\n        elem = self.driver.find_element_by_name(\"q\")\n        elem.send_keys(\"pycon\")\n        elem.send_keys(Keys.RETURN)\n        assert \"No results found.\" not in self.driver.page_source\n        logger.debug('[test_example_uri] end')\n>       assert False\nE       assert False\n\ntest_one/test_url.py:31: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bf100939d74ad8cf",
+      "name" : "Скриншот",
+      "source" : "bf100939d74ad8cf.png",
+      "type" : "image/png",
+      "size" : 3897
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Функциональное тестирование"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "ub-ya"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Юзер стори"
+  }, {
+    "name" : "thread",
+    "value" : "9203-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_url"
+  }, {
+    "name" : "testClass",
+    "value" : "test_url"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_site_url.test_example_uri"
+  }, {
+    "name" : "package",
+    "value" : "test_url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8effd95361bb004c.json",
+  "parameterValues" : [ ]
+}

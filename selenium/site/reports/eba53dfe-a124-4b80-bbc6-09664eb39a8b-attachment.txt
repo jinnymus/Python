@@ -1,0 +1,27 @@
+test_url.py                139 DEBUG    [test_example_uri] start
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/url {"url": "https://qa:Af4shrewyirlyuds@ibitcy.com/interview/qa/mobile-deposit/"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element {"using": "css selector", "value": "login-form"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element {"using": "css selector", "value": "login-form"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element {"using": "xpath", "value": "//div[@class='languages-buttons']/div[@class='lang en']/a"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element/80e3c425-19f0-45da-b19e-3250a12a6131/click {"id": "80e3c425-19f0-45da-b19e-3250a12a6131"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element {"using": "css selector", "value": "login-form"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element {"using": "css selector", "value": "login-form"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element {"using": "xpath", "value": "//login-form/form/div[@class='amount-inputs']/input[@name='username']"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element {"using": "xpath", "value": "//login-form/form/div[@class='amount-inputs']/textarea[@name='password']"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element {"using": "xpath", "value": "//login-form/form/div[@class='submit gold']/a/span[@class='text']"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element/3722e22b-4a59-4331-a95b-e685de3c2808/value {"text": "username1@name.ru", "value": ["u", "s", "e", "r", "n", "a", "m", "e", "1", "@", "n", "a", "m", "e", ".", "r", "u"], "id": "3722e22b-4a59-4331-a95b-e685de3c2808"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element/d45a085a-4937-4909-b255-f6b7c827674e/value {"text": "pass1", "value": ["p", "a", "s", "s", "1"], "id": "d45a085a-4937-4909-b255-f6b7c827674e"}
+remote_connection.py       573 DEBUG    Finished Request
+remote_connection.py       486 DEBUG    POST http://127.0.0.1:57079/session/0203b355-ede1-486f-9f31-9cf68ce30cb1/element/a7b10f61-746b-4bb8-94ee-18c45f7533c1/click {"id": "a7b10f61-746b-4bb8-94ee-18c45f7533c1"}
+remote_connection.py       573 DEBUG    Finished Request

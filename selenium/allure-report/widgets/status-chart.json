@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8effd95361bb004c",
+  "name" : "Test_site_url.test_example_uri",
+  "time" : {
+    "start" : 1528709230518,
+    "stop" : 1528709270514,
+    "duration" : 39996
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
