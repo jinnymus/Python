@@ -1,0 +1,36 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_basic.Test_basic.test_top_currency_reverse","9234","
+
+        Проверка популярных валют, ввод суммы в поле ""в""
+
+        "
+"passed","test_basic.Test_basic.test_all_currency","53512","
+
+        Проверка валют из всего списка
+
+        "
+"passed","test_basic.Test_basic.test_search_ok","3342","
+
+        Проверка поиска валюты, результат содержит искомую валюту
+
+        "
+"passed","test_basic.Test_basic.test_search_fail","3697","
+
+        Проверка поиска валюты, результат не содержит искомую валюту
+
+        "
+"passed","test_basic.Test_basic.test_check_clear_form","59505","
+
+        Проверка кнопки очистики полей
+
+        "
+"passed","test_basic.Test_basic.test_top_currency","7515","
+
+        Проверка популярных валют, ввод суммы в поле ""из""
+
+        "
+"passed","test_basic.Test_basic.test_title_page","3427","
+
+        Проверка названия страницы
+
+        "

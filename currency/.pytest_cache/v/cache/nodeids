@@ -1,0 +1,9 @@
+[
+  "tests/test_basic.py::Test_basic::test_all_currency",
+  "tests/test_basic.py::Test_basic::test_check_clear_form",
+  "tests/test_basic.py::Test_basic::test_search_fail",
+  "tests/test_basic.py::Test_basic::test_search_ok",
+  "tests/test_basic.py::Test_basic::test_title_page",
+  "tests/test_basic.py::Test_basic::test_top_currency",
+  "tests/test_basic.py::Test_basic::test_top_currency_reverse"
+]

@@ -1,0 +1,73 @@
+{
+  "uid" : "4c9819d70d6ad4a",
+  "name" : "Test_basic.test_top_currency",
+  "fullName" : "test_basic.Test_basic.test_top_currency",
+  "historyId" : "802c888c8ebcb58be5b2aa8aa1ac4776",
+  "time" : {
+    "start" : 1529921524304,
+    "stop" : 1529921531819,
+    "duration" : 7515
+  },
+  "description" : "\n\n        Проверка популярных валют, ввод суммы в поле \"из\"\n\n        ",
+  "descriptionHtml" : "<pre><code>    Проверка популярных валют, ввод суммы в поле &quot;из&quot;\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Функциональное тестирование"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Kir-PC-L"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Базовый функционал"
+  }, {
+    "name" : "testId",
+    "value" : "Проверка популярных валют, ввод суммы в поле \"из\""
+  }, {
+    "name" : "thread",
+    "value" : "18072-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_basic"
+  }, {
+    "name" : "testClass",
+    "value" : "test_basic"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_basic.test_top_currency"
+  }, {
+    "name" : "package",
+    "value" : "test_basic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Проверка популярных валют, ввод суммы в поле \"из\"",
+    "url" : "Проверка популярных валют, ввод суммы в поле \"из\"",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c9819d70d6ad4a.json",
+  "parameterValues" : [ ]
+}

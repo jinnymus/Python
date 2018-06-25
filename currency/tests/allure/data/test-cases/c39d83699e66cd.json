@@ -1,0 +1,73 @@
+{
+  "uid" : "c39d83699e66cd",
+  "name" : "Test_basic.test_search_ok",
+  "fullName" : "test_basic.Test_basic.test_search_ok",
+  "historyId" : "a01bcc8d8e6259db9c993256876bdacc",
+  "time" : {
+    "start" : 1529921517533,
+    "stop" : 1529921520875,
+    "duration" : 3342
+  },
+  "description" : "\n\n        Проверка поиска валюты, результат содержит искомую валюту\n\n        ",
+  "descriptionHtml" : "<pre><code>    Проверка поиска валюты, результат содержит искомую валюту\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Функциональное тестирование"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Kir-PC-L"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Базовый функционал"
+  }, {
+    "name" : "testId",
+    "value" : "Проверка поиска валюты, результат содержит искомую валюту"
+  }, {
+    "name" : "thread",
+    "value" : "18072-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_basic"
+  }, {
+    "name" : "testClass",
+    "value" : "test_basic"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_basic.test_search_ok"
+  }, {
+    "name" : "package",
+    "value" : "test_basic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Проверка поиска валюты, результат содержит искомую валюту",
+    "url" : "Проверка поиска валюты, результат содержит искомую валюту",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c39d83699e66cd.json",
+  "parameterValues" : [ ]
+}

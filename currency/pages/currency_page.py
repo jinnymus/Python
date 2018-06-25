@@ -27,7 +27,7 @@ class AmountElement(BasePageElement):
     #The locator for search box where search string is entered
     locator = CurrencyPageLocators.AMOUNT
 
-
+CurrencyPage_func
 class BasePage(object):
     """Base class to initialize the base page that will be called from all pages"""
 
@@ -78,13 +78,10 @@ class CurrencyPage(BasePage):
 
 class CurrencyPageTab(CurrencyPage):
 
-    #amount_element = AmountElement()
     currency_element = CurrencyElement()
 
     def init(self, num):
         self.num = num
-        #self.amount_element = AmountElement(num)
-        #self.currency_element = CurrencyElement()
 
     def select(self):
         tab = self.driver.find_elements(*CurrencyPageLocators.TABS)[self.num]
@@ -135,11 +132,9 @@ class CurrencyPageTab(CurrencyPage):
 
     def select_currency(self, *currencyListLocator, currency):
         self.select()
-        #elements = self.driver.find_elements(*CurrencyPageLocators.TOP_LIST)
         elements = self.driver.find_elements(*currencyListLocator)
         for cur in elements:
             cur_str = cur.get_attribute('innerHTML')
-            #logger.debug('[cur_str] cur_str: ' + str(cur_str))
             if (currency in cur_str):
                 cur.click()
 
