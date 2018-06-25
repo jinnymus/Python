@@ -1,6 +1,4 @@
 [
-  "test_basic.py::Test_basic::()::test_open_link_in_browser",
-  "test_basic.py::Test_basic::()::test_enter_values_in_form",
-  "test_basic.py::Test_basic::()::test_clear_form",
-  "test_basic.py::Test_basic::()::test_currency"
+  "test_basic.py::Test_basic::test_top_currency",
+  "test_basic.py::Test_basic::test_toplist_currency"
 ]

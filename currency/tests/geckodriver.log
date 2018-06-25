@@ -1,63 +1,912 @@
-1529535187322	geckodriver	INFO	geckodriver 0.20.1
-1529535187388	geckodriver	INFO	Listening on 127.0.0.1:58397
-1529535188396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XxxadrtFlImJ"
+1529878821829	geckodriver	INFO	geckodriver 0.20.1
+1529878821895	geckodriver	INFO	Listening on 127.0.0.1:41613
+1529878822961	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yxfn6AgML95o"
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
-1529535202010	Marionette	INFO	Listening on port 45475
-1529535202464	Marionette	WARN	TLS certificate errors will be ignored for this session
-1529535326968	geckodriver	INFO	geckodriver 0.20.1
-1529535327006	geckodriver	INFO	Listening on 127.0.0.1:43473
-1529535328005	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aCQIGwP7ET6r"
+1529878845698	Marionette	INFO	Listening on port 41603
+1529878845939	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529878850550	geckodriver	INFO	geckodriver 0.20.1
+1529878850586	geckodriver	INFO	Listening on 127.0.0.1:54151
+1529878851558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.eqBMRFFtVHEG"
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
-1529535341562	Marionette	INFO	Listening on port 32985
-1529535341666	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1281304511, line 1: unreachable code after return statement
-JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1281304511, line 1: unreachable code after return statement
-JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1281304511 line 1 > eval, line 1: unreachable code after return statement
+1529878870231	Marionette	INFO	Listening on port 46171
+1529878870332	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529878874672	geckodriver	INFO	geckodriver 0.20.1
+1529878874750	geckodriver	INFO	Listening on 127.0.0.1:56423
+1529878875692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8iP4Nu8QjBwe"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529878895608	Marionette	INFO	Listening on port 42453
+1529878895699	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529879001526	geckodriver	INFO	geckodriver 0.20.1
+1529879001599	geckodriver	INFO	Listening on 127.0.0.1:42505
+1529879002602	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3HsLnBF1WIIT"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529879018563	Marionette	INFO	Listening on port 44631
+1529879018740	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529879023259	geckodriver	INFO	geckodriver 0.20.1
+1529879023296	geckodriver	INFO	Listening on 127.0.0.1:44839
+1529879024305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gNs6XJw6TPvG"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23115, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23073, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23204, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529879665598	geckodriver	INFO	geckodriver 0.20.1
+1529879665643	geckodriver	INFO	Listening on 127.0.0.1:39895
+1529879666651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.j6Z80W79cxiI"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529879679530	Marionette	INFO	Listening on port 46677
+1529879679804	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=522971868, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=522971868, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=522971868 line 1 > eval, line 1: unreachable code after return statement
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-[Parent 6404, Gecko_IOThread] WARNING: pipe error (73): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-1529535759772	geckodriver	INFO	geckodriver 0.20.1
-1529535759811	geckodriver	INFO	Listening on 127.0.0.1:41667
-1529535760813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aEaSeIxROet1"
+1529879747470	geckodriver	INFO	geckodriver 0.20.1
+1529879747501	geckodriver	INFO	Listening on 127.0.0.1:54849
+1529879748500	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sg1twrhbBfb5"
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
-1529535777110	Marionette	INFO	Listening on port 38037
-1529535777206	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529879770161	Marionette	INFO	Listening on port 44063
+1529879770714	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529879775777	geckodriver	INFO	geckodriver 0.20.1
+1529879775846	geckodriver	INFO	Listening on 127.0.0.1:33231
+1529879776795	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wp6EZrg6yTCF"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23495, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23464, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23608, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23736, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529880142031	geckodriver	INFO	geckodriver 0.20.1
+1529880142068	geckodriver	INFO	Listening on 127.0.0.1:38163
+1529880143074	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fkBbr1LFtJf0"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529880155937	Marionette	INFO	Listening on port 37833
+1529880156026	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529880160251	geckodriver	INFO	geckodriver 0.20.1
+1529880160294	geckodriver	INFO	Listening on 127.0.0.1:40211
+1529880161262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2b3bNWFhuJtp"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529880178536	Marionette	INFO	Listening on port 44783
+1529880178580	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 24065, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 24034, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529880315374	geckodriver	INFO	geckodriver 0.20.1
+1529880315419	geckodriver	INFO	Listening on 127.0.0.1:48031
+1529880316428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EvmraIbG8Dkz"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529880336255	Marionette	INFO	Listening on port 35161
+1529880336483	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529880340868	geckodriver	INFO	geckodriver 0.20.1
+1529880340905	geckodriver	INFO	Listening on 127.0.0.1:48537
+1529880341928	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QuuGViOcLG1C"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529880563551	geckodriver	INFO	geckodriver 0.20.1
+1529880563592	geckodriver	INFO	Listening on 127.0.0.1:36851
+1529880563621	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lYgJeFH0uURl"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529880584505	Marionette	INFO	Listening on port 36185
+1529880584622	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529880985647	geckodriver	INFO	geckodriver 0.20.1
+1529880985678	geckodriver	INFO	Listening on 127.0.0.1:45735
+1529880986683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BMwfj7jJDvaL"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529880997554	Marionette	INFO	Listening on port 34909
+1529880997668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529882223252	geckodriver	INFO	geckodriver 0.20.1
+1529882223300	geckodriver	INFO	Listening on 127.0.0.1:47915
+1529882224293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yRcyzIeRIinU"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529882240789	Marionette	INFO	Listening on port 34197
+1529882240836	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529882354343	geckodriver	INFO	geckodriver 0.20.1
+1529882354424	geckodriver	INFO	Listening on 127.0.0.1:54705
+1529882355390	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pMsVinR17pJl"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529882370440	Marionette	INFO	Listening on port 32839
+1529882370525	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529882475943	geckodriver	INFO	geckodriver 0.20.1
+1529882475980	geckodriver	INFO	Listening on 127.0.0.1:34575
+1529882476967	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5gJaQRbcmxkt"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529882488578	Marionette	INFO	Listening on port 34917
+1529882488694	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=100490028, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=100490028, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=100490028 line 1 > eval, line 1: unreachable code after return statement
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-[Parent 6654, Gecko_IOThread] WARNING: pipe error (87): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-1529536147712	geckodriver	INFO	geckodriver 0.20.1
-1529536147745	geckodriver	INFO	Listening on 127.0.0.1:44015
-1529536148751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vhCv4CyOyvGo"
-alloc factor 0,900000 0,900000
-alloc factor 0,900000 0,900000
-alloc factor 0,900000 0,900000
-alloc factor 0,900000 0,900000
-1529536166129	Marionette	INFO	Listening on port 46823
-1529536166206	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-[Parent 6855, Gecko_IOThread] WARNING: pipe error (42): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-1529536931762	geckodriver	INFO	geckodriver 0.20.1
-1529536931789	geckodriver	INFO	Listening on 127.0.0.1:47163
-1529536932819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BFJbgtCCYF1a"
+1529882722740	geckodriver	INFO	geckodriver 0.20.1
+1529882722765	geckodriver	INFO	Listening on 127.0.0.1:60987
+1529882722817	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RgtSHchNaxg8"
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
-1529536948918	Marionette	INFO	Listening on port 33793
-1529536949005	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529882736856	Marionette	INFO	Listening on port 36257
+1529882737087	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529882811187	geckodriver	INFO	geckodriver 0.20.1
+1529882811225	geckodriver	INFO	Listening on 127.0.0.1:39673
+1529882812227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QNL6jjPApTjZ"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529882823579	Marionette	INFO	Listening on port 39029
+1529882823906	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529882883982	geckodriver	INFO	geckodriver 0.20.1
+1529882884002	geckodriver	INFO	Listening on 127.0.0.1:41363
+1529882885008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6cl3WX9rUoie"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529882898207	Marionette	INFO	Listening on port 37129
+1529882898459	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529883239799	geckodriver	INFO	geckodriver 0.20.1
+1529883239846	geckodriver	INFO	Listening on 127.0.0.1:55001
+1529883240853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vzWN2fTMZ9Nv"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529883254968	Marionette	INFO	Listening on port 35701
+1529883255181	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529883259416	geckodriver	INFO	geckodriver 0.20.1
+1529883259439	geckodriver	INFO	Listening on 127.0.0.1:49893
+1529883260431	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Fv828ONKXZLA"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529883279307	Marionette	INFO	Listening on port 42741
+1529883279482	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529883284044	geckodriver	INFO	geckodriver 0.20.1
+1529883284097	geckodriver	INFO	Listening on 127.0.0.1:41651
+1529883285058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mMgSTiswl0aQ"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529883314797	Marionette	INFO	Listening on port 37863
+1529883314930	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529883698143	geckodriver	INFO	geckodriver 0.20.1
+1529883698185	geckodriver	INFO	Listening on 127.0.0.1:37741
+1529883699182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FMeJpiflVyhs"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529883715799	Marionette	INFO	Listening on port 36165
+1529883716495	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529884481289	geckodriver	INFO	geckodriver 0.20.1
+1529884481314	geckodriver	INFO	Listening on 127.0.0.1:40015
+1529884482318	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2fcF1OCMEUKA"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529884504434	Marionette	INFO	Listening on port 36207
+1529884504649	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529884697310	geckodriver	INFO	geckodriver 0.20.1
+1529884697374	geckodriver	INFO	Listening on 127.0.0.1:53939
+1529884698367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Rwlhl6qc4LNg"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529884717819	Marionette	INFO	Listening on port 37877
+1529884717954	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529884772017	geckodriver	INFO	geckodriver 0.20.1
+1529884772045	geckodriver	INFO	Listening on 127.0.0.1:60569
+1529884773049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RIJA6jZIG8ki"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529884792351	Marionette	INFO	Listening on port 39547
+1529884792459	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529885213537	geckodriver	INFO	geckodriver 0.20.1
+1529885213566	geckodriver	INFO	Listening on 127.0.0.1:48559
+1529885214571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yRqCro4Z8JGr"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529885226283	Marionette	INFO	Listening on port 33155
+1529885226488	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529885230785	geckodriver	INFO	geckodriver 0.20.1
+1529885230808	geckodriver	INFO	Listening on 127.0.0.1:45111
+1529885231823	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nd0IFrkbfKan"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529885249367	Marionette	INFO	Listening on port 42735
+1529885249781	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529885254968	geckodriver	INFO	geckodriver 0.20.1
+1529885255021	geckodriver	INFO	Listening on 127.0.0.1:46715
+1529885255988	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sCj1G8ML6Vmn"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529885283593	geckodriver	INFO	geckodriver 0.20.1
+1529885283620	geckodriver	INFO	Listening on 127.0.0.1:50467
+1529885284655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JrzdgrX3smVe"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529885311251	Marionette	INFO	Listening on port 40411
+1529885311396	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529885375762	geckodriver	INFO	geckodriver 0.20.1
+1529885375822	geckodriver	INFO	Listening on 127.0.0.1:34185
+1529885376836	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.j79LAZJUrNul"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529885398102	Marionette	INFO	Listening on port 36821
+1529885398282	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529885983443	geckodriver	INFO	geckodriver 0.20.1
+1529885983510	geckodriver	INFO	Listening on 127.0.0.1:36713
+1529885984548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3ywPjpK99eUs"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529886007204	Marionette	INFO	Listening on port 44691
+1529886007243	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529886008074	geckodriver	INFO	geckodriver 0.20.1
+1529886008120	geckodriver	INFO	Listening on 127.0.0.1:33555
+1529886009134	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QS0QQoS5czVa"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529886210512	geckodriver	INFO	geckodriver 0.20.1
+1529886210535	geckodriver	INFO	Listening on 127.0.0.1:46785
+1529886210554	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jxenwvO6H9iX"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529886220665	Marionette	INFO	Listening on port 35587
+1529886220747	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529886221803	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529886757479	geckodriver	INFO	geckodriver 0.20.1
+1529886757526	geckodriver	INFO	Listening on 127.0.0.1:41715
+1529886758530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QaXHEb87IdQB"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529886772508	Marionette	INFO	Listening on port 36303
+1529886772805	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529886831116	geckodriver	INFO	geckodriver 0.20.1
+1529886831154	geckodriver	INFO	Listening on 127.0.0.1:59793
+1529886831221	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Vwrx3kdAlNRy"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529886846969	Marionette	INFO	Listening on port 42373
+1529886847083	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529887458475	geckodriver	INFO	geckodriver 0.20.1
+1529887458500	geckodriver	INFO	Listening on 127.0.0.1:42033
+1529887459501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nVizb40MXVJ8"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529887478145	Marionette	INFO	Listening on port 34647
+1529887478317	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529887987450	geckodriver	INFO	geckodriver 0.20.1
+1529887987471	geckodriver	INFO	Listening on 127.0.0.1:37137
+1529887987550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yBRvvcvhm0vy"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529888000841	Marionette	INFO	Listening on port 38955
+1529888000894	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529888001860	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529888041126	geckodriver	INFO	geckodriver 0.20.1
+1529888041187	geckodriver	INFO	Listening on 127.0.0.1:47209
+1529888042191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QbxTluN0ASzj"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529888060351	Marionette	INFO	Listening on port 38193
+1529888060434	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529888161772	geckodriver	INFO	geckodriver 0.20.1
+1529888161824	geckodriver	INFO	Listening on 127.0.0.1:42505
+1529888162837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KGbH69y9Y0I4"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529888177785	Marionette	INFO	Listening on port 43689
+1529888177883	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1646379634, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1646379634 line 1 > eval, line 1: unreachable code after return statement
+1529888486724	geckodriver	INFO	geckodriver 0.20.1
+1529888486755	geckodriver	INFO	Listening on 127.0.0.1:49049
+1529888486822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tQxReE1anVTu"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529888508992	Marionette	INFO	Listening on port 34345
+1529888509100	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1028492491, line 1: unreachable code after return statement
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1529888688599	geckodriver	INFO	geckodriver 0.20.1
+1529888688746	geckodriver	INFO	Listening on 127.0.0.1:41827
+1529888688809	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.GHLKS7YvQsMP"
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
+1529888706635	Marionette	INFO	Listening on port 35193
+1529888706913	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1983681467, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529889034778	geckodriver	INFO	geckodriver 0.20.1
+1529889034885	geckodriver	INFO	Listening on 127.0.0.1:38165
+1529889035945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fIgimyJFvdDI"
 alloc factor 0,900000 0,900000
 alloc factor 0,900000 0,900000
-JavaScript error: http://pokazuha.ru/js/common.js, line 7: TypeError: null has no properties
-JavaScript error: http://pokazuha.ru/js/common.js, line 7: TypeError: null has no properties
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529889054574	Marionette	INFO	Listening on port 44559
+1529889054663	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=350423661, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=350423661, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=350423661 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 31051, Gecko_IOThread] WARNING: pipe error (75): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529889151805	geckodriver	INFO	geckodriver 0.20.1
+1529889151971	geckodriver	INFO	Listening on 127.0.0.1:36631
+1529889152969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.v5946G1cwHXe"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529889166510	Marionette	INFO	Listening on port 40695
+1529889166738	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1047463226, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1047463226, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1047463226 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529889297160	geckodriver	INFO	geckodriver 0.20.1
+1529889297276	geckodriver	INFO	Listening on 127.0.0.1:55729
+1529889298267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WBW7i97LCg5C"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529889320481	Marionette	INFO	Listening on port 37379
+1529889321171	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=535421502, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=535421502, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=535421502 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529889409635	geckodriver	INFO	geckodriver 0.20.1
+1529889409674	geckodriver	INFO	Listening on 127.0.0.1:47729
+1529889410692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rgkYc9Z0rOkC"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529889432770	Marionette	INFO	Listening on port 38105
+1529889432902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=210994036, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=210994036, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=210994036 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529889912951	geckodriver	INFO	geckodriver 0.20.1
+1529889913110	geckodriver	INFO	Listening on 127.0.0.1:40971
+1529889914193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ixc5Kbl365j9"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529889950463	Marionette	INFO	Listening on port 41427
+1529889950784	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=454316584, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=454316584, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=454316584 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 31839, Gecko_IOThread] WARNING: pipe error (42): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529890285775	geckodriver	INFO	geckodriver 0.20.1
+1529890285805	geckodriver	INFO	Listening on 127.0.0.1:54379
+1529890286772	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XV4Laibk45d5"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529890302033	Marionette	INFO	Listening on port 32869
+1529890302148	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=398360471, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=398360471, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=398360471 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529890930440	geckodriver	INFO	geckodriver 0.20.1
+1529890930455	geckodriver	INFO	Listening on 127.0.0.1:33929
+1529890931498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YizUpovpy8JB"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529890945601	Marionette	INFO	Listening on port 38303
+1529890945900	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1920941380, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1920941380, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1920941380 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529891601659	geckodriver	INFO	geckodriver 0.20.1
+1529891601703	geckodriver	INFO	Listening on 127.0.0.1:39009
+1529891601797	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aEA6LSzrYFob"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529891617991	Marionette	INFO	Listening on port 37157
+1529891618259	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=63618961, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=63618961, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=63618961 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529892221817	geckodriver	INFO	geckodriver 0.20.1
+1529892221848	geckodriver	INFO	Listening on 127.0.0.1:41111
+1529892221923	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vGQGhs4ZCAkN"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529892232534	Marionette	INFO	Listening on port 42093
+1529892232773	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=794766773, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=794766773, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=794766773 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529892748682	geckodriver	INFO	geckodriver 0.20.1
+1529892748714	geckodriver	INFO	Listening on 127.0.0.1:52159
+1529892748846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aPoJy8ylO4ZR"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529892765975	Marionette	INFO	Listening on port 39027
+1529892766101	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1940523796, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1940523796, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1940523796 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529892930387	geckodriver	INFO	geckodriver 0.20.1
+1529892930415	geckodriver	INFO	Listening on 127.0.0.1:38471
+1529892931429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JRFoy2qD1Jsy"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529892943237	Marionette	INFO	Listening on port 34349
+1529892943477	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=323340067, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=323340067, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=323340067 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529893035266	geckodriver	INFO	geckodriver 0.20.1
+1529893035304	geckodriver	INFO	Listening on 127.0.0.1:33753
+1529893036312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kJsxOH0PV1IB"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529893047565	Marionette	INFO	Listening on port 39333
+1529893047695	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1433634335, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529893441277	geckodriver	INFO	geckodriver 0.20.1
+1529893441327	geckodriver	INFO	Listening on 127.0.0.1:45607
+1529893442330	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.duDwamQ9XGgS"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529893453385	Marionette	INFO	Listening on port 39691
+1529893453456	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=30156215, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529894406498	geckodriver	INFO	geckodriver 0.20.1
+1529894406549	geckodriver	INFO	Listening on 127.0.0.1:43911
+1529894407542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fAvxI8FcVJia"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529894418419	Marionette	INFO	Listening on port 35429
+1529894418605	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=127162057, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529894578283	geckodriver	INFO	geckodriver 0.20.1
+1529894578326	geckodriver	INFO	Listening on 127.0.0.1:37865
+1529894578381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.VA61zTEZg7IP"
+[Parent 1806, Gecko_IOThread] WARNING: pipe error (77): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529894592338	Marionette	INFO	Listening on port 45189
+1529894592402	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1781928948, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1781928948, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1781928948 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529894707162	geckodriver	INFO	geckodriver 0.20.1
+1529894707210	geckodriver	INFO	Listening on 127.0.0.1:42781
+1529894708217	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kAHwi4T4Ky2U"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529894721535	Marionette	INFO	Listening on port 44359
+1529894721635	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=999293379, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=999293379, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=999293379 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529894863335	geckodriver	INFO	geckodriver 0.20.1
+1529894863369	geckodriver	INFO	Listening on 127.0.0.1:51709
+1529894863410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.z6AzjXBxiDGN"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529894877527	Marionette	INFO	Listening on port 42279
+1529894877681	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=385725284, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=385725284, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=385725284 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529895111407	geckodriver	INFO	geckodriver 0.20.1
+1529895111422	geckodriver	INFO	Listening on 127.0.0.1:48945
+1529895112363	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.AvePeVeFHmFa"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529895127236	Marionette	INFO	Listening on port 39967
+1529895127499	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=291125837, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=291125837 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 2793, Gecko_IOThread] WARNING: pipe error (114): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1529895456136	geckodriver	INFO	geckodriver 0.20.1
+1529895456170	geckodriver	INFO	Listening on 127.0.0.1:59687
+1529895456225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tCjK0C8yWQ24"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529895473099	Marionette	INFO	Listening on port 44013
+1529895473298	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1610238707, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1610238707, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1610238707 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529895745515	geckodriver	INFO	geckodriver 0.20.1
+1529895745559	geckodriver	INFO	Listening on 127.0.0.1:37177
+1529895746555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zVBQfArF561G"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529895756848	Marionette	INFO	Listening on port 36543
+1529895756977	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1176100040, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529896048519	geckodriver	INFO	geckodriver 0.20.1
+1529896048556	geckodriver	INFO	Listening on 127.0.0.1:45109
+1529896049546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0pyVJ5JpOFt6"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529896069154	Marionette	INFO	Listening on port 34459
+1529896069520	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1360482171, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1360482171 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529896306791	geckodriver	INFO	geckodriver 0.20.1
+1529896306815	geckodriver	INFO	Listening on 127.0.0.1:40991
+1529896307819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kun0iMgMqsPn"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529896319366	Marionette	INFO	Listening on port 40643
+1529896319657	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1937195879, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1937195879, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1937195879 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529896708870	geckodriver	INFO	geckodriver 0.20.1
+1529896708898	geckodriver	INFO	Listening on 127.0.0.1:56807
+1529896709944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PwNNj7zZeLUC"
+[Parent 3745, Gecko_IOThread] WARNING: pipe error (42): Соединение разорвано другой стороной: file /build/firefox-tz3UoL/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529896721738	Marionette	INFO	Listening on port 41059
+1529896721768	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1423011512, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1423011512, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1423011512 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529896904737	geckodriver	INFO	geckodriver 0.20.1
+1529896904763	geckodriver	INFO	Listening on 127.0.0.1:54247
+1529896905767	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5e2Ue2hYy1Qr"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529896915891	Marionette	INFO	Listening on port 36349
+1529896915952	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1550190436, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1550190436, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1550190436 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529897079909	geckodriver	INFO	geckodriver 0.20.1
+1529897080029	geckodriver	INFO	Listening on 127.0.0.1:53317
+1529897081009	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jKsjTamGzkWy"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529897101549	Marionette	INFO	Listening on port 43175
+1529897101687	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=907808578, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=907808578 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529897553132	geckodriver	INFO	geckodriver 0.20.1
+1529897553158	geckodriver	INFO	Listening on 127.0.0.1:47261
+1529897554163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BcauxcvXDT4L"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529897564739	Marionette	INFO	Listening on port 38833
+1529897564869	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529897623717	geckodriver	INFO	geckodriver 0.20.1
+1529897623745	geckodriver	INFO	Listening on 127.0.0.1:53079
+1529897624749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.CJlpMP56hG83"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529897640494	Marionette	INFO	Listening on port 35401
+1529897641126	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1648725236, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529898424762	geckodriver	INFO	geckodriver 0.20.1
+1529898424811	geckodriver	INFO	Listening on 127.0.0.1:52827
+1529898425835	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.G3fdYENvvR9o"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529898436421	Marionette	INFO	Listening on port 38315
+1529898436530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=395822271, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=395822271, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=395822271 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529898627811	geckodriver	INFO	geckodriver 0.20.1
+1529898627852	geckodriver	INFO	Listening on 127.0.0.1:42423
+1529898628856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.p2V0Ab0HveA9"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529898639762	Marionette	INFO	Listening on port 34535
+1529898639808	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1586503919, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1586503919 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529898875260	geckodriver	INFO	geckodriver 0.20.1
+1529898875294	geckodriver	INFO	Listening on 127.0.0.1:50735
+1529898876293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gSF7EM6AcSYe"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529898888712	Marionette	INFO	Listening on port 38917
+1529898889022	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1037002480, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1037002480, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1037002480 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529899251098	geckodriver	INFO	geckodriver 0.20.1
+1529899251132	geckodriver	INFO	Listening on 127.0.0.1:35245
+1529899252133	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KcH8FAlxQ0FW"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529899263574	Marionette	INFO	Listening on port 39775
+1529899263676	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1006402898, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1006402898, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1006402898 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529899360035	geckodriver	INFO	geckodriver 0.20.1
+1529899360059	geckodriver	INFO	Listening on 127.0.0.1:54049
+1529899361066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tHs46gMeJXAD"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529899376473	Marionette	INFO	Listening on port 43261
+1529899376558	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2017762327, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2017762327 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529899641127	geckodriver	INFO	geckodriver 0.20.1
+1529899641220	geckodriver	INFO	Listening on 127.0.0.1:46445
+1529899642190	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.y4IjOHr1OUQd"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529899657323	Marionette	INFO	Listening on port 39913
+1529899657667	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=104389820, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=104389820 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529899799449	geckodriver	INFO	geckodriver 0.20.1
+1529899799569	geckodriver	INFO	Listening on 127.0.0.1:39135
+1529899800561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.duw15dtzCGOQ"
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+alloc factor 0,900000 0,900000
+1529899820771	Marionette	INFO	Listening on port 33521
+1529899820967	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1001301673, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1001301673 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
