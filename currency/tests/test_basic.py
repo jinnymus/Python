@@ -150,3 +150,22 @@ class Test_basic(BaseCase):
         if (currency_from not in currency_page.tab_from.get_all_list_names()):
             assert False, 'listnames:' + str(currency_page.tab_from.get_all_list_names())
 
+
+    @allure.testcase('Проверка всех валют')
+    def test_all_currency(self):
+        """
+
+        Проверка поиска валюты, результат содержит искомую валюту
+
+        """
+        #currency_from = 'CHF'
+
+        currency_page = CurrencyPage(self.driver)
+        currency_page.navigate()
+        list = currency_page.tab_from.get_all_list_names()
+        for cur in list:
+            self.test_top_currency
+        currency_page.search_text_element = currency_from
+        if (currency_from not in currency_page.tab_from.get_all_list_names()):
+            assert False, 'listnames:' + str(currency_page.tab_from.get_all_list_names())
+

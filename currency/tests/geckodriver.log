@@ -228,3 +228,80 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 1529940122387	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wDMaktP1czVe"
 1529940125837	Marionette	INFO	Listening on port 43599
 1529940126024	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529999231006	geckodriver	INFO	geckodriver 0.21.0
+1529999231021	geckodriver	INFO	Listening on 127.0.0.1:53123
+1529999232023	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EqSNIjaIJQsX"
+1529999234070	Marionette	INFO	Listening on port 35741
+1529999234135	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1763127464, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1763127464, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1763127464 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529999341805	geckodriver	INFO	geckodriver 0.21.0
+1529999341808	geckodriver	INFO	Listening on 127.0.0.1:42583
+1529999341811	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ldbGqF0utMWy"
+1529999343050	Marionette	INFO	Listening on port 34869
+1529999343115	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=509850629, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=509850629, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=509850629 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529999514568	geckodriver	INFO	geckodriver 0.21.0
+1529999514570	geckodriver	INFO	Listening on 127.0.0.1:34295
+1529999514574	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GxVhQAhZgy83"
+1529999515884	Marionette	INFO	Listening on port 33497
+1529999515978	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=274389803, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=274389803, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=274389803 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529999630730	geckodriver	INFO	geckodriver 0.21.0
+1529999630733	geckodriver	INFO	Listening on 127.0.0.1:42677
+1529999630738	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5nDqpYoykkz1"
+1529999631976	Marionette	INFO	Listening on port 32911
+1529999632042	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1425403507, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1425403507 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1529999895607	geckodriver	INFO	geckodriver 0.21.0
+1529999895610	geckodriver	INFO	Listening on 127.0.0.1:35195
+1529999895614	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3ZnQb84jEGRO"
+1529999896965	Marionette	INFO	Listening on port 38023
+1529999897018	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2063196148, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2063196148, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2063196148 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1530000275983	geckodriver	INFO	geckodriver 0.21.0
+1530000275985	geckodriver	INFO	Listening on 127.0.0.1:52421
+1530000275988	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pYds6X4AEK7j"
+1530000277282	Marionette	INFO	Listening on port 38751
+1530000277294	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=32365520, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=32365520 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1530000688647	geckodriver	INFO	geckodriver 0.21.0
+1530000688650	geckodriver	INFO	Listening on 127.0.0.1:48981
+1530000688654	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RoYYipUZnUR3"
+1530000689984	Marionette	INFO	Listening on port 44211
+1530000690065	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x540027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 510, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 2667, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4492, Chrome_ChildThread] WARNING: pipe error: Обрыв канала: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 8698, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead

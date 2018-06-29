@@ -1,0 +1,4 @@
+{
+  "tests/test_ex.py": true,
+  "tests/test_ex.py::test_currency2": true
+}
