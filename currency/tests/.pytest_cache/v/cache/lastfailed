@@ -1,0 +1,4 @@
+{
+  "test_ex.py::TestSuite::()::test_get_all_list": true,
+  "test_ex.py::test_get_all_list": true
+}

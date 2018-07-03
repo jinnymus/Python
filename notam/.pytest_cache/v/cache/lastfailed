@@ -1,0 +1,3 @@
+{
+  "tests/test_notam.py::test_auth": true
+}

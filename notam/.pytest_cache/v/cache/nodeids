@@ -1,0 +1,4 @@
+[
+  "tests/test_notam.py::Test_de::()::test_one",
+  "tests/test_notam.py::test_auth"
+]

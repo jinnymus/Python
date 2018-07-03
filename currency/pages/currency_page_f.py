@@ -4,8 +4,8 @@ from pages.locators import CurrencyPageLocators
 from selenium.webdriver.common.by import By
 import logging, sys
 from pages.basecase import BaseCase
-#logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
-#logger = logging.getLogger('test')
+logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
+logger = logging.getLogger('test')
 import pytest
 import allure
 
@@ -111,6 +111,7 @@ def CurrencyPage_func():
             for cur in elements:
                 cur_str = cur.get_attribute('innerHTML')
                 all_list.append(cur_str)
+            logging.debug('all_list: ' + str(all_list))
             return all_list
 
         def get_top_list_names(self):
