@@ -19,7 +19,7 @@ def test_get_all_list(CurrencyPage_func, d):
     cp = CurrencyPage_func(d)
     cp.navigate()
     all_list = tuple(cp.tab_from.get_all_list_names())
-    logging.debug(all_list)
+    logging.info(all_list)
 
 @pytest.mark.parametrize('currency', all_list)
 def test_currency(currency, CurrencyPage_func, d):

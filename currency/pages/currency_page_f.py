@@ -57,7 +57,7 @@ def CurrencyPage_func():
             self.tab_from.init(0)
             self.tab_to = CurrencyPageTab(self.driver)
             self.tab_to.init(1)
-            self.close_widget()
+            #self.close_widget()
             self.init_top_list()
 
         def init_top_list(self):
