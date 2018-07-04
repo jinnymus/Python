@@ -1,3 +1,7 @@
 {
-  "tests/test_notam.py::test_auth": true
+  "tests/test_notam.py::TestCase": true,
+  "tests/test_notam.py::test_auth": true,
+  "tests/test_notam.py::test_get_entities_tree": true,
+  "tests/test_notam.py::test_get_feature_info": true,
+  "tests/test_notam.py::test_get_projects_review_count": true
 }

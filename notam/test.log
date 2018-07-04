@@ -1,0 +1,253 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.5, pytest-3.6.1, py-1.5.3, pluggy-0.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/ub/github/Python/notam, inifile:
+plugins: allure-adaptor-1.7.10
+collecting ... collected 2 items
+
+tests/test_notam.py::Test_de::test_one PASSED                            [ 50%]
+tests/test_notam.py::test_auth FAILED                                    [100%]
+
+=================================== FAILURES ===================================
+__________________________________ test_auth ___________________________________
+
+    def test_auth():
+        uri = '/api/auth/login'
+        response = request(uri)
+        get_value(response=response, value='key')
+>       assert response == '', response.text
+E       AssertionError: {"detail":"Метод \"GET\" не разрешен."}
+E       assert <Response [405]> == ''
+
+tests/test_notam.py:33: AssertionError
+----------------------------- Captured stdout call -----------------------------
+DEBUG:test_notam:[request] data: None
+DEBUG:root:[WebDriver][request] start
+DEBUG:root:[WebDriver][request] uri: /api/auth/login
+DEBUG:root:[WebDriver][request] auth: False
+DEBUG:root:[WebDriver][request] method: POST
+DEBUG:root:[WebDriver][request] headers: {'Content-Type': 'application/json', 'X-Sender': 'nistest'}
+DEBUG:root:[WebDriver][request] postdata: 
+DEBUG:root:[WebDriver][request] json: ""
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): notamdev.qantor.ru
+DEBUG:urllib3.connectionpool:http://notamdev.qantor.ru:80 "POST /api/auth/login HTTP/1.1" 301 186
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): notamdev.qantor.ru
+DEBUG:urllib3.connectionpool:https://notamdev.qantor.ru:443 "GET /api/auth/login HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://notamdev.qantor.ru:443 "GET /api/auth/login/ HTTP/1.1" 405 54
+DEBUG:root:[WebDriver][request] response: <Response [405]>
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.050194099579190736
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.10239596314154911
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0505673740273669
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.4762339571066869
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.1887581889437005
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.01
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:root:[WebDriver][request] response.text: {"detail":"Метод \"GET\" не разрешен."}
+DEBUG:root:[WebDriver][request] status_code: 405
+DEBUG:root:[WebDriver][request] header: {'Server': 'nginx/1.13.10', 'Date': 'Tue, 03 Jul 2018 21:16:52 GMT', 'Content-Type': 'application/json', 'Content-Length': '54', 'Connection': 'keep-alive', 'Vary': 'Accept', 'Allow': 'POST, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+DEBUG:root:[WebDriver][request] Content-Type: application/json
+DEBUG:test_notam:[request] response code: 405
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.050194099579190736
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.10239596314154911
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0505673740273669
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.4762339571066869
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.1887581889437005
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.01
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:test_notam:[request] response text: {"detail":"Метод \"GET\" не разрешен."}
+DEBUG:test_notam:[get_value] value: key
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.050194099579190736
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.10239596314154911
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0505673740273669
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.4762339571066869
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.1887581889437005
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.01
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+------------------------------ Captured log call -------------------------------
+test_notam.py               41 DEBUG    [request] data: None
+webdriver.py                69 DEBUG    [WebDriver][request] start
+webdriver.py                70 DEBUG    [WebDriver][request] uri: /api/auth/login
+webdriver.py                71 DEBUG    [WebDriver][request] auth: False
+webdriver.py                72 DEBUG    [WebDriver][request] method: POST
+webdriver.py                86 DEBUG    [WebDriver][request] headers: {'Content-Type': 'application/json', 'X-Sender': 'nistest'}
+webdriver.py                87 DEBUG    [WebDriver][request] postdata: 
+webdriver.py                89 DEBUG    [WebDriver][request] json: ""
+connectionpool.py          208 DEBUG    Starting new HTTP connection (1): notamdev.qantor.ru
+connectionpool.py          396 DEBUG    http://notamdev.qantor.ru:80 "POST /api/auth/login HTTP/1.1" 301 186
+connectionpool.py          826 DEBUG    Starting new HTTPS connection (1): notamdev.qantor.ru
+connectionpool.py          396 DEBUG    https://notamdev.qantor.ru:443 "GET /api/auth/login HTTP/1.1" 301 0
+connectionpool.py          396 DEBUG    https://notamdev.qantor.ru:443 "GET /api/auth/login/ HTTP/1.1" 405 54
+webdriver.py               103 DEBUG    [WebDriver][request] response: <Response [405]>
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1251 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    KOI8-R Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Russian confidence = 0.050194099579190736
+charsetgroupprober.py      100 DEBUG    MacCyrillic Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM866 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM855 Russian confidence = 0.10239596314154911
+charsetgroupprober.py      100 DEBUG    ISO-8859-7 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1253 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Bulgairan confidence = 0.0505673740273669
+charsetgroupprober.py      100 DEBUG    windows-1251 Bulgarian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    TIS-620 Thai confidence = 0.4762339571066869
+charsetgroupprober.py      100 DEBUG    ISO-8859-9 Turkish confidence = 0.1887581889437005
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.01
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+webdriver.py               104 DEBUG    [WebDriver][request] response.text: {"detail":"Метод \"GET\" не разрешен."}
+webdriver.py               105 DEBUG    [WebDriver][request] status_code: 405
+webdriver.py               106 DEBUG    [WebDriver][request] header: {'Server': 'nginx/1.13.10', 'Date': 'Tue, 03 Jul 2018 21:16:52 GMT', 'Content-Type': 'application/json', 'Content-Length': '54', 'Connection': 'keep-alive', 'Vary': 'Accept', 'Allow': 'POST, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN'}
+webdriver.py               107 DEBUG    [WebDriver][request] Content-Type: application/json
+test_notam.py               44 DEBUG    [request] response code: 405
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1251 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    KOI8-R Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Russian confidence = 0.050194099579190736
+charsetgroupprober.py      100 DEBUG    MacCyrillic Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM866 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM855 Russian confidence = 0.10239596314154911
+charsetgroupprober.py      100 DEBUG    ISO-8859-7 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1253 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Bulgairan confidence = 0.0505673740273669
+charsetgroupprober.py      100 DEBUG    windows-1251 Bulgarian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    TIS-620 Thai confidence = 0.4762339571066869
+charsetgroupprober.py      100 DEBUG    ISO-8859-9 Turkish confidence = 0.1887581889437005
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.01
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+test_notam.py               45 DEBUG    [request] response text: {"detail":"Метод \"GET\" не разрешен."}
+test_notam.py               36 DEBUG    [get_value] value: key
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1251 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    KOI8-R Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Russian confidence = 0.050194099579190736
+charsetgroupprober.py      100 DEBUG    MacCyrillic Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM866 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM855 Russian confidence = 0.10239596314154911
+charsetgroupprober.py      100 DEBUG    ISO-8859-7 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1253 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Bulgairan confidence = 0.0505673740273669
+charsetgroupprober.py      100 DEBUG    windows-1251 Bulgarian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    TIS-620 Thai confidence = 0.4762339571066869
+charsetgroupprober.py      100 DEBUG    ISO-8859-9 Turkish confidence = 0.1887581889437005
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.01
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+====================== 1 failed, 1 passed in 0.77 seconds ======================
