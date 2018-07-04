@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ef3b75b-9c69-4920-b904-d1f4e6418abc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notam/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/notam/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notam/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/notam/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notam/libs/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/notam/libs/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notam/tests/test_notam.py" beforeDir="false" afterPath="$PROJECT_DIR$/notam/tests/test_notam.py" afterDir="false" />
-    </list>
+    <list default="true" id="2ef3b75b-9c69-4920-b904-d1f4e6418abc" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
