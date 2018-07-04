@@ -1,7 +1,21 @@
 {
   "tests/test_notam.py::TestCase": true,
   "tests/test_notam.py::test_auth": true,
-  "tests/test_notam.py::test_get_entities_tree": true,
-  "tests/test_notam.py::test_get_feature_info": true,
-  "tests/test_notam.py::test_get_projects_review_count": true
+  "tests/test_notam.py::test_get_feature[c3f616f0-ad28-45f4-8af6-c59b05d5f0b919]": true,
+  "tests/test_notam.py::test_get_feature[d51300f4-eb76-4fc5-9d5d-bfcf026e110151]": true,
+  "tests/test_notam.py::test_get_feature[e5007c1e-6a41-4d13-b1d1-7143f3123efa40]": true,
+  "tests/test_notam.py::test_get_feature[e58ca8d6-c484-442b-8b01-028719da6cd540]": true,
+  "tests/test_notam.py::test_get_feature[e6021f44-f8d5-44cd-a17b-faa8cdb6af3240]": true,
+  "tests/test_notam.py::test_get_feature[e7c3753e-c116-4104-b714-469048c1f34640]": true,
+  "tests/test_notam.py::test_get_feature[e86178cf-db0d-48d4-930d-ff0a7ed85f7740]": true,
+  "tests/test_notam.py::test_get_feature[e86370d4-fafd-44ff-90c4-2849ee70185c40]": true,
+  "tests/test_notam.py::test_get_feature[e8a937a2-b8a6-4fe9-b8b3-fcead5c8f87e40]": true,
+  "tests/test_notam.py::test_get_feature[ea478872-9677-45c0-806c-35ebca17bf3140]": true,
+  "tests/test_notam.py::test_get_feature[ece68aeb-55d8-4610-8527-5e36c1ab3e6a40]": true,
+  "tests/test_notam.py::test_get_feature[ee073cd2-54dd-4357-a666-03842e9ed67b40]": true,
+  "tests/test_notam.py::test_get_feature[eec7d646-1fcf-40f1-a76b-8900add7e23440]": true,
+  "tests/test_notam.py::test_get_feature[eec7d646-1fcf-40f1-a76b-8900add7e23451]": true,
+  "tests/test_notam.py::test_get_feature[ef32185b-7b93-4062-bf7a-48de6c304d5440]": true,
+  "tests/test_notam.py::test_get_feature[effc7d14-274a-4077-a8ca-f182b4be021940]": true,
+  "tests/test_notam.py::test_get_feature_info": true
 }
