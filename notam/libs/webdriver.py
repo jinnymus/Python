@@ -51,6 +51,7 @@ class WebDriver(object):
         self.port = port
         self.authorise = authorise
         self.content = content
+        logging.debug('[WebDriver][init] start')
 
     def request(self, path, method, payload=None, params=None):
         return self.__request(uri=path, method=method, ContentType=self.content, XSender='tests', postdata=payload, auth=self.authorise, params=None)

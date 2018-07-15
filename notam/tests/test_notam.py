@@ -38,114 +38,132 @@ def web_driver():
 
 nt = NotamTest()
 
-# def test_get_user(web_driver):
-#     response = nt.get_user(web_driver)
-#     logger.debug('[test_get_user] response: ' + str(response.text))
-#     assert response.status_code == 200
-#     assert response.json().get('username') == 'admin'
+
+@pytest.mark.skip(reason="no way of currently testing this")
+def test_get_user(web_driver):
+    response = nt.get_user(web_driver)
+    logger.debug('[test_get_user] response: ' + str(response.text))
+    assert response.status_code == 200
+    assert response.json().get('username') == 'admin'
+
+@pytest.mark.skip(reason="no way of currently testing this")
+def test_get_languages(web_driver):
+    response = nt.get_languages(web_driver)
+    logger.debug('[test_get_languages] response: ' + str(response.text))
+    assert response.status_code == 200
+    assert response.json()[0].get('name') == 'English'
+
+@pytest.mark.skip(reason="no way of currently testing this")
+def test_get_projects_review_count(web_driver):
+    response = nt.get_projects_review_count(web_driver)
+    logger.debug('[test_get_projects_review_count] response: ' + str(response.text))
+    assert response.status_code == 200
+    assert response.json().get('count')
 
 
-# def test_get_languages(web_driver):
-#     response = nt.get_languages(web_driver)
-#     logger.debug('[test_get_languages] response: ' + str(response.text))
-#     assert response.status_code == 200
-#     assert response.json()[0].get('name') == 'English'
-#
-# def test_get_projects_review_count(web_driver):
-#     response = nt.get_projects_review_count(web_driver)
-#     logger.debug('[test_get_projects_review_count] response: ' + str(response.text))
-#     assert response.status_code == 200
-#     assert response.json().get('count')
-#
+def get_entities_list():
+    web_driver = libs.notam.web_driver2()
+    is_parent = 'true'
+    response = nt.get_entities_tree(web_driver, is_parent)
+    #logger.debug('[get_entities_list] response: ' + str(response.text))
+    entities = list()
+    [entities.append(entity.get('id')) for entity in response.json()]
+    logger.debug('[get_entities_list] len: ' + str(len(entities)))
+    #logger.debug('[get_entities_list] entities: ' + str(entities))
+    return entities
 
-# def get_entities_list():
-#     web_driver = libs.notam.web_driver2()
-#     is_parent = 'true'
-#     response = nt.get_entities_tree(web_driver, is_parent)
-#     #logger.debug('[get_entities_list] response: ' + str(response.text))
-#     entities = list()
-#     [entities.append(entity.get('id')) for entity in response.json()]
-#     logger.debug('[get_entities_list] len: ' + str(len(entities)))
-#     #logger.debug('[get_entities_list] entities: ' + str(entities))
-#     return entities
-#
-# #@pytest.fixture(scope='function')
-# def get_entity_layer_list():
-#     web_driver = libs.notam.web_driver2()
-#     is_parent = 'true'
-#     response = nt.get_entities_tree(web_driver, is_parent)
-#     #logger.debug('[get_entities_list] response: ' + str(response.text))
-#     entity_layers = list()
-#     #[entity_layers.append(ids.get('id')) for ids in guid.get('layers') for guid in response.json()]
-#     for entity in response.json():
-#         logger.debug('[get_entities_list] entity: ' + str(entity))
-#         if (len(entity.get('layers')) > 0):
-#             for layer in entity.get('layers'):
-#                 entity_layers.append(layer.get('id'))
-#         else:
-#             logger.debug('[get_entities_list] len: ' + str(len(entity_layers)))
-#     logger.debug('[get_entities_list] len: ' + str(len(entity_layers)))
-#     logger.debug('[get_entities_list] entity_layers: ' + str(entity_layers))
-#     return entity_layers
-#
-# def get_entity_layer_features_list(web_driver, entity_layer, page, page_size):
-#     response = nt.get_entity_layer_features(web_driver, entity_layer=entity_layer, page=page, page_size=page_size )
-#     #logger.debug('[get_entities_list] response: ' + str(response.text))
-#     feature_list = list()
-#     for item in response.json().get('results'):
-#         feature_list.append(item.get('id'))
-#     logger.debug('[get_entities_list] len: ' + str(len(feature_list)))
-#     #logger.debug('[get_entities_list] entities: ' + str(entities))
-#     return feature_list
-#
-#
-# def test_get_entities_tree(web_driver):
-#     is_parent = 'true'
-#     response = nt.get_entities_tree(web_driver, is_parent)
-#     #logger.debug('[test_get_entities_tree] response: ' + str(response.text))
-#     assert response.status_code == 200, response.text
-#     assert response.json()[0].get('name')
-#     #locals()['entities'] = get_entities_list(web_driver)
-#     #locals()['entity_layers'] = get_entity_layer_list(web_driver)
-#
-# @pytest.mark.parametrize('entity_layer', get_entity_layer_list())
-# def test_get_entity_layer(web_driver, entity_layer):
-#     #entity_layer = "3aa564f4-7ee4-4dd9-b509-10d22a9478d8"
-#     response = nt.get_entity_layer(web_driver, entity_layer=entity_layer)
-#     logger.debug('[test_get_entity_layer] response: ' + str(response.text))
-#     assert response.status_code == 200, response.text
-#     assert response.json().get('id') == entity_layer
+#@pytest.fixture(scope='function')
+def get_entity_layer_list():
+    web_driver = libs.notam.web_driver2()
+    is_parent = 'true'
+    response = nt.get_entities_tree(web_driver, is_parent)
+    #logger.debug('[get_entities_list] response: ' + str(response.text))
+    entity_layers = list()
+    #[entity_layers.append(ids.get('id')) for ids in guid.get('layers') for guid in response.json()]
+    for entity in response.json():
+        logger.debug('[get_entities_list] entity: ' + str(entity))
+        if (len(entity.get('layers')) > 0):
+            for layer in entity.get('layers'):
+                entity_layers.append(layer.get('id'))
+        else:
+            logger.debug('[get_entities_list] len: ' + str(len(entity_layers)))
+    logger.debug('[get_entities_list] len: ' + str(len(entity_layers)))
+    logger.debug('[get_entities_list] entity_layers: ' + str(entity_layers))
+    return entity_layers
 
-# def test_get_entity_layer_features(web_driver):
-#     entity_layer = "3aa564f4-7ee4-4dd9-b509-10d22a9478d8"
-#     page = 1
-#     page_size = 20
-#     response = nt.get_entity_layer_features(web_driver, entity_layer=entity_layer, page=page, page_size=page_size)
-#     logger.debug('[test_get_entity_layer_features] response: ' + str(response.text))
-#     assert response.status_code == 200, response.text
-#     assert response.json().get('count')
+def get_entity_layer_features_list():
+    web_driver = libs.notam.web_driver2()
+    page = 1
+    page_size = 20
+    feature_list = list()
+    for entity_layer in get_entity_layer_list():
+        response = nt.get_entity_layer_features(web_driver, entity_layer=entity_layer, page=page, page_size=page_size )
+        #logger.debug('[get_entities_list] response: ' + str(response.text))
+        for item in response.json().get('results'):
+            feature_list.append(item.get('id'))
+    logger.debug('[get_entities_list] len: ' + str(len(feature_list)))
+    #logger.debug('[get_entities_list] entities: ' + str(entities))
+    return feature_list
+
+@pytest.mark.skip(reason="no way of currently testing this")
+def test_get_entities_tree(web_driver):
+    is_parent = 'true'
+    response = nt.get_entities_tree(web_driver, is_parent)
+    #logger.debug('[test_get_entities_tree] response: ' + str(response.text))
+    assert response.status_code == 200, response.text
+    assert response.json()[0].get('name')
+    #locals()['entities'] = get_entities_list(web_driver)
+    #locals()['entity_layers'] = get_entity_layer_list(web_driver)
+
+@pytest.mark.parametrize('entity_layer', get_entity_layer_list())
+#@pytest.mark.skip(reason="no way of currently testing this")
+def test_get_entity_layer(web_driver, entity_layer):
+    #entity_layer = "3aa564f4-7ee4-4dd9-b509-10d22a9478d8"
+    response = nt.get_entity_layer(web_driver, entity_layer=entity_layer)
+    logger.debug('[test_get_entity_layer] response: ' + str(response.text))
+    assert response.status_code == 200, response.text
+    assert response.json().get('id') == entity_layer
+
+@pytest.mark.parametrize('entity_layer', get_entity_layer_list())
+#@pytest.mark.skip(reason="no way of currently testing this")
+def test_get_entity_layer_features(web_driver, entity_layer):
+    entity_layer = "3aa564f4-7ee4-4dd9-b509-10d22a9478d8"
+    page = 1
+    page_size = 20
+    response = nt.get_entity_layer_features(web_driver, entity_layer=entity_layer, page=page, page_size=page_size)
+    logger.debug('[test_get_entity_layer_features] response: ' + str(response.text))
+    assert response.status_code == 200, response.text
+    assert response.json().get('count')
     #get_entity_layer_features_list(web_driver=web_driver, entity_layer=entity_layer, page=page, page_size=page_size)
 
-# def test_get_entity_layer_scenarios(web_driver):
-#     entity_layer = "3aa564f4-7ee4-4dd9-b509-10d22a9478d8"
-#     type = 'N'
-#     response = nt.get_entity_layer_scenarios(web_driver, entity_layer=entity_layer, type=type)
-#     logger.debug('[test_get_entity_layer_scenarios] response: ' + str(response.text))
-#     assert response.status_code == 200, response.text
-#     assert response.json()[0].get('id')
+@pytest.mark.parametrize('entity_layer', get_entity_layer_list())
+#@pytest.mark.skip(reason="no way of currently testing this")
+def test_get_entity_layer_scenarios(web_driver, entity_layer):
+    entity_layer = "3aa564f4-7ee4-4dd9-b509-10d22a9478d8"
+    type = 'N'
+    response = nt.get_entity_layer_scenarios(web_driver, entity_layer=entity_layer, type=type)
+    logger.debug('[test_get_entity_layer_scenarios] response: ' + str(response.text))
+    assert response.status_code == 200, response.text
+    assert response.json()[0].get('id')
 
-# def test_get_feature(web_driver):
-#     feature = "fdb7a5fd-3b99-44dd-868b-8849a3eeac01"
-#     response = nt.get_feature(web_driver, feature=feature)
-#     logger.debug('[test_get_feature] response: ' + str(response.text))
-#     assert response.status_code == 200, response.text
-#     assert response.json().get('id') == feature
-#
-# def test_get_feature_info(web_driver):
-#     feature = "fdac0ce0-7c30-48be-825c-845b56d2c50a"
-#     response = nt.get_feature_info(web_driver, feature=feature)
-#     logger.debug('[test_get_feature_info] response: ' + str(response.text))
-#     assert response.status_code == 200, response.text
+@pytest.mark.parametrize('feature', get_entity_layer_features_list())
+#@pytest.mark.skip(reason="no way of currently testing this")
+def test_get_feature(web_driver, feature):
+    #feature = "fdb7a5fd-3b99-44dd-868b-8849a3eeac01"
+    response = nt.get_feature(web_driver, feature=feature)
+    logger.debug('[test_get_feature] response: ' + str(response.text))
+    assert response.status_code == 200, response.text
+    assert response.json().get('id') == feature
+    #get_entity_layer_features_list()
+
+
+@pytest.mark.parametrize('feature', get_entity_layer_features_list())
+#@pytest.mark.skip(reason="no way of currently testing this")
+def test_get_feature_info(web_driver, feature):
+    #feature = "fdac0ce0-7c30-48be-825c-845b56d2c50a"
+    response = nt.get_feature_info(web_driver, feature=feature)
+    logger.debug('[test_get_feature_info] response: ' + str(response.text))
+    assert response.status_code == 200, response.text
 
 
 
