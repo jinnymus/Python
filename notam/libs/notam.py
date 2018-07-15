@@ -161,4 +161,57 @@ class NotamTest():
         jpretty = json.dumps(payload, ensure_ascii=False)
         response = send_request(driver=kwargs.get('web_driver'), uri=url, method="POST", data=jpretty)
         logger.debug('[create_project] response: ' + str(response.text))
+
+        return response
+
+    def patch_project(self, **kwargs):
+        logger.debug('[patch_project] project_id: ' + str(kwargs.get('id')))
+        url = "/api/projects/" + str(kwargs.get('id')) + "/"
+
+        payload = {}  # "{\n    \"start\":\"2018-06-23T00:00:00Z\",\n    \"end\":\"2018-06-29T00:00:00Z\",\n    \"estimated\":false,\n    \"perm\":false,\n    \"wie\":false,\n    \"languages\":[\"en\",\"ru\"],\n    \"features\":[\"e4e063f0-e865-49c4-a2de-7f0c8ab80210\"],\n    \"id\":null,\n    \"entity_layer\":\"14d9ade6-69b1-46cc-bf32-035778b73cd1\",\n    \"scenario\":\"12f4f102-72fe-49a6-99dc-6400e4bf8355\"\n}"
+
+        # {
+        #     "start": "2018-06-23T00:00:00Z",
+        #     "end": "2018-06-29T00:00:00Z",
+        #     "estimated": false,
+        #     "perm": false,
+        #     "wie": false,
+        #     "languages": ["en", "ru"],
+        #     "features": ["e4e063f0-e865-49c4-a2de-7f0c8ab80210"],
+        #     "id": null,
+        #     "entity_layer": "14d9ade6-69b1-46cc-bf32-035778b73cd1",
+        #     "scenario": "12f4f102-72fe-49a6-99dc-6400e4bf8355"
+        # }
+
+        for key, value in kwargs.items():
+            if (key != 'web_driver'):
+                payload[key] = value
+        jpretty = json.dumps(payload, ensure_ascii=False)
+        response = send_request(driver=kwargs.get('web_driver'), uri=url, method="PATCH", data=jpretty)
+        logger.debug('[patch_project] response: ' + str(response.text))
+
+        return response
+
+    def change_state(self, **kwargs):
+        logger.debug('[patch_project] project_id: ' + str(kwargs.get('id')))
+        url = "/api/projects/" + kwargs.get('id') + "/change_state/"
+
+        payload = {"state": "STAGED"}
+
+        jpretty = json.dumps(payload, ensure_ascii=False)
+        response = send_request(driver=kwargs.get('web_driver'), uri=url, method="POST", data=jpretty)
+        logger.debug('[change_state] response: ' + str(response.text))
+
+        return response
+
+    def approve_project(self, **kwargs):
+        logger.debug('[patch_project] project_id: ' + str(kwargs.get('id')))
+        url = "/api/projects/" + kwargs.get('id') + "/approve/"
+
+        payload = {}
+
+        jpretty = json.dumps(payload, ensure_ascii=False)
+        response = send_request(driver=kwargs.get('web_driver'), uri=url, method="POST", data=jpretty)
+        logger.debug('[change_state] response: ' + str(response.text))
+
         return response
