@@ -1,0 +1,113 @@
+{
+  "uid" : "845a874892294638",
+  "name" : "test_get_feature_info[4a9a26a8-5ae5-4c2b-bedb-8fc1d2ca81cd51]",
+  "fullName" : "test_notam.test_get_feature_info[4a9a26a8-5ae5-4c2b-bedb-8fc1d2ca81cd51]",
+  "historyId" : "e37fe2f73eeeca140ead0418c2e0c1c6",
+  "time" : {
+    "start" : 1531858306330,
+    "stop" : 1531858306385,
+    "duration" : 55
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get_feature_info()",
+      "time" : {
+        "start" : 1531858306331,
+        "stop" : 1531858306385,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "send_request()",
+        "time" : {
+          "start" : 1531858306331,
+          "stop" : 1531858306385,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8e27aaec4b77ff99",
+      "name" : "Captured log call",
+      "source" : "8e27aaec4b77ff99.txt",
+      "type" : "text/plain",
+      "size" : 1597
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Kir-PC-L"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "Testcase-9 Get Feature Info"
+  }, {
+    "name" : "thread",
+    "value" : "20096-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_notam"
+  }, {
+    "name" : "testClass",
+    "value" : "test_notam"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_get_feature_info[4a9a26a8-5ae5-4c2b-bedb-8fc1d2ca81cd51]"
+  }, {
+    "name" : "package",
+    "value" : "test_notam"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Testcase-9 Get Feature Info",
+    "url" : "Testcase-9 Get Feature Info",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "845a874892294638.json",
+  "parameterValues" : [ ]
+}

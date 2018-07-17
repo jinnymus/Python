@@ -13,6 +13,7 @@ from django.conf import settings
 from unittest import TestCase
 from django.conf import settings
 import json
+from allure_commons._allure import epic, feature, story
 
 config = {
             'host': 'notamdev.qantor.ru',
@@ -27,6 +28,7 @@ settings.configure()
 logger = logging.getLogger(__name__)
 
 
+@pytest.allure.step('auth_key()')
 def auth_key():
     uri = '/api/auth/login/'
     driver = WebDriver(schema=config.get('schema'), host=config.get('host'), port=443, authorise=auth, content='application/json')
@@ -34,6 +36,7 @@ def auth_key():
     value = get_value(response=response, key='key')
     return value
 
+@pytest.allure.step('get_value()')
 def get_value(response, key):
     logger.debug('[get_value] key: ' + str(key))
     value = response.json().get(key)
@@ -53,6 +56,7 @@ def web_driver2():
     driver = WebDriver(schema=config.get('schema'), host=config.get('host'), port=443, authorise=auth, content='application/json')
     return driver
 
+@pytest.allure.step('send_request()')
 def send_request(driver, uri, method=None, data=None, params=None):
     logger.debug('[request] data: ' + str(data))
     response=driver.request(path=uri, method=method, payload=data, params=params)
@@ -62,6 +66,7 @@ def send_request(driver, uri, method=None, data=None, params=None):
 
 class NotamTest():
 
+    @pytest.allure.step('get_user()')
     def get_user(self, web_driver):
 
         url = "/api/auth/user/"
@@ -69,6 +74,7 @@ class NotamTest():
         logger.debug('[get_user] response: ' + str(response.text))
         return response
 
+    @pytest.allure.step('get_languages()')
     def get_languages(self, web_driver):
 
         url = "/api/languages/"
@@ -76,6 +82,7 @@ class NotamTest():
         logger.debug('[get_languages] response: ' + str(response.text))
         return response
 
+    @pytest.allure.step('get_projects_review_count()')
     def get_projects_review_count(self, web_driver):
 
         url = "/api/projects/review_count/"
@@ -83,6 +90,7 @@ class NotamTest():
         logger.debug('[get_projects_review_count] response: ' + str(response.text))
         return response
 
+    @pytest.allure.step('get_entities_tree()')
     def get_entities_tree(self, web_driver, is_parent):
 
         url = "/api/entities/"
@@ -93,6 +101,7 @@ class NotamTest():
         #logger.debug('[get_entities_tree] response: ' + str(response.text))
         return response
 
+    @pytest.allure.step('get_entity_layer()')
     def get_entity_layer(self, web_driver, entity_layer):
 
         url = "/api/entity_layers/" + str(entity_layer) + "/"
@@ -101,6 +110,7 @@ class NotamTest():
         #logger.debug('[get_entity_layers] response: ' + str(response.text))
         return response
 
+    @pytest.allure.step('get_entity_layer_features()')
     def get_entity_layer_features(self, web_driver, page, page_size, entity_layer):
 
         url = "/api/features/"
@@ -111,6 +121,7 @@ class NotamTest():
         #logger.debug('[get_entity_layer_features] response: ' + str(response.text))
         return response
 
+    @pytest.allure.step('get_entity_layer_scenarios()')
     def get_entity_layer_scenarios(self, web_driver, entity_layer, type):
 
         url = "/api/scenarios/"
@@ -121,6 +132,7 @@ class NotamTest():
         logger.debug('[get_entity_layer_scenarios] response: ' + str(response.text))
         return response
 
+    @pytest.allure.step('get_feature()')
     def get_feature(self, web_driver, feature):
 
         url = "/api/features/" + str(feature) + "/"
@@ -129,6 +141,7 @@ class NotamTest():
         logger.debug('[get_feature] response: ' + str(response.text))
         return response
 
+    @pytest.allure.step('get_feature_info()')
     def get_feature_info(self, web_driver, feature):
 
         url = "/api/features/" + str(feature) + "/info/"
@@ -137,6 +150,7 @@ class NotamTest():
         return response
 
 
+    @pytest.allure.step('create_project()')
     def create_project(self, **kwargs):
         url = "/api/projects/"
 
@@ -164,6 +178,7 @@ class NotamTest():
 
         return response
 
+    @pytest.allure.step('patch_project()')
     def patch_project(self, **kwargs):
         logger.debug('[patch_project] project_id: ' + str(kwargs.get('id')))
         url = "/api/projects/" + str(kwargs.get('id')) + "/"
@@ -192,6 +207,7 @@ class NotamTest():
 
         return response
 
+    @pytest.allure.step('change_state()')
     def change_state(self, **kwargs):
         logger.debug('[patch_project] project_id: ' + str(kwargs.get('id')))
         url = "/api/projects/" + kwargs.get('id') + "/change_state/"
@@ -204,6 +220,7 @@ class NotamTest():
 
         return response
 
+    @pytest.allure.step('approve_project()')
     def approve_project(self, **kwargs):
         logger.debug('[patch_project] project_id: ' + str(kwargs.get('id')))
         url = "/api/projects/" + kwargs.get('id') + "/approve/"

@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1531198792356,628,HTTP Request Auth,200,OK,Thread Group 1-1,text,true,,12550,0,1,1,625,0,0
+1531198792352,628,auth,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,12550,0,1,1,625,30,0

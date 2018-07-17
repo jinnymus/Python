@@ -1,0 +1,113 @@
+{
+  "uid" : "fb414a4fd0cb8e5c",
+  "name" : "test_get_entity_layer_scenarios[bb3bdd0c-6b04-474b-88b4-9e00ba0860b8]",
+  "fullName" : "test_notam.test_get_entity_layer_scenarios[bb3bdd0c-6b04-474b-88b4-9e00ba0860b8]",
+  "historyId" : "23646930f809dfd46eb526da49aac8d5",
+  "time" : {
+    "start" : 1531857478888,
+    "stop" : 1531857479225,
+    "duration" : 337
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get_entity_layer_scenarios()",
+      "time" : {
+        "start" : 1531857478892,
+        "stop" : 1531857479109,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "send_request()",
+        "time" : {
+          "start" : 1531857478892,
+          "stop" : 1531857478972,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1b571bc566b732d",
+      "name" : "Captured log call",
+      "source" : "1b571bc566b732d.txt",
+      "type" : "text/plain",
+      "size" : 103279
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Kir-PC-L"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "Testcase-7 Get Entity Layer Scenarios"
+  }, {
+    "name" : "thread",
+    "value" : "20096-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_notam"
+  }, {
+    "name" : "testClass",
+    "value" : "test_notam"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_get_entity_layer_scenarios[bb3bdd0c-6b04-474b-88b4-9e00ba0860b8]"
+  }, {
+    "name" : "package",
+    "value" : "test_notam"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Testcase-7 Get Entity Layer Scenarios",
+    "url" : "Testcase-7 Get Entity Layer Scenarios",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb414a4fd0cb8e5c.json",
+  "parameterValues" : [ ]
+}

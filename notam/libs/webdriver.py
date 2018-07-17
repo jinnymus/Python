@@ -52,6 +52,8 @@ class WebDriver(object):
         self.authorise = authorise
         self.content = content
         logging.debug('[WebDriver][init] start')
+        session = requests.session()
+        self.session = session
 
     def request(self, path, method, payload=None, params=None):
         return self.__request(uri=path, method=method, ContentType=self.content, XSender='tests', postdata=payload, auth=self.authorise, params=None)
@@ -91,13 +93,18 @@ class WebDriver(object):
         request = getattr(requests, method.lower())
         #response = request(uri, headers=headers, data=jpretty)
         if (method == "POST"):
-            response = request(uri, data=postdata, headers=headers)
+            #response = request(uri, data=postdata, headers=headers)
+            response = self.session.post(uri, data=postdata, headers=headers)
         if (method == "GET"):
-            response = requests.get(uri, headers=headers, params=params)
+            #response = requests.get(uri, headers=headers, params=params)
+            response = self.session.get(uri, headers=headers, params=params)
         if (method == "DELETE"):
-            response = requests.delete(uri, headers=headers)
+            #response = requests.delete(uri, headers=headers)
+            response = self.session.delete(uri, headers=headers)
         if (method == "PATCH"):
-            response = requests.patch(uri, headers=headers, data=postdata)
+            #response = requests.patch(uri, headers=headers, data=postdata)
+            response = self.session.patch(uri, data=postdata, headers=headers)
+
         #response_json = response.json()
         status_code = response.status_code
         headers = response.headers

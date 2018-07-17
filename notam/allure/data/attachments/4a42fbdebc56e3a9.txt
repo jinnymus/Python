@@ -1,0 +1,213 @@
+notam.py                    61 DEBUG    [request] data: {"start": "2018-07-23T00:00:00Z", "end": "2018-07-29T00:00:00Z", "estimated": "false", "perm": "false", "wie": "false", "languages": ["en", "ru"], "features": ["fdac0ce0-7c30-48be-825c-845b56d2c50a"], "id": "null", "entity_layer": "14d9ade6-69b1-46cc-bf32-035778b73cd1", "scenario": "8a4e73ef-b4cc-402c-81cf-b20e8a7ecf02"}
+webdriver.py                71 DEBUG    [WebDriver][request] start
+webdriver.py                72 DEBUG    [WebDriver][request] uri: /api/projects/
+webdriver.py                73 DEBUG    [WebDriver][request] auth: <libs.auth.auth object at 0x7f87b70ad390>
+webdriver.py                74 DEBUG    [WebDriver][request] method: POST
+webdriver.py                89 DEBUG    [WebDriver][request] headers: {'Authorization': 'Token a3c51b6d911e3cad7c65880b8b994053a07dfd61', 'Content-Type': 'application/json', 'X-Sender': 'tests'}
+webdriver.py                90 DEBUG    [WebDriver][request] postdata: {"start": "2018-07-23T00:00:00Z", "end": "2018-07-29T00:00:00Z", "estimated": "false", "perm": "false", "wie": "false", "languages": ["en", "ru"], "features": ["fdac0ce0-7c30-48be-825c-845b56d2c50a"], "id": "null", "entity_layer": "14d9ade6-69b1-46cc-bf32-035778b73cd1", "scenario": "8a4e73ef-b4cc-402c-81cf-b20e8a7ecf02"}
+connectionpool.py          396 DEBUG    https://notamdev.qantor.ru:443 "POST /api/projects/ HTTP/1.1" 201 891
+webdriver.py               113 DEBUG    [WebDriver][request] status_code: 201
+webdriver.py               114 DEBUG    [WebDriver][request] header: {'Server': 'nginx/1.13.10', 'Date': 'Tue, 17 Jul 2018 20:13:38 GMT', 'Content-Type': 'application/json', 'Content-Length': '891', 'Connection': 'keep-alive', 'Vary': 'Accept', 'Allow': 'GET, POST, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN', 'Strict-Transport-Security': 'max-age=25920000;'}
+webdriver.py               115 DEBUG    [WebDriver][request] Content-Type: application/json
+notam.py                    63 DEBUG    [request] response code: 201
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1251 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    KOI8-R Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    MacCyrillic Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM866 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM855 Russian confidence = 0.20822145614908305
+charsetgroupprober.py      100 DEBUG    ISO-8859-7 Greek confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1253 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Bulgairan confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1251 Bulgarian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    TIS-620 Thai confidence = 0.10631081264704828
+charsetgroupprober.py      100 DEBUG    ISO-8859-9 Turkish confidence = 0.5190737907571292
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.01
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+notam.py                   177 DEBUG    [create_project] response: {"id":"c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6","state":"DRAFT","scenario":"8a4e73ef-b4cc-402c-81cf-b20e8a7ecf02","type":"N","start":"2018-07-23T00:00:00Z","end":"2018-07-29T00:00:00Z","estimated":false,"wie":false,"perm":false,"has_follow":false,"features":["fdac0ce0-7c30-48be-825c-845b56d2c50a"],"items":[],"templates":{"en":{"q":{"a":"UATT","q":"QACAH","trafic":"IV","purpose":"NBO","scope":"AE","circle":{"center":"5034N05720E","radius":"014"},"limits":{"lower":"000","upper":"999"}},"a":"UAXX","b":"1807230000","c":"1807290000"},"ru":{"q":{"a":"УАТТ","q":"ЩАЦАХ","trafic":"ИЖ","purpose":"НБО","scope":"АЕ","circle":{"center":"5034С05720В","radius":"014"},"limits":{"lower":"000","upper":"999"}},"a":"УАЬЬ","b":"1807230000","c":"1807290000"}},"languages":["en","ru"],"purpose":"NBO","trafic":"IV","next_states":["STAGED","TRASH"],"is_hot":false,"is_auto_dates":false}
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1251 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    KOI8-R Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    MacCyrillic Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM866 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM855 Russian confidence = 0.20822145614908305
+charsetgroupprober.py      100 DEBUG    ISO-8859-7 Greek confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1253 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Bulgairan confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1251 Bulgarian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    TIS-620 Thai confidence = 0.10631081264704828
+charsetgroupprober.py      100 DEBUG    ISO-8859-9 Turkish confidence = 0.5190737907571292
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.01
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+test_notam.py              213 DEBUG    [test_create_project] response: {"id":"c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6","state":"DRAFT","scenario":"8a4e73ef-b4cc-402c-81cf-b20e8a7ecf02","type":"N","start":"2018-07-23T00:00:00Z","end":"2018-07-29T00:00:00Z","estimated":false,"wie":false,"perm":false,"has_follow":false,"features":["fdac0ce0-7c30-48be-825c-845b56d2c50a"],"items":[],"templates":{"en":{"q":{"a":"UATT","q":"QACAH","trafic":"IV","purpose":"NBO","scope":"AE","circle":{"center":"5034N05720E","radius":"014"},"limits":{"lower":"000","upper":"999"}},"a":"UAXX","b":"1807230000","c":"1807290000"},"ru":{"q":{"a":"УАТТ","q":"ЩАЦАХ","trafic":"ИЖ","purpose":"НБО","scope":"АЕ","circle":{"center":"5034С05720В","radius":"014"},"limits":{"lower":"000","upper":"999"}},"a":"УАЬЬ","b":"1807230000","c":"1807290000"}},"languages":["en","ru"],"purpose":"NBO","trafic":"IV","next_states":["STAGED","TRASH"],"is_hot":false,"is_auto_dates":false}
+test_notam.py              217 DEBUG    [test_create_project] project_id: c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6
+notam.py                   183 DEBUG    [patch_project] project_id: c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6
+notam.py                    61 DEBUG    [request] data: {"start": "2018-07-23T00:00:00Z", "end": "2018-07-29T00:00:00Z", "estimated": "false", "perm": "false", "wie": "false", "languages": ["en", "ru"], "features": ["fdac0ce0-7c30-48be-825c-845b56d2c50a"], "id": "c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6"}
+webdriver.py                71 DEBUG    [WebDriver][request] start
+webdriver.py                72 DEBUG    [WebDriver][request] uri: /api/projects/c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6/
+webdriver.py                73 DEBUG    [WebDriver][request] auth: <libs.auth.auth object at 0x7f87b70ad390>
+webdriver.py                74 DEBUG    [WebDriver][request] method: PATCH
+webdriver.py                89 DEBUG    [WebDriver][request] headers: {'Authorization': 'Token a3c51b6d911e3cad7c65880b8b994053a07dfd61', 'Content-Type': 'application/json', 'X-Sender': 'tests'}
+webdriver.py                90 DEBUG    [WebDriver][request] postdata: {"start": "2018-07-23T00:00:00Z", "end": "2018-07-29T00:00:00Z", "estimated": "false", "perm": "false", "wie": "false", "languages": ["en", "ru"], "features": ["fdac0ce0-7c30-48be-825c-845b56d2c50a"], "id": "c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6"}
+connectionpool.py          396 DEBUG    https://notamdev.qantor.ru:443 "PATCH /api/projects/c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6/ HTTP/1.1" 200 None
+webdriver.py               113 DEBUG    [WebDriver][request] status_code: 200
+webdriver.py               114 DEBUG    [WebDriver][request] header: {'Server': 'nginx/1.13.10', 'Date': 'Tue, 17 Jul 2018 20:13:39 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept', 'Allow': 'GET, PUT, PATCH, DELETE, HEAD, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN', 'Strict-Transport-Security': 'max-age=25920000;', 'Content-Encoding': 'gzip'}
+webdriver.py               115 DEBUG    [WebDriver][request] Content-Type: application/json
+notam.py                    63 DEBUG    [request] response code: 200
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1251 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    KOI8-R Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Russian confidence = 0.10856261508696516
+charsetgroupprober.py      100 DEBUG    MacCyrillic Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM866 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM855 Russian confidence = 0.1358915917624287
+charsetgroupprober.py      100 DEBUG    ISO-8859-7 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1253 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Bulgairan confidence = 0.14061851229709038
+charsetgroupprober.py      100 DEBUG    windows-1251 Bulgarian confidence = 0.0
+charsetgroupprober.py      100 DEBUG    TIS-620 Thai confidence = 0.19745865041703117
+charsetgroupprober.py      100 DEBUG    ISO-8859-9 Turkish confidence = 0.49688871448123373
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+notam.py                   206 DEBUG    [patch_project] response: {"id":"c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6","user":{"id":"90e64fe7-8049-463a-b682-92d9fa76b71d","username":"admin","first_name":"admin","last_name":""},"state":"DRAFT","scenario":{"id":"8a4e73ef-b4cc-402c-81cf-b20e8a7ecf02","code":"ACAH","type":"N","description":"Изменение часов работы диспетчерской зоны","create":false,"many":false,"entity_layer":{"id":"13b8cd6b-6572-4676-be5e-ee7be6398216","name":"CTR","entity":"aff6481e-a23a-4230-b183-a1a92e0cef90"}},"type":"N","start":"2018-07-23T00:00:00Z","end":"2018-07-29T00:00:00Z","estimated":false,"wie":false,"perm":false,"has_follow":false,"features":[{"id":"fdac0ce0-7c30-48be-825c-845b56d2c50a","name":"CF","uid":"24c50920-a065-4943-8f1a-4bfda6541ac8","codespace":"urn:uuid:"}],"items":[],"languages":["en","ru"],"purpose":"NBO","trafic":"IV","templates":{"en":{"q":{"a":"UATT","q":"QACAH","trafic":"IV","purpose":"NBO","scope":"AE","circle":{"center":"5034N05720E","radius":"014"},"limits":{"lower":"000","upper":"999"}},"a":"UAXX","b":"1807230000","c":"1807290000"},"ru":{"q":{"a":"УАТТ","q":"ЩАЦАХ","trafic":"ИЖ","purpose":"НБО","scope":"АЕ","circle":{"center":"5034С05720В","radius":"014"},"limits":{"lower":"000","upper":"999"}},"a":"УАЬЬ","b":"1807230000","c":"1807290000"}},"next_states":["STAGED","TRASH"],"is_hot":false,"is_auto_dates":false}
+test_notam.py              230 DEBUG    [test_create_project] project_id: c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6
+notam.py                   212 DEBUG    [patch_project] project_id: c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6
+notam.py                    61 DEBUG    [request] data: {"state": "STAGED"}
+webdriver.py                71 DEBUG    [WebDriver][request] start
+webdriver.py                72 DEBUG    [WebDriver][request] uri: /api/projects/c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6/change_state/
+webdriver.py                73 DEBUG    [WebDriver][request] auth: <libs.auth.auth object at 0x7f87b70ad390>
+webdriver.py                74 DEBUG    [WebDriver][request] method: POST
+webdriver.py                89 DEBUG    [WebDriver][request] headers: {'Authorization': 'Token a3c51b6d911e3cad7c65880b8b994053a07dfd61', 'Content-Type': 'application/json', 'X-Sender': 'tests'}
+webdriver.py                90 DEBUG    [WebDriver][request] postdata: {"state": "STAGED"}
+connectionpool.py          396 DEBUG    https://notamdev.qantor.ru:443 "POST /api/projects/c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6/change_state/ HTTP/1.1" 200 None
+webdriver.py               113 DEBUG    [WebDriver][request] status_code: 200
+webdriver.py               114 DEBUG    [WebDriver][request] header: {'Server': 'nginx/1.13.10', 'Date': 'Tue, 17 Jul 2018 20:13:41 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept', 'Allow': 'POST, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN', 'Strict-Transport-Security': 'max-age=25920000;', 'Content-Encoding': 'gzip'}
+webdriver.py               115 DEBUG    [WebDriver][request] Content-Type: application/json
+notam.py                    63 DEBUG    [request] response code: 200
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1251 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    KOI8-R Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Russian confidence = 0.1277741460708232
+charsetgroupprober.py      100 DEBUG    MacCyrillic Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM866 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM855 Russian confidence = 0.09462922487361991
+charsetgroupprober.py      100 DEBUG    ISO-8859-7 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1253 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Bulgairan confidence = 0.1655027406636926
+charsetgroupprober.py      100 DEBUG    windows-1251 Bulgarian confidence = 0.0
+charsetgroupprober.py      100 DEBUG    TIS-620 Thai confidence = 0.23091459035788295
+charsetgroupprober.py      100 DEBUG    ISO-8859-9 Turkish confidence = 0.520540289225092
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+notam.py                   219 DEBUG    [change_state] response: {"id":"c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6","user":{"id":"90e64fe7-8049-463a-b682-92d9fa76b71d","username":"admin","first_name":"admin","last_name":""},"state":"STAGED","scenario":{"id":"8a4e73ef-b4cc-402c-81cf-b20e8a7ecf02","code":"ACAH","type":"N","description":"Изменение часов работы диспетчерской зоны","create":false,"many":false,"entity_layer":{"id":"13b8cd6b-6572-4676-be5e-ee7be6398216","name":"CTR","entity":"aff6481e-a23a-4230-b183-a1a92e0cef90"}},"type":"N","start":"2018-07-23T00:00:00Z","end":"2018-07-29T00:00:00Z","estimated":false,"wie":false,"perm":false,"has_follow":false,"is_hot":false,"features":[{"id":"fdac0ce0-7c30-48be-825c-845b56d2c50a","name":"CF","uid":"24c50920-a065-4943-8f1a-4bfda6541ac8","codespace":"urn:uuid:"}]}
+notam.py                   225 DEBUG    [patch_project] project_id: c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6
+notam.py                    61 DEBUG    [request] data: {}
+webdriver.py                71 DEBUG    [WebDriver][request] start
+webdriver.py                72 DEBUG    [WebDriver][request] uri: /api/projects/c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6/approve/
+webdriver.py                73 DEBUG    [WebDriver][request] auth: <libs.auth.auth object at 0x7f87b70ad390>
+webdriver.py                74 DEBUG    [WebDriver][request] method: POST
+webdriver.py                89 DEBUG    [WebDriver][request] headers: {'Authorization': 'Token a3c51b6d911e3cad7c65880b8b994053a07dfd61', 'Content-Type': 'application/json', 'X-Sender': 'tests'}
+webdriver.py                90 DEBUG    [WebDriver][request] postdata: {}
+connectionpool.py          396 DEBUG    https://notamdev.qantor.ru:443 "POST /api/projects/c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6/approve/ HTTP/1.1" 200 None
+webdriver.py               113 DEBUG    [WebDriver][request] status_code: 200
+webdriver.py               114 DEBUG    [WebDriver][request] header: {'Server': 'nginx/1.13.10', 'Date': 'Tue, 17 Jul 2018 20:13:44 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept', 'Allow': 'POST, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN', 'Strict-Transport-Security': 'max-age=25920000;', 'Content-Encoding': 'gzip'}
+webdriver.py               115 DEBUG    [WebDriver][request] Content-Type: application/json
+notam.py                    63 DEBUG    [request] response code: 200
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+charsetgroupprober.py      100 DEBUG    windows-1251 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    KOI8-R Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Russian confidence = 0.1277741460708232
+charsetgroupprober.py      100 DEBUG    MacCyrillic Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM866 Russian confidence = 0.01
+charsetgroupprober.py      100 DEBUG    IBM855 Russian confidence = 0.09462922487361991
+charsetgroupprober.py      100 DEBUG    ISO-8859-7 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1253 Greek confidence = 0.0
+charsetgroupprober.py      100 DEBUG    ISO-8859-5 Bulgairan confidence = 0.1655027406636926
+charsetgroupprober.py      100 DEBUG    windows-1251 Bulgarian confidence = 0.0
+charsetgroupprober.py      100 DEBUG    TIS-620 Thai confidence = 0.23091459035788295
+charsetgroupprober.py      100 DEBUG    ISO-8859-9 Turkish confidence = 0.5162876733795212
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    windows-1255 Hebrew confidence = 0.0
+charsetgroupprober.py      100 DEBUG    utf-8  confidence = 0.99
+charsetgroupprober.py      100 DEBUG    SHIFT_JIS Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-JP Japanese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    GB2312 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-KR Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    CP949 Korean confidence = 0.01
+charsetgroupprober.py      100 DEBUG    Big5 Chinese confidence = 0.01
+charsetgroupprober.py      100 DEBUG    EUC-TW Taiwan confidence = 0.01
+notam.py                   232 DEBUG    [change_state] response: {"id":"c7fc57fc-4cda-46ac-8ee5-55a1e0cb03b6","user":{"id":"90e64fe7-8049-463a-b682-92d9fa76b71d","username":"admin","first_name":"admin","last_name":""},"state":"APPROVED","scenario":{"id":"8a4e73ef-b4cc-402c-81cf-b20e8a7ecf02","code":"ACAH","type":"N","description":"Изменение часов работы диспетчерской зоны","create":false,"many":false,"entity_layer":{"id":"13b8cd6b-6572-4676-be5e-ee7be6398216","name":"CTR","entity":"aff6481e-a23a-4230-b183-a1a92e0cef90"}},"type":"N","start":"2018-07-23T00:00:00Z","end":"2018-07-29T00:00:00Z","estimated":false,"wie":false,"perm":false,"has_follow":false,"is_hot":false,"features":[{"id":"fdac0ce0-7c30-48be-825c-845b56d2c50a","name":"CF","uid":"24c50920-a065-4943-8f1a-4bfda6541ac8","codespace":"urn:uuid:"}]}

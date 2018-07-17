@@ -1,0 +1,62 @@
+Image.py                   407 DEBUG    Importing BlpImagePlugin
+Image.py                   407 DEBUG    Importing BmpImagePlugin
+Image.py                   407 DEBUG    Importing BufrStubImagePlugin
+Image.py                   407 DEBUG    Importing CurImagePlugin
+Image.py                   407 DEBUG    Importing DcxImagePlugin
+Image.py                   407 DEBUG    Importing DdsImagePlugin
+Image.py                   407 DEBUG    Importing EpsImagePlugin
+Image.py                   407 DEBUG    Importing FitsStubImagePlugin
+Image.py                   407 DEBUG    Importing FliImagePlugin
+Image.py                   407 DEBUG    Importing FpxImagePlugin
+Image.py                   407 DEBUG    Importing FtexImagePlugin
+Image.py                   407 DEBUG    Importing GbrImagePlugin
+Image.py                   407 DEBUG    Importing GifImagePlugin
+Image.py                   407 DEBUG    Importing GribStubImagePlugin
+Image.py                   407 DEBUG    Importing Hdf5StubImagePlugin
+Image.py                   407 DEBUG    Importing IcnsImagePlugin
+Image.py                   407 DEBUG    Importing IcoImagePlugin
+Image.py                   407 DEBUG    Importing ImImagePlugin
+Image.py                   407 DEBUG    Importing ImtImagePlugin
+Image.py                   407 DEBUG    Importing IptcImagePlugin
+Image.py                   407 DEBUG    Importing JpegImagePlugin
+Image.py                   407 DEBUG    Importing Jpeg2KImagePlugin
+Image.py                   407 DEBUG    Importing McIdasImagePlugin
+Image.py                   407 DEBUG    Importing MicImagePlugin
+Image.py                   407 DEBUG    Importing MpegImagePlugin
+Image.py                   407 DEBUG    Importing MpoImagePlugin
+Image.py                   407 DEBUG    Importing MspImagePlugin
+Image.py                   407 DEBUG    Importing PalmImagePlugin
+Image.py                   407 DEBUG    Importing PcdImagePlugin
+Image.py                   407 DEBUG    Importing PcxImagePlugin
+Image.py                   407 DEBUG    Importing PdfImagePlugin
+Image.py                   407 DEBUG    Importing PixarImagePlugin
+Image.py                   407 DEBUG    Importing PngImagePlugin
+Image.py                   407 DEBUG    Importing PpmImagePlugin
+Image.py                   407 DEBUG    Importing PsdImagePlugin
+Image.py                   407 DEBUG    Importing SgiImagePlugin
+Image.py                   407 DEBUG    Importing SpiderImagePlugin
+Image.py                   407 DEBUG    Importing SunImagePlugin
+Image.py                   407 DEBUG    Importing TgaImagePlugin
+Image.py                   407 DEBUG    Importing TiffImagePlugin
+Image.py                   407 DEBUG    Importing WebPImagePlugin
+Image.py                   407 DEBUG    Importing WmfImagePlugin
+Image.py                   407 DEBUG    Importing XbmImagePlugin
+Image.py                   407 DEBUG    Importing XpmImagePlugin
+Image.py                   407 DEBUG    Importing XVThumbImagePlugin
+webdriver.py                54 DEBUG    [WebDriver][init] start
+webdriver.py                71 DEBUG    [WebDriver][request] start
+webdriver.py                72 DEBUG    [WebDriver][request] uri: /api/auth/login/
+webdriver.py                73 DEBUG    [WebDriver][request] auth: <libs.auth.auth object at 0x7f87b37bf860>
+webdriver.py                74 DEBUG    [WebDriver][request] method: POST
+webdriver.py                89 DEBUG    [WebDriver][request] headers: {'Authorization': 'Token a3c51b6d911e3cad7c65880b8b994053a07dfd61', 'Content-Type': 'application/json', 'X-Sender': 'tests'}
+webdriver.py                90 DEBUG    [WebDriver][request] postdata: {"username": "admin", "password": "admin"}
+connectionpool.py          824 DEBUG    Starting new HTTPS connection (1): notamdev.qantor.ru
+connectionpool.py          396 DEBUG    https://notamdev.qantor.ru:443 "POST /api/auth/login/ HTTP/1.1" 200 None
+webdriver.py               113 DEBUG    [WebDriver][request] status_code: 200
+webdriver.py               114 DEBUG    [WebDriver][request] header: {'Server': 'nginx/1.13.10', 'Date': 'Tue, 17 Jul 2018 19:57:38 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept, Cookie', 'Allow': 'POST, OPTIONS', 'X-Frame-Options': 'SAMEORIGIN', 'Set-Cookie': 'csrftoken=Pk9X1lchSXTI1xoqVSvoEYSM0rGy9gQlBjuoO3CxSlpPjRnrEDplib9nfwoIXIti; expires=Tue, 16-Jul-2019 19:57:38 GMT; Max-Age=31449600; Path=/, sessionid=0t0lzt3y8cf4blfb29xdbzz8oa1llvmj; expires=Tue, 31-Jul-2018 19:57:38 GMT; HttpOnly; Max-Age=1209600; Path=/', 'Strict-Transport-Security': 'max-age=25920000;', 'Content-Encoding': 'gzip'}
+webdriver.py               115 DEBUG    [WebDriver][request] Content-Type: application/json
+notam.py                    41 DEBUG    [get_value] key: key
+notam.py                    43 DEBUG    [get_value] value: a3c51b6d911e3cad7c65880b8b994053a07dfd61
+test_notam.py               35 DEBUG    [test_one] token: a3c51b6d911e3cad7c65880b8b994053a07dfd61
+test_notam.py               36 DEBUG    [test_one] auth.token: a3c51b6d911e3cad7c65880b8b994053a07dfd61
+webdriver.py                54 DEBUG    [WebDriver][init] start

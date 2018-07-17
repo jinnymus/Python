@@ -14,6 +14,7 @@ from unittest import TestCase
 from django.conf import settings
 from libs.notam import NotamTest
 import libs.notam
+from allure_commons._allure import epic, feature, story
 
 config = {
             'host': 'notamdev.qantor.ru',
@@ -26,7 +27,12 @@ logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
 
 logger = logging.getLogger(__name__)
 
-@pytest.fixture(scope='class')
+allure.environment('user', 'admin')
+allure.environment('pass', 'admin')
+
+
+
+@pytest.fixture(scope='module')
 def web_driver():
     token = libs.notam.auth_key()
     auth.use = True
@@ -39,28 +45,38 @@ def web_driver():
 nt = NotamTest()
 
 
-@pytest.mark.skip(reason="no way of currently testing this")
+@allure.testcase('Testcase-1 Get User')
+#@pytest.mark.skip(reason="no way of currently testing this")
+@allure.story('Get user')
+@allure.feature('Users')
 def test_get_user(web_driver):
     response = nt.get_user(web_driver)
     logger.debug('[test_get_user] response: ' + str(response.text))
     assert response.status_code == 200
     assert response.json().get('username') == 'admin'
 
-@pytest.mark.skip(reason="no way of currently testing this")
+@allure.testcase('Testcase-2 Get languages')
+#@pytest.mark.skip(reason="no way of currently testing this")
+
+@allure.story('Get languages')
+@allure.feature('Languages')
 def test_get_languages(web_driver):
     response = nt.get_languages(web_driver)
     logger.debug('[test_get_languages] response: ' + str(response.text))
     assert response.status_code == 200
     assert response.json()[0].get('name') == 'English'
 
-@pytest.mark.skip(reason="no way of currently testing this")
+@allure.testcase('Testcase-3 Get Projects')
+#@pytest.mark.skip(reason="no way of currently testing this")
+@allure.feature('Projects')
+@allure.story('Get projects review count')
 def test_get_projects_review_count(web_driver):
     response = nt.get_projects_review_count(web_driver)
     logger.debug('[test_get_projects_review_count] response: ' + str(response.text))
     assert response.status_code == 200
     assert response.json().get('count')
 
-
+@pytest.allure.step('get_entities_list')
 def get_entities_list():
     web_driver = libs.notam.web_driver2()
     is_parent = 'true'
@@ -73,6 +89,7 @@ def get_entities_list():
     return entities
 
 #@pytest.fixture(scope='function')
+@pytest.allure.step('get_entity_layer_list')
 def get_entity_layer_list():
     web_driver = libs.notam.web_driver2()
     is_parent = 'true'
@@ -91,6 +108,7 @@ def get_entity_layer_list():
     logger.debug('[get_entities_list] entity_layers: ' + str(entity_layers))
     return entity_layers
 
+@pytest.allure.step('get_entity_layer_features_list')
 def get_entity_layer_features_list():
     web_driver = libs.notam.web_driver2()
     page = 1
@@ -105,7 +123,10 @@ def get_entity_layer_features_list():
     #logger.debug('[get_entities_list] entities: ' + str(entities))
     return feature_list
 
-@pytest.mark.skip(reason="no way of currently testing this")
+@allure.testcase('Testcase-4 Get Entities Tree')
+#@pytest.mark.skip(reason="no way of currently testing this")
+@allure.story('Get Entities Tree')
+@allure.feature('Tree')
 def test_get_entities_tree(web_driver):
     is_parent = 'true'
     response = nt.get_entities_tree(web_driver, is_parent)
@@ -115,8 +136,11 @@ def test_get_entities_tree(web_driver):
     #locals()['entities'] = get_entities_list(web_driver)
     #locals()['entity_layers'] = get_entity_layer_list(web_driver)
 
+@allure.testcase('Testcase-5 Get Entity Layer')
 @pytest.mark.parametrize('entity_layer', get_entity_layer_list())
 #@pytest.mark.skip(reason="no way of currently testing this")
+@allure.story('Get Entity Layer')
+@allure.feature('Entity Layer')
 def test_get_entity_layer(web_driver, entity_layer):
     #entity_layer = "3aa564f4-7ee4-4dd9-b509-10d22a9478d8"
     response = nt.get_entity_layer(web_driver, entity_layer=entity_layer)
@@ -124,8 +148,11 @@ def test_get_entity_layer(web_driver, entity_layer):
     assert response.status_code == 200, response.text
     assert response.json().get('id') == entity_layer
 
+@allure.testcase('Testcase-6 Get Entity Layer Features')
 @pytest.mark.parametrize('entity_layer', get_entity_layer_list())
 #@pytest.mark.skip(reason="no way of currently testing this")
+@allure.story('Get Entity Layer Features')
+@allure.feature('Entity Layer')
 def test_get_entity_layer_features(web_driver, entity_layer):
     entity_layer = "3aa564f4-7ee4-4dd9-b509-10d22a9478d8"
     page = 1
@@ -136,8 +163,11 @@ def test_get_entity_layer_features(web_driver, entity_layer):
     assert response.json().get('count')
     #get_entity_layer_features_list(web_driver=web_driver, entity_layer=entity_layer, page=page, page_size=page_size)
 
+@allure.testcase('Testcase-7 Get Entity Layer Scenarios')
 @pytest.mark.parametrize('entity_layer', get_entity_layer_list())
 #@pytest.mark.skip(reason="no way of currently testing this")
+@allure.story('Get Entity Layer Scenarios')
+@allure.feature('Entity Layer')
 def test_get_entity_layer_scenarios(web_driver, entity_layer):
     entity_layer = "3aa564f4-7ee4-4dd9-b509-10d22a9478d8"
     type = 'N'
@@ -146,8 +176,11 @@ def test_get_entity_layer_scenarios(web_driver, entity_layer):
     assert response.status_code == 200, response.text
     assert response.json()[0].get('id')
 
+@allure.testcase('Testcase-8 Get Feature')
 @pytest.mark.parametrize('feature', get_entity_layer_features_list())
 #@pytest.mark.skip(reason="no way of currently testing this")
+@allure.story('Get Feature')
+@allure.feature('Feature')
 def test_get_feature(web_driver, feature):
     #feature = "fdb7a5fd-3b99-44dd-868b-8849a3eeac01"
     response = nt.get_feature(web_driver, feature=feature)
@@ -156,9 +189,11 @@ def test_get_feature(web_driver, feature):
     assert response.json().get('id') == feature
     #get_entity_layer_features_list()
 
-
+@allure.testcase('Testcase-9 Get Feature Info')
 @pytest.mark.parametrize('feature', get_entity_layer_features_list())
 #@pytest.mark.skip(reason="no way of currently testing this")
+@allure.story('Get Feature Info')
+@allure.feature('Feature')
 def test_get_feature_info(web_driver, feature):
     #feature = "fdac0ce0-7c30-48be-825c-845b56d2c50a"
     response = nt.get_feature_info(web_driver, feature=feature)
@@ -166,7 +201,10 @@ def test_get_feature_info(web_driver, feature):
     assert response.status_code == 200, response.text
 
 
-
+@allure.testcase('Testcase-10 Create Project')
+#@pytest.mark.skip(reason="no way of currently testing this")
+@allure.story('Create Project')
+@allure.feature('Project')
 def test_create_project(web_driver):
     feature = "fdac0ce0-7c30-48be-825c-845b56d2c50a"
     entity_layer = "14d9ade6-69b1-46cc-bf32-035778b73cd1"
