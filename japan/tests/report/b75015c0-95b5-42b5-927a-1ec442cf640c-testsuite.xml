@@ -1,0 +1,146 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1529921400814" stop="1529921541054">
+  <name>test_basic</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1529921400814" status="passed" stop="1529921454326">
+      <description>
+
+        Проверка валют из всего списка
+
+        </description>
+      <name>Test_basic.test_all_currency</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="Проверка валют из всего списка"/>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Базовый функционал"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18072-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1529921454329" status="passed" stop="1529921513834">
+      <description>
+
+        Проверка кнопки очистики полей
+
+        </description>
+      <name>Test_basic.test_check_clear_form</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="Проверка кнопки очистики полей"/>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Базовый функционал"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18072-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1529921513835" status="passed" stop="1529921517532">
+      <description>
+
+        Проверка поиска валюты, результат не содержит искомую валюту
+
+        </description>
+      <name>Test_basic.test_search_fail</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="Проверка поиска валюты, результат не содержит искомую валюту"/>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Базовый функционал"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18072-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1529921517533" status="passed" stop="1529921520875">
+      <description>
+
+        Проверка поиска валюты, результат содержит искомую валюту
+
+        </description>
+      <name>Test_basic.test_search_ok</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="Проверка поиска валюты, результат содержит искомую валюту"/>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Базовый функционал"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18072-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1529921520876" status="passed" stop="1529921524303">
+      <description>
+
+        Проверка названия страницы
+
+        </description>
+      <name>Test_basic.test_title_page</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="Проверка названия страницы"/>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Базовый функционал"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18072-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1529921524304" status="passed" stop="1529921531819">
+      <description>
+
+        Проверка популярных валют, ввод суммы в поле "из"
+
+        </description>
+      <name>Test_basic.test_top_currency</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="Проверка популярных валют, ввод суммы в поле &quot;из&quot;"/>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Базовый функционал"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18072-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1529921531820" status="passed" stop="1529921541054">
+      <description>
+
+        Проверка популярных валют, ввод суммы в поле "в"
+
+        </description>
+      <name>Test_basic.test_top_currency_reverse</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="Проверка популярных валют, ввод суммы в поле &quot;в&quot;"/>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Базовый функционал"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18072-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

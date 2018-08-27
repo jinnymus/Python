@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_basic",
+    "children" : [ {
+      "name" : "Test_basic.test_all_currency",
+      "uid" : "1c25f35034fd31fa",
+      "parentUid" : "c401ead9f218bc1f5873b2a8645c32d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1529921400814,
+        "stop" : 1529921454326,
+        "duration" : 53512
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_basic.test_check_clear_form",
+      "uid" : "c941acbc190ed6a4",
+      "parentUid" : "c401ead9f218bc1f5873b2a8645c32d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1529921454329,
+        "stop" : 1529921513834,
+        "duration" : 59505
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_basic.test_search_fail",
+      "uid" : "9fd2bdee655011bd",
+      "parentUid" : "c401ead9f218bc1f5873b2a8645c32d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1529921513835,
+        "stop" : 1529921517532,
+        "duration" : 3697
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_basic.test_search_ok",
+      "uid" : "c39d83699e66cd",
+      "parentUid" : "c401ead9f218bc1f5873b2a8645c32d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1529921517533,
+        "stop" : 1529921520875,
+        "duration" : 3342
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_basic.test_title_page",
+      "uid" : "f42b41a7efa1a947",
+      "parentUid" : "c401ead9f218bc1f5873b2a8645c32d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1529921520876,
+        "stop" : 1529921524303,
+        "duration" : 3427
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_basic.test_top_currency",
+      "uid" : "4c9819d70d6ad4a",
+      "parentUid" : "c401ead9f218bc1f5873b2a8645c32d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1529921524304,
+        "stop" : 1529921531819,
+        "duration" : 7515
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_basic.test_top_currency_reverse",
+      "uid" : "b1602cd4b8108fbb",
+      "parentUid" : "c401ead9f218bc1f5873b2a8645c32d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1529921531820,
+        "stop" : 1529921541054,
+        "duration" : 9234
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c401ead9f218bc1f5873b2a8645c32d9"
+  } ],
+  "name" : "suites"
+}

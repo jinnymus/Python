@@ -1,7 +1,7 @@
 geckodriver.log
 .pytest_cache/
 __pytest_cache__/
-.idea/
+.idea/*
 *.pyc
 *.log
 notam/report/*
