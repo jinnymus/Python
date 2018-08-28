@@ -18,16 +18,16 @@ from collections import Counter
 logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
 logger = logging.getLogger('test')
 
-# Открываем файл и работаем с ним, используя буферизованное управление вводами и памятью
+# open file
 with open("bigfile") as myfile:
-    # Используем класс Counter из коробки Python
+    # User Counter class for better perfomance
     counter = Counter(myfile)
 
 # посмотрим что посчитали
 logger.debug('result counter: ' + str(counter))
-# пробежимся по результируещему массиву
+# loop for result dict
 for number, count in counter.items():
-    # если нечетное количество чисел - выводим
+    # if count is odd print it
     if (count % 2 != 0):
         logger.debug('found number: ' + str(number))
 

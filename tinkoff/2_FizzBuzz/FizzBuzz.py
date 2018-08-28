@@ -16,28 +16,33 @@ import sys
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 logger = logging.getLogger('test')
 
+# loop for numbers
 for num in range(1, 101):
+    # if num multiple of 15
     if (num % 15 == 0):
         '''
-        Проверка кратности 15
+        Checking multiple of 15
         '''
         logger.debug('num: ' + str(num) + ' --> FizzBuzz')
         logger.info('FizzBuzz')
+    # if num multiple of 3
     elif (num % 3 == 0):
         '''
-        Проверка кратности 3
+        Checking multiple of 3
         '''
         logger.debug('num: ' + str(num) + ' --> Fizz')
         logger.info('Fizz')
+    # if num multiple of 5
     elif (num % 5 == 0):
         '''
-        Проверка кратности 5
+        Checking multiple of 5
         '''
         logger.debug('num: ' + str(num) + ' --> Buzz')
         logger.info('Buzz')
+    # else happening
     else:
         '''
-        Остальные числа
+        Other numbers
         '''
         logger.debug('num: ' + str(num))
         logger.info(str(num))

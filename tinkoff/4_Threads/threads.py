@@ -13,7 +13,6 @@
 
 import logging
 import sys
-from collections import Counter
 import time
 import random
 from threading import Thread
@@ -21,19 +20,19 @@ from threading import Thread
 logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
 logger = logging.getLogger('test')
 
-# Конфигурация запуска
+# Configuration on task
 
 config = {
-    'threads_count' : 12, # количество потоков
-    'threads_search_time' : 1, # время поиска свободного номера в секундах
-    'threads_work_time_min' : 10, # время работы потока, минимум в секундах
-    'threads_work_time_max' : 14, # время работы потока, максимум в секундах
+    'threads_count' : 12, # number of threads
+    'threads_search_time' : 1, # search time, seconds
+    'threads_work_time_min' : 10, # thread work time, minumum, seconds
+    'threads_work_time_max' : 14, # thread work time, maximum, seconds
 }
 
 class Singleton(type):
     '''
 
-    Синглтон
+    Singleton class
 
     '''
     _instances = {}
@@ -45,32 +44,32 @@ class Singleton(type):
 class MyClass(metaclass=Singleton):
     '''
 
-    Используем метакласс
+    Use metaclass
 
     '''
 
     def __init__(self, host = 'none'):
         '''
 
-        Инициализирование списка чисел в конструкторе
+        Init list on constructor
 
         '''
         self.numbers = list(range(1, 11))
 
     def get_number(self):
         '''
-        Функция получения свободного числа из списка
+        Function for get free number from list
         '''
         try:
             num = self.numbers.pop()
         except IndexError:
-            # Если список пустой, перехватим исключение, присвоим None
+            # if list if empty, intercept exception, assign None
             num = None
         return num
 
     def return_number(self, num):
         '''
-        Функция возврата числа в список свободных
+        Function for return number to free status
         '''
         return self.numbers.append(num)
     pass
@@ -78,14 +77,14 @@ class MyClass(metaclass=Singleton):
 class MyThread(Thread):
     """
 
-    Класс для потока
+    Class for thread
 
     """
 
     def __init__(self, name):
         """
 
-        Инициализация потока
+        init thread
 
         """
         Thread.__init__(self)
@@ -94,7 +93,7 @@ class MyThread(Thread):
     def run(self):
         """
 
-        Запуск потока
+        run a thread
 
         """
         msg = "%s is running" % self.name
@@ -102,46 +101,47 @@ class MyThread(Thread):
         self.process(self.name)
 
     def process(self, thread_name):
-        """
+        '''
+        function to task for thread
+        :param sring thread_name: thread name for log
+        :return:
+        '''
 
-        Задача для потока
-
-        """
         print('[' + str(thread_name) + '] start thread')
-        # Создаем объект класса для работы с списком чисел
+        # Create class object to work with list numbers
         a = MyClass()
-        # Получим свободное число
+        # get free number
         num = a.get_number()
-        # Пока нет свободных
+        # While there are no free
         while (num is None):
             print('[' + str(thread_name) + '] Wait for free numbers..')
-            # Будем ждать
+            # will wait
             time.sleep(config.get('threads_search_time'))
-            # И снова пытаться получить свободное число
+            # try get free number again
             num = a.get_number()
         print('[' + str(thread_name) + '] Yeap, i got num: ' + str(num))
         sleep_time = random.randint(config.get('threads_work_time_min'),config.get('threads_work_time_max'))
-        # Эмуляция полезной работы
+        # emulation of work
         time.sleep(sleep_time)
-        # Возврат числа в список свободных
+        # return number to free stasus
         num = a.return_number(num)
         print('[' + str(thread_name) + '] end thread')
 
 
 def create_threads():
     """
-    Создаем группу потоков
+    create group of threads
     """
     for i in range(config.get('threads_count')):
         name = "Thread #%s" % (i+1)
-        # Задержка создания между потоками
+        # sleep between creating threads
         time.sleep(0.1)
-        # Вызов конструктора для потока
+        # call threads constructor
         my_thread = MyThread(name)
-        # Запуск потока
+        # run a thread
         my_thread.start()
 
 if __name__ == "__main__":
-    # Вызов функции для создания потоков
+    # call function to create threads
     create_threads()
 
