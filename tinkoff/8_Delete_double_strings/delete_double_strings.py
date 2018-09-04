@@ -16,7 +16,9 @@ logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
 logger = logging.getLogger('test')
 
 
-source_string='aaabccddd'
+#source_string='baab'
+#source_string='aaabccddd'
+source_string='aaaabccdddggggg'
 
 def calculate_letters(source_string):
     '''
@@ -42,12 +44,23 @@ def print_result(dict_letters):
     '''
     result = ""
     dict_letters_new = dict(dict_letters)
+
     for key,value in dict_letters.items():
+        logger.debug('dict_letters key: ' + str(key) + ' value: ' + str(value))
         if (value % 2 == 0):
             dict_letters_new.pop(key, None)
 
+    dict_letters_new2 = dict(dict_letters_new)
+
     for key,value in dict_letters_new.items():
-            result += str(key) + str(value)
+        logger.debug('dict_letters_new key: ' + str(key) + ' value: ' + str(value))
+        if (value % 2 != 0) :
+            dict_letters_new2.pop(key, None)
+            dict_letters_new2[key] = 1
+
+    for key,value in dict_letters_new2.items():
+        logger.debug('dict_letters_new2 key: ' + str(key) + ' value: ' + str(value))
+        result += str(key) + str(value)
     return result
 
 if __name__ == "__main__":

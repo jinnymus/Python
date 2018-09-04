@@ -13,29 +13,21 @@
 
 import logging
 import sys
+from collections import Counter
 
 logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
 logger = logging.getLogger('test')
 
-arr = dict()
-
-# Открываем файл и работаем с ним, используя буферизованное управление вводами и памятью
+# open file
 with open("bigfile") as myfile:
-    # для всех строк
-    for line in myfile:
-        # удаляем перенос строки
-        line = line.rstrip()
-        if line in arr:
-            # если текущее число в строке есть в результируещем словаре - инкрементим
-            arr[line]=int(arr.get(line)) + 1
-        else:
-            # если нет - пишем 1
-            arr[line] = 1
+    # User Counter class for better perfomance
+    counter = Counter(myfile)
+
 # посмотрим что посчитали
-logger.debug('result arr: ' + str(arr))
-# пробежимся по результируещему массиву
-for number, count in arr.items():
-    # если нечетное количество чисел - выводим
+logger.debug('result counter: ' + str(counter))
+# loop for result dict
+for number, count in counter.items():
+    # if count is odd print it
     if (count % 2 != 0):
         logger.debug('found number: ' + str(number))
 

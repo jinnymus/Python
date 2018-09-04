@@ -67,86 +67,110 @@ class ObjectA(object):
     def __str__(self):
         return str([self.id, self.name, self.value])
 
-# init some objects for test
-obj = ObjectA(id=1, name='name1', value='value1')
-obj1 = ObjectA(id=2, name='name2', value='value2')
-obj2 = ObjectA(id=3, name='name3', value='value3')
-obj3_1 = ObjectA(id=3, name='name3', value='value35')
-obj3_2 = ObjectA(id=3, name='name3', value='value36')
-obj3_3 = ObjectA(id=3, name='name35', value='value3')
-obj4 = ObjectA(id=4, name='name4', value='value4')
 
-# create source list of objects
-src_list = list()
-src_list.append(obj)
-src_list.append(obj1)
-src_list.append(obj2)
-src_list.append(obj3_1)
 
-# create check list of objects
-check_list = list()
-check_list.append(obj1)
-check_list.append(obj2)
-check_list.append(obj3_2)
-check_list.append(obj3_3)
-check_list.append(obj4)
 
-class create_object_list():
+class object_checker():
     '''
 
-    class for create object with iterator and list
+    Class for compare lists of objects
 
     '''
-    def __init__(self, list):
-        self.list = list
+    def __init__(self):
 
-    def __iter__(self):
-        self.n = 0
-        return self
+        # init some objects for test
+        self.obj = ObjectA(id=1, name='name1', value='value1')
+        self.obj1 = ObjectA(id=2, name='name2', value='value2')
+        self.obj2 = ObjectA(id=3, name='name3', value='value3')
+        self.obj3_1 = ObjectA(id=3, name='name3', value='value35')
+        self.obj3_2 = ObjectA(id=3, name='name3', value='value36')
+        self.obj3_3 = ObjectA(id=3, name='name35', value='value3')
+        self.obj4 = ObjectA(id=4, name='name4', value='value4')
 
-    def __next__(self):
-        if self.n < len(self.list):
-            result = self.list[self.n]
-            self.n += 1
-            return result
-        else:
-            raise StopIteration
+    def create_lists(self):
 
-def compare_lists():
-    '''
+        # create source list of objects
+        src_list = list()
+        src_list.append(self.obj)
+        src_list.append(self.obj1)
+        src_list.append(self.obj2)
+        src_list.append(self.obj3_1)
 
-    function for compare lists of objects
+        # create check list of objects
+        check_list = list()
+        check_list.append(self.obj1)
+        check_list.append(self.obj2)
+        check_list.append(self.obj3_2)
+        check_list.append(self.obj3_3)
+        check_list.append(self.obj4)
 
-    '''
-    compare_result = True
+        self.src_list = self.create_object_list(src_list)
+        self.check_list = self.create_object_list(check_list)
 
-    # create objects with list and iterator
-    src_list_obj = create_object_list(src_list)
-    check_list_obj = create_object_list(check_list)
+    class create_object_list():
+        '''
 
-    # loop for source list
-    for src_item in src_list_obj:
-        # if object exist in source list and not exist in check list
-        if (src_item.id not in check_list_obj):
-            logger.error('ObjectA ' + str(src_item) + ' NOT EXIST IN CHECK LIST')
-        else:
-            # loop for check list
-            for check_item in check_list_obj:
-                # first check for id field
-                if (src_item.id == check_item.id):
-                    # call equals founction to compare objects
-                    res = src_item.__eq__(check_item)
-                    if (res == False):
-                        compare_result = res
+        class for create object with iterator and list
 
-    for check_item in check_list_obj:
-        # if object exist in checks list and not exist in source list
-        if (check_item.id not in src_list_obj):
-            logger.error('ObjectA ' + str(check_item) + ' NOT EXIST IN SRC LIST')
+        '''
+        def __init__(self, list):
+            self.list = list
 
-    return compare_result
+        def __iter__(self):
+            self.n = 0
+            return self
+
+        def __next__(self):
+            if self.n < len(self.list):
+                result = self.list[self.n]
+                self.n += 1
+                return result
+            else:
+                raise StopIteration
+
+    def compare_lists(self):
+        '''
+
+        function for compare lists of objects
+
+        :return: string Comparing result
+        '''
+
+        compare_result = True
+
+        # loop for source list
+        for src_item in self.src_list:
+            # if object exist in source list and not exist in check list
+            if (src_item.id not in self.check_list):
+                logger.error('ObjectA ' + str(src_item) + ' NOT EXIST IN CHECK LIST')
+                compare_result = False
+            else:
+                # loop for check list
+                for check_item in self.check_list:
+                    # first check for id field
+                    if (src_item.id == check_item.id):
+                        # call equals founction to compare objects
+                        res = src_item.__eq__(check_item)
+                        if (res == False):
+                            compare_result = res
+
+        for check_item in self.check_list:
+            # if object exist in checks list and not exist in source list
+            if (check_item.id not in self.src_list):
+                logger.error('ObjectA ' + str(check_item) + ' NOT EXIST IN SRC LIST')
+                compare_result = False
+
+        return compare_result
 
 if __name__ == "__main__":
+
+    # init checker object
+    checker = object_checker()
+
+    # create test lists
+    checker.create_lists()
+
     # call function to compare lists
-    result = compare_lists()
+    result = checker.compare_lists()
+
     logger.debug('compare result: ' + str(result))
