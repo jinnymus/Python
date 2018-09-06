@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="testing slis errors resid 204 capacity sync">
+   <datapools>
+   <datapool name="basic">
+	<row>
+		<parameter value="loctype" expected="expected"><value>0</value><expected>CURRENT</expected></parameter>
+	</row>
+  </datapool>    
+  </datapools>	
+   <steps datapool="loctype">
+      <step name="Daemon restart" type="daemon" action="restart" daemon="gmlc-gateway.service" status="enabled"/>
+      <step name="Update SLIA to stub" type="updatefile" file="#{updatefile}" status="enabled">
+         <data lang="xml"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+			<!DOCTYPE svc_result PUBLIC "-//OMA//DTD SVC_RESULT 3.2//EN" "SVC_RESULT.DTD">
+			<svc_result xmlns:ma="http://www.mobilearts.com/" ver="3.2.0">
+			<slia ver="3.0.0">
+				<result resid="204">DISALLOWED BY LOCAL REGULATIONS</result>
+				<add_info>capacity limit reached</add_info>
+			</slia>
+			</svc_result>
+			]]></data>	  
+      </step>      
+      <step name="Clear Log" type="clearlog" log="#{servicelog}" status="enabled"/>
+      <step name="Clear Log" type="clearlog" log="#{servicelog2}" status="enabled"/>
+      <step name="Get tshark" type="tsharkdump" status="enabled"/>
+	  <step name="Delay" type="delay" status="enabled" seconds="1.0"/>
+      <step name="SLIS Request" type="request"  host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slis" method="post" ContentType="application/json" authuser="gmlcgwuser1" authpass="test123" status="enabled">
+         <data lang="json">
+		 <![CDATA[{
+			"sender": "test1",
+			"profile": "poisk",
+			"subscriberId": "msisdn+79850000004",
+			"priority": 0,
+			"age": 61,
+			"sources": [ "locations", "cellid" ],
+			"inputs": [ 1 ],
+			"infolevel": 8191,
+			"lang": "en",
+			"gmlcparam": { "syncmode": 1, "loctype": #{loctype}, "hor_acc": 100, "hor_acc_qos_class": 1 }
+		}]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">202</assert>
+            <assert name="response" type="response_data" lang="json">
+			<![CDATA[{  
+				"profile":"poisk",
+				"subscriberId":"msisdn+79850000004"
+			}]]>
+			</assert>
+         </asserts>
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="4.0"/>
+      <step name="Check SLIR Request" type="tshark" search="slir " status="enabled">
+         <asserts>
+            <assert name="request" type="tshark" lang="xml"><![CDATA[<?xml version="1.0" ?>
+			<!DOCTYPE svc_init PUBLIC "-//OMA//DTD MLP_SVC_INIT 3.2//EN" "http://www.openmobilealliance.org/DTD/mlp_svc_init_3.20.dtd">
+			<svc_init ver="3.2.0">
+			  <hdr ver="3.0.0">
+				<client>
+				  <id>gmlcuser</id>
+				  <pwd>test321</pwd>
+				  <serviceid>M2M_platform_production</serviceid>
+				</client>
+			  </hdr>
+			  <slir ver="3.2.0" res_type="SYNC">
+				<msid type="MSISDN">79850000004</msid>
+				<prio type="NORMAL"/>
+				<loc_type type="#{expected}"/>
+				<eqop>
+				  <max_loc_age>61</max_loc_age>
+				  <hor_acc qos_class="BEST_EFFORT">100</hor_acc>
+				</eqop>
+			  </slir>
+			</svc_init>]]>
+			</assert>
+         </asserts>
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="0.5"/>
+      <step name="Check SLIA Response" type="tshark" search="slia " status="enabled">
+         <asserts>
+            <assert name="response" type="tshark" lang="xml"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+				<!DOCTYPE svc_result PUBLIC "-//OMA//DTD SVC_RESULT 3.2//EN" "SVC_RESULT.DTD">
+				<svc_result xmlns:ma="http://www.mobilearts.com/" ver="3.2.0">
+				<slia ver="3.0.0">
+					<result resid="204">DISALLOWED BY LOCAL REGULATIONS</result>
+					<add_info>capacity limit reached</add_info>
+				</slia>
+				</svc_result>]]>
+			</assert>
+         </asserts>
+      </step>
+   </steps>
+</testcase>

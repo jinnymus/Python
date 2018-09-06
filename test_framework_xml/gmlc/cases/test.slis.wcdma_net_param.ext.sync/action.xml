@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="testing slis 16000 wcdma_net_param ext sync">
+   <datapools>
+   <datapool name="basic">
+	<row>
+		<parameter value="loctype" expected="expected"><value>0</value><expected>CURRENT</expected></parameter>
+	</row>
+  </datapool>
+  </datapools>	
+   <steps datapool="loctype">
+	  <step name="Daemon restart" type="daemon" action="restart" daemon="gmlc-gateway.service" status="enabled"/>
+	  <step name="Update SLIA to stub" type="updatefile" file="#{updatefile}" status="enabled">
+         <data lang="xml"><![CDATA[<?xml version="1.0" ?><!DOCTYPE svc_result PUBLIC "-//OMA//DTD SVC_RESULT 3.2//EN" "SVC_RESULT.DTD">
+			<svc_result ver="3.2.0" xmlns:ma="http://www.mobilearts.com/">
+			   <slia ver="3.0.0">
+				<req_id>79850000003</req_id>
+				  <pos pos_method="UNKNOWN">
+					 <msid type="MSISDN">79850000003</msid>
+					 <pd>
+						<time utc_off="+0000">20170125154344</time>
+						<shape>
+						   <CircularArea>
+							  <coord>
+								 <X>55 47 40.921N</X>
+								 <Y>37 33 42.731E</Y>
+							  </coord>
+							  <radius>271</radius>
+							  <distanceUnit>meter</distanceUnit>
+						   </CircularArea>
+						</shape>
+						<qos_not_met/>
+						<lev_conf>0</lev_conf>
+					 </pd>
+				  </pos>
+			   </slia>
+			   <ma:slia-extension ver="3.0.0">
+				  <ma:trace-id type="XMLC" value="3647595252"/>
+					<ma:network-parameters msid-ref="6701234567">
+						<ma:msid-set ref-type="MSISDN" ref-value="6701234567">
+							<msid type="IMSI" value="234015456789"/>
+						</ma:msid-set>
+						<ma:ms status="ASSUMED_IDLE" ps_status="PS_PDP_ACTIVE_REACHABLE_FOR_PAGING"/>
+						<ma:lsaid>1234567890</ma:lsaid>
+						<ma:sgsnid>
+							<cc>46</cc>
+							<ndc>70</ndc>
+							<ma:sgsnno>46701541154871</ma:sgsnno>
+						</ma:sgsnid >
+						<neid>
+							<vmscid>
+								<cc>47</cc>
+								<ndc>733</ndc>
+								<vmscno>47733123456</vmscno>
+							</vmscid>
+							<vlrid>
+								<cc>47</cc>
+								<ndc>733</ndc>
+								<vlrno>232447733123456</vlrno>
+							</vlrid>							
+						</neid>
+						<ma:mmeid>
+							<cc>46</cc>
+							<ndc>70</ndc>
+							<ma:mme-name type="FQDN">mme1.telia.com</ma:mme-name>
+						</ma:mmeid>
+						 <ma:wcdma-net-param timestamp="20010630142810.98">
+							<ma:cellid-mes-result>
+							   <ma:global-uc-id>
+								  <mcc>2401</mcc>
+								  <mnc>091</mnc>
+								  <ma:uc-id>
+									 <ma:rnc-id>2011</ma:rnc-id>
+									 <ma:c-id>24447</ma:c-id>
+								  </ma:uc-id>
+							   </ma:global-uc-id>
+							   <ma:utran-access-point-pos>
+								  <Point>
+									 <coord>
+										<X>78 12 34.308N</X>
+										<Y>76 22 2.82E</Y>
+									 </coord>
+								  </Point>
+								  <alt>498</alt>
+							   </ma:utran-access-point-pos>
+							   <ma:rtt-info>
+								  <ma:ue-rx-tx-time-diff2>2000</ma:ue-rx-tx-time-diff2>
+								  <ma:ue-pos-measurement-quality>
+									 <ma:std-resolution>2</ma:std-resolution>
+									 <ma:n-measurements>6</ma:n-measurements>
+									 <ma:std-of-measurements>27</ma:std-of-measurements>
+								  </ma:ue-pos-measurement-quality>
+								  <ma:rtt>18</ma:rtt>
+							   </ma:rtt-info>
+							</ma:cellid-mes-result>
+							<ma:sai>
+							   <mcc>2341</mcc>
+							   <mnc>2151</mnc>
+							   <lac>2342</lac>
+							   <sac>5481</sac>
+							</ma:sai>
+							<ma:age-of-location>0</ma:age-of-location>
+						 </ma:wcdma-net-param>						
+						<ma:lte-net-param timestamp="20010630142810.98">
+							<mcc>242</mcc>
+							<mnc>19</mnc>
+							<ma:lte-ci>112345</ma:lte-ci>
+						</ma:lte-net-param>
+					</ma:network-parameters>
+			   </ma:slia-extension>
+			</svc_result>]]></data>	  
+	  </step>
+      <step name="Clear Log" type="clearlog" log="#{servicelog}" status="enabled"/>
+      <step name="Clear Log" type="clearlog" log="#{servicelog2}" status="enabled"/>
+      <step name="Get tshark" type="tsharkdump" status="enabled"/>
+	  <step name="Delay" type="delay" status="enabled" seconds="4.0"/>
+      <step name="SLIS Request" type="request" host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slis" method="post" ContentType="application/json" authuser="gmlcgwuser1" authpass="test123" status="enabled">
+         <data lang="json">
+		 <![CDATA[{
+			"sender": "test1",
+			"profile": "poisk",
+			"subscriberId": "msisdn+79850000003",
+			"priority": 0,
+			"age": 61,
+			"sources": [ "locations", "cellid" ],
+			"inputs": [ 4 ],
+			"infolevel": 8191,
+			"lang": "en",
+			"gmlcparam": { "syncmode": 2, "loctype": #{loctype}, "hor_acc": 100, "hor_acc_qos_class": 1 }
+		}]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">202</assert>
+            <assert name="response" type="response_data" lang="json">
+			<![CDATA[{  
+				"profile":"poisk",
+				"subscriberId":"msisdn+79850000003"
+			}]]>
+			</assert>
+         </asserts>
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="2.0"/>
+      <step name="Check SLIR Request" type="tshark" search="slir " status="enabled">
+         <asserts>
+            <assert name="request" type="tshark" lang="xml"><![CDATA[<?xml version="1.0" ?>
+			<!DOCTYPE svc_init PUBLIC "-//OMA//DTD MLP_SVC_INIT 3.2//EN" "http://www.openmobilealliance.org/DTD/mlp_svc_init_3.20.dtd">
+			<svc_init ver="3.2.0">
+			  <hdr ver="3.0.0">
+				<client>
+				  <id>gmlcuser</id>
+				  <pwd>test321</pwd>
+				  <serviceid>M2M_platform_production</serviceid>
+				</client>
+			  </hdr>
+			  <slir ver="3.2.0" res_type="SYNC">
+				<msid type="MSISDN">79850000003</msid>
+				<prio type="NORMAL"/>
+				<loc_type type="#{expected}"/>
+				<eqop>
+				  <max_loc_age>61</max_loc_age>
+				  <hor_acc qos_class="BEST_EFFORT">100</hor_acc>
+				</eqop>
+			  </slir>
+			</svc_init>]]>
+			</assert>
+         </asserts>
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="0.5"/>
+      <step name="Check SLIA Response" type="tshark" search="slia " status="enabled">
+         <asserts>
+            <assert name="response" type="tshark" lang="xml"><![CDATA[<!DOCTYPE svc_result PUBLIC "-//OMA//DTD SVC_RESULT 3.2//EN" "SVC_RESULT.DTD">
+			<svc_result ver="3.2.0" xmlns:ma="http://www.mobilearts.com/">
+			   <slia ver="3.0.0">
+				<req_id>79850000003</req_id>
+				  <pos pos_method="UNKNOWN">
+					 <msid type="MSISDN">79850000003</msid>
+					 <pd>
+						<time utc_off="+0000">20170125154344</time>
+						<shape>
+						   <CircularArea>
+							  <coord>
+								 <X>55 47 40.921N</X>
+								 <Y>37 33 42.731E</Y>
+							  </coord>
+							  <radius>271</radius>
+							  <distanceUnit>meter</distanceUnit>
+						   </CircularArea>
+						</shape>
+						<qos_not_met/>
+						<lev_conf>0</lev_conf>
+					 </pd>
+				  </pos>
+			   </slia>
+			   <ma:slia-extension ver="3.0.0">
+				  <ma:trace-id type="XMLC" value="3647595252"/>
+					<ma:network-parameters msid-ref="6701234567">
+						<ma:msid-set ref-type="MSISDN" ref-value="6701234567">
+							<msid type="IMSI" value="234015456789"/>
+						</ma:msid-set>
+						<ma:ms status="ASSUMED_IDLE" ps_status="PS_PDP_ACTIVE_REACHABLE_FOR_PAGING"/>
+						<ma:lsaid>1234567890</ma:lsaid>
+						<ma:sgsnid>
+							<cc>46</cc>
+							<ndc>70</ndc>
+							<ma:sgsnno>46701541154871</ma:sgsnno>
+						</ma:sgsnid >
+						<neid>
+							<vmscid>
+								<cc>47</cc>
+								<ndc>733</ndc>
+								<vmscno>47733123456</vmscno>
+							</vmscid>
+							<vlrid>
+								<cc>47</cc>
+								<ndc>733</ndc>
+								<vlrno>232447733123456</vlrno>
+							</vlrid>							
+						</neid>
+						<ma:mmeid>
+							<cc>46</cc>
+							<ndc>70</ndc>
+							<ma:mme-name type="FQDN">mme1.telia.com</ma:mme-name>
+						</ma:mmeid>
+						 <ma:wcdma-net-param timestamp="20010630142810.98">
+							<ma:cellid-mes-result>
+							   <ma:global-uc-id>
+								  <mcc>2401</mcc>
+								  <mnc>091</mnc>
+								  <ma:uc-id>
+									 <ma:rnc-id>2011</ma:rnc-id>
+									 <ma:c-id>24447</ma:c-id>
+								  </ma:uc-id>
+							   </ma:global-uc-id>
+							   <ma:utran-access-point-pos>
+								  <Point>
+									 <coord>
+										<X>78 12 34.308N</X>
+										<Y>76 22 2.82E</Y>
+									 </coord>
+								  </Point>
+								  <alt>498</alt>
+							   </ma:utran-access-point-pos>
+							   <ma:rtt-info>
+								  <ma:ue-rx-tx-time-diff2>2000</ma:ue-rx-tx-time-diff2>
+								  <ma:ue-pos-measurement-quality>
+									 <ma:std-resolution>2</ma:std-resolution>
+									 <ma:n-measurements>6</ma:n-measurements>
+									 <ma:std-of-measurements>27</ma:std-of-measurements>
+								  </ma:ue-pos-measurement-quality>
+								  <ma:rtt>18</ma:rtt>
+							   </ma:rtt-info>
+							</ma:cellid-mes-result>
+							<ma:sai>
+							   <mcc>2341</mcc>
+							   <mnc>2151</mnc>
+							   <lac>2342</lac>
+							   <sac>5481</sac>
+							</ma:sai>
+							<ma:age-of-location>0</ma:age-of-location>
+						 </ma:wcdma-net-param>						
+						<ma:lte-net-param timestamp="20010630142810.98">
+							<mcc>242</mcc>
+							<mnc>19</mnc>
+							<ma:lte-ci>112345</ma:lte-ci>
+						</ma:lte-net-param>
+					</ma:network-parameters>
+			   </ma:slia-extension>
+			</svc_result>]]>
+			</assert>
+         </asserts>
+      </step>
+  	  <step name="Delay" type="delay" status="enabled" seconds="2"/>	  
+      <step name="Check SODMTD Request" type="tshark" search="sender.*gmlc-gateway" status="enabled">
+         <asserts>
+            <assert name="request" type="tshark" lang="json"><![CDATA[{
+            "inputs": [
+                {
+                    "input": 8192,
+                    "sources": "cellid",
+                    "value": 1
+                },
+                {
+                    "input": 8193,
+                    "sources": "cellid",
+                    "value": 2
+                },
+                {
+                    "input": 12432,
+                    "sources": "cellid",
+                    "value": {
+                        "latitude": 55.7947,
+                        "longitude": 37.56187,
+                        "pos_method": 8192,
+                        "qos_not_met": true,
+                        "radius": 271
+                    }
+                },
+                {
+                    "input": 16000,
+                    "sources": "cellid",
+                    "value": {
+                        "cellid": 112345,
+                        "lac": null,
+                        "mcc": 242,
+                        "mnc": 19,
+                        "net_type": 4
+                    }
+                },
+                {
+                    "input": 16001,
+                    "sources": "cellid",
+                    "value": {
+                        "cc": "47",
+                        "ndc": "733",
+                        "vlr": "232447733123456",
+                        "vmsc": "47733123456"
+                    }
+                },
+                {
+                    "input": 16384,
+                    "sources": "cellid",
+                    "value": "2017-01-25 18:43:44"
+                },
+                {
+                    "input": 16640,
+                    "sources": "cellid",
+                    "value": "2018-04-25 16:15:56.752 ignore"
+                }
+            ],
+            "method": "receivedLocation",
+            "profile": "poisk",
+            "sender": "nip-gmlc-gateway",
+            "subscriberId": "msisdn+79850000003",
+            "version": 0
+        }]]>
+			</assert>
+         </asserts>
+      </step>	  
+	  <step name="Delay" type="delay" status="enabled" seconds="0.5"/>
+      <step name="Check SODMTD Response" type="tshark" search="sender.*asfaw" status="enabled">
+         <asserts>
+			<assert name="status_code" type="tshark">200</assert>
+			<assert name="content_type" type="tshark">application/json</assert>
+            <assert name="request" type="tshark" lang="json"><![CDATA[{
+				"sender":"asfaw",
+				"profile":"poisk"
+			}]]>
+			</assert>			
+         </asserts>
+      </step>
+   </steps>
+</testcase>

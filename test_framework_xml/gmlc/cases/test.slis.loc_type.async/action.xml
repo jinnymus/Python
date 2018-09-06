@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="testing loctype async">
+   <datapools>
+   <datapool name="basic">
+	<row>
+		<parameter value="loctype" expected="expected"><value>0</value><expected>CURRENT</expected></parameter>
+		<parameter value="msisdn" expected="msisdn_expected"><value>79850000006</value><expected>79850000006</expected></parameter>
+	</row>
+	<row>
+		<parameter value="loctype" expected="expected"><value>1</value><expected>LAST</expected></parameter>
+		<parameter value="msisdn" expected="msisdn_expected"><value>79850000007</value><expected>79850000007</expected></parameter>
+	</row>
+	<row>
+		<parameter value="loctype" expected="expected"><value>2</value><expected>CURRENT_OR_LAST</expected></parameter>
+		<parameter value="msisdn" expected="msisdn_expected"><value>79850000008</value><expected>79850000008</expected></parameter>
+	</row>		
+	<row>
+		<parameter value="loctype" expected="expected"><value>3</value><expected>INITIAL</expected></parameter>
+		<parameter value="msisdn" expected="msisdn_expected"><value>79850000009</value><expected>79850000009</expected></parameter>
+	</row>
+	<row>
+		<parameter value="loctype" expected="expected"><value>4</value><expected>MA:SUPPRESS_LOCATION</expected></parameter>
+		<parameter value="msisdn" expected="msisdn_expected"><value>79850000010</value><expected>79850000010</expected></parameter>
+	</row>
+	<row>
+		<parameter value="loctype" expected="expected"><value>5</value><expected>MA:HISTORIC_LOCATION</expected></parameter>
+		<parameter value="msisdn" expected="msisdn_expected"><value>79850000011</value><expected>79850000011</expected></parameter>
+	</row>
+  </datapool>
+  </datapools>
+   <steps datapool="loctype">
+      <step name="Clear Log" type="clearlog" log="#{servicelog}" status="enabled"/>
+      <step name="Get tshark" type="tsharkdump" status="enabled"/>
+	  <step name="Delay" type="delay" status="enabled" seconds="4.0"/>
+      <step name="SLIS Request" type="request" host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slis" method="post" ContentType="application/json" authuser="gmlcgwuser1" authpass="test123" status="enabled">
+         <data lang="json">
+		 <![CDATA[{
+			"sender": "test1",
+			"profile": "poisk",
+			"subscriberId": "msisdn+#{msisdn}",
+			"priority": 0,
+			"age": 61,
+			"sources": [ "locations", "cellid" ],
+			"inputs": [ 12432 ],
+			"infolevel": 8191,
+			"lang": "en",
+			"gmlcparam": { "syncmode": 2, "loctype": #{loctype}, "hor_acc": 100, "hor_acc_qos_class": 1 }
+		}]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">202</assert>
+            <assert name="response" type="response_data" lang="json">
+			<![CDATA[{  
+				"profile":"poisk",
+				"subscriberId":"msisdn+#{msisdn_expected}"
+			}]]>
+			</assert>
+         </asserts>
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="1.0"/>
+      <step name="Check SLIR Request" type="tshark" search="slir " status="enabled">
+         <asserts>
+            <assert name="request" type="tshark" lang="xml"><![CDATA[<?xml version="1.0" ?>
+			<!DOCTYPE svc_init PUBLIC "-//OMA//DTD MLP_SVC_INIT 3.2//EN" "http://www.openmobilealliance.org/DTD/mlp_svc_init_3.20.dtd">
+			<svc_init ver="3.2.0">
+			  <hdr ver="3.0.0">
+				<client>
+				  <id>gmlcuser</id>
+				  <pwd>test321</pwd>
+				  <serviceid>M2M_platform_production</serviceid>
+				</client>
+			  </hdr>
+			  <slir ver="3.2.0" res_type="ASYNC">
+				<msid type="MSISDN">#{msisdn_expected}</msid>
+				<prio type="NORMAL"/>
+				<pushaddr>
+				  <url>http://0.0.0.0:8086/</url>
+				</pushaddr>				
+				<loc_type type="#{expected}"/>
+				<eqop>
+				  <max_loc_age>61</max_loc_age>
+				  <hor_acc qos_class="BEST_EFFORT">100</hor_acc>
+				</eqop>
+			  </slir>
+			</svc_init>]]>
+			</assert>
+         </asserts>
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="0.5"/>
+      <step name="Check SLIA Response" type="tshark" search="slia " status="enabled">
+         <asserts>
+            <assert name="response" type="tshark" lang="xml"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+			<!DOCTYPE svc_result PUBLIC "-//OMA//DTD SVC_RESULT 3.2//EN" "SVC_RESULT.DTD">
+			<svc_result xmlns:ma="http://www.mobilearts.com/" ver="3.2.0">
+			<slia ver="3.0.0">
+				<req_id>#{msisdn_expected}</req_id>
+			</slia>
+			</svc_result>]]>
+			</assert>
+         </asserts>
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="0.5"/>
+	  <step name="SLIREP Request" type="request" host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slirep" method="post" ContentType="application/xml" authuser="gmlcgwuser1" authpass="test123" status="enabled">
+         <data lang="xml">
+		 <![CDATA[<!DOCTYPE svc_result PUBLIC "-//OMA//DTD SVC_RESULT 3.2//EN" "SVC_RESULT.DTD">
+			<svc_result ver="3.2.0" xmlns:ma="http://www.mobilearts.com/">
+			   <slirep ver="3.0.0">
+				<req_id>#{msisdn}</req_id>
+				  <pos pos_method="UNKNOWN">
+					 <msid type="MSISDN">#{msisdn}</msid>
+					 <pd>
+						<time utc_off="+0000">20170125154344</time>
+						<shape>
+						   <CircularArea>
+							  <coord>
+								 <X>55 47 40.921N</X>
+								 <Y>37 33 42.731E</Y>
+							  </coord>
+							  <radius>271</radius>
+							  <distanceUnit>meter</distanceUnit>
+						   </CircularArea>
+						</shape>
+						<qos_not_met/>
+						<lev_conf>0</lev_conf>
+					 </pd>
+					 <gsm_net_param>
+						<cgi>
+						   <mcc>250</mcc>
+						   <mnc>1</mnc>
+						   <lac>6105</lac>
+						   <cellid>42085</cellid>
+						</cgi>
+						<neid>
+						   <vmscid>
+							  <vmscno>79167494004</vmscno>
+						   </vmscid>
+						</neid>
+						<imsi>250016176688306</imsi>
+					 </gsm_net_param>
+				  </pos>
+			   </slirep>
+			   <ma:slirep-extension ver="3.0.0">
+				  <ma:trace-id type="XMLC" value="3647595252"/>
+				  <ma:network-parameters msid-ref="79858808259">
+					 <ma:msid-set ref-type="MSISDN" ref-value="79858808259">
+						<ma:msid type="IMSI" value="250016176688306"/>
+					 </ma:msid-set>
+					 <ma:gsm-net-param timestamp="20170125154344.62">
+						<ma:cgi>
+						   <mcc>250</mcc>
+						   <mnc>1</mnc>
+						   <lac>6105</lac>
+						   <cellid>42085</cellid>
+						</ma:cgi>
+						<neid>
+						   <vmscid>
+							  <vmscno>79167494004</vmscno>
+						   </vmscid>
+						</neid>
+					 </ma:gsm-net-param>
+				  </ma:network-parameters>
+			   </ma:slirep-extension>
+			</svc_result>]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">200</assert>
+            <assert name="response" type="response_data" lang="xml">
+				<![CDATA[<?xml version="1.0" encoding="utf-8"?>
+				<!DOCTYPE svc_result PUBLIC "-//OMA//DTD SVC_RESULT 3.2//EN" "SVC_RESULT.DTD">
+				<svc_result xmlns:ma="http://www.mobilearts.com/" ver="3.2.0">
+				<slra ver="3.2.0">
+					<result resid="0">OK</result>
+				</slra>
+				</svc_result>]]>
+			</assert>
+         </asserts>
+      </step>
+  	  <step name="Delay" type="delay" status="enabled" seconds="2"/>	  
+      <step name="Check SODMTD Request" type="tshark" search="sender.*gmlcgw" status="enabled">
+         <asserts>
+            <assert name="request" type="tshark" lang="json"><![CDATA[{
+			   "sender":"gmlcgw",
+			   "version":"0",
+			   "method":"receivedLocation",
+			   "profile":"poisk",
+			   "subscriberId":"msisdn+#{msisdn_expected}",
+			   "inputs":[
+				  {
+					 "input":12432,
+					 "value":{
+						"latitude": 55.79470027777778,
+						"longitude": 37.56186972222222,
+						"radius":271,
+						"pos_method":8192,
+						"qos_not_met":true,
+						"lev_conf":0
+					 },
+					 "name":"12432_CIRCULAR_AREA",
+					 "descr":"The area of the object's location, which is described by the circle",
+					 "units":null,
+					 "units_short":null,
+					 "units_full":null,
+					 "step":null,
+					 "min":null,
+					 "max":null,
+					 "jtype":[
+						"object",
+						"null"
+					 ],
+					 "state":1,
+					 "err_code":null,
+					 "sources": ["cellid"]
+				  }
+			   ]
+			}]]>
+			</assert>
+         </asserts>
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="0.5"/>
+      <step name="Check SODMTD Response" type="tshark" search="sender.*asfaw" status="enabled">
+         <asserts>
+			<assert name="status_code" type="tshark">200</assert>
+			<assert name="content_type" type="tshark">application/json</assert>
+            <assert name="request" type="tshark" lang="json"><![CDATA[{
+				"sender":"asfaw",
+				"profile":"poisk"
+			}]]>
+			</assert>			
+         </asserts>
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="0.5"/>
+      <step name="Check SLRA Response" type="tshark" search="slra " status="enabled">
+         <asserts>
+			<assert name="status_code" type="tshark" search="slra ">200</assert>
+			<assert name="content_type" type="tshark">application/xml</assert>
+            <assert name="request" type="tshark" lang="xml"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+				<!DOCTYPE svc_result PUBLIC "-//OMA//DTD SVC_RESULT 3.2//EN" "SVC_RESULT.DTD">
+				<svc_result xmlns:ma="http://www.mobilearts.com/" ver="3.2.0">
+				<slra ver="3.2.0">
+					<result resid="0">OK</result>
+				</slra>
+				</svc_result>]]>
+			</assert>			
+         </asserts>
+      </step>	  
+   </steps>
+</testcase>

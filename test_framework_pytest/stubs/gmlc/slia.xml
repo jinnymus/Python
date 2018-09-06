@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE svc_result PUBLIC "-//OMA//DTD SVC_RESULT 3.2//EN" "SVC_RESULT.DTD">
+			<svc_result ver="3.2.0" xmlns:ma="http://www.mobilearts.com/">
+			   <slia ver="3.0.0">
+				  <pos pos_method="UNKNOWN">
+					 <msid type="MSISDN">79850000003</msid>
+					 <pd>
+						<time utc_off="+0000">20170125154344</time>
+						<shape>
+						   <CircularArea>
+							  <coord>
+								 <X>55 47 40.921N</X>
+								 <Y>37 33 42.731E</Y>
+							  </coord>
+							  <radius>271</radius>
+							  <distanceUnit>meter</distanceUnit>
+						   </CircularArea>
+						</shape>
+						<qos_not_met/>
+						<lev_conf>0</lev_conf>
+					 </pd>
+					 <gsm_net_param>
+						<cgi>
+						   <mcc>250</mcc>
+						   <mnc>1</mnc>
+						   <lac>6105</lac>
+						   <cellid>42085</cellid>
+						</cgi>
+						<neid>
+						   <vmscid>
+							  <vmscno>79167494004</vmscno>
+						   </vmscid>
+						</neid>
+						<imsi>250016176688306</imsi>
+					 </gsm_net_param>
+				  </pos>
+			   </slia>
+			   <ma:slia-extension ver="3.0.0">
+				  <ma:trace-id type="XMLC" value="3647595252"/>
+				  <ma:network-parameters msid-ref="79858808259">
+					 <ma:msid-set ref-type="MSISDN" ref-value="79858808259">
+						<ma:msid type="IMSI" value="250016176688306"/>
+					 </ma:msid-set>
+					 <ma:gsm-net-param timestamp="20170125154344.62">
+						<ma:cgi>
+						   <mcc>250</mcc>
+						   <mnc>1</mnc>
+						   <lac>6105</lac>
+						   <cellid>42085</cellid>
+						</ma:cgi>
+						<neid>
+						   <vmscid>
+							  <vmscno>79167494004</vmscno>
+						   </vmscid>
+						</neid>
+					 </ma:gsm-net-param>
+				  </ma:network-parameters>
+			   </ma:slia-extension>
+			</svc_result>

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="testing auth fail">
+   <datapools>
+   <datapool name="basic">
+	<row>
+		<parameter value="loctype" expected="expected"><value>0</value><expected>CURRENT</expected></parameter>
+	</row>
+  </datapool>  
+  </datapools>
+   <steps datapool="loctype">
+      <step name="Clear Log" type="clearlog" log="#{servicelog}" status="enabled"/>
+      <step name="Get tshark" type="tsharkdump" status="enabled"/>
+	  <step name="Delay" type="delay" status="enabled" seconds="4.0"/>
+      <step name="SLIS Request1" type="request"  host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slis" method="post" ContentType="application/json" authuser="gmlcgwuser1" authpass="test123" status="enabled">
+         <data lang="json">
+		 <![CDATA[{
+			"sender": "test1",
+			"profile": "poisk",
+			"subscriberId": "msisdn+79850000003",
+			"priority": 0,
+			"age": 61,
+			"sources": [ "locations", "cellid" ],
+			"inputs": [ 1 ],
+			"infolevel": 8191,
+			"lang": "en",
+			"gmlcparam": { "syncmode": 1, "loctype": #{loctype}, "hor_acc": 100, "hor_acc_qos_class": 1 }
+		}]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">202</assert>
+            <assert name="response" type="response_data" lang="json">
+			<![CDATA[{  
+				"profile":"poisk",
+				"subscriberId":"msisdn+79850000003"
+			}]]>
+			</assert>
+         </asserts>
+      </step>
+      <step name="SLIS Request2" type="request"  host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slis" method="post" ContentType="application/json" authuser="gmlcgwuser1" authpass="test123" status="enabled">
+         <data lang="json">
+		 <![CDATA[{
+			"sender": "test1",
+			"profile": "poisk",
+			"subscriberId": "msisdn+79850000003",
+			"priority": 0,
+			"age": 61,
+			"sources": [ "locations", "cellid" ],
+			"inputs": [ 1 ],
+			"infolevel": 8191,
+			"lang": "en",
+			"gmlcparam": { "syncmode": 1, "loctype": #{loctype}, "hor_acc": 100, "hor_acc_qos_class": 1 }
+		}]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">202</assert>
+            <assert name="response" type="response_data" lang="json">
+			<![CDATA[{  
+				"profile":"poisk",
+				"subscriberId":"msisdn+79850000003"
+			}]]>
+			</assert>
+         </asserts>
+      </step>
+      <step name="SLIS Request3" type="request"  host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slis" method="post" ContentType="application/json" authuser="gmlcgwuser1" authpass="test123" status="enabled">
+         <data lang="json">
+		 <![CDATA[{
+			"sender": "test1",
+			"profile": "poisk",
+			"subscriberId": "msisdn+79850000003",
+			"priority": 0,
+			"age": 61,
+			"sources": [ "locations", "cellid" ],
+			"inputs": [ 1 ],
+			"infolevel": 8191,
+			"lang": "en",
+			"gmlcparam": { "syncmode": 1, "loctype": #{loctype}, "hor_acc": 100, "hor_acc_qos_class": 1 }
+		}]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">202</assert>
+            <assert name="response" type="response_data" lang="json">
+			<![CDATA[{  
+				"profile":"poisk",
+				"subscriberId":"msisdn+79850000003"
+			}]]>
+			</assert>
+         </asserts>
+      </step>
+      <step name="SLIS Request4" type="request"  host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slis" method="post" ContentType="application/json" authuser="gmlcgwuser1" authpass="test123" status="enabled">
+         <data lang="json">
+		 <![CDATA[{
+			"sender": "test1",
+			"profile": "poisk",
+			"subscriberId": "msisdn+79850000003",
+			"priority": 0,
+			"age": 61,
+			"sources": [ "locations", "cellid" ],
+			"inputs": [ 1 ],
+			"infolevel": 8191,
+			"lang": "en",
+			"gmlcparam": { "syncmode": 1, "loctype": #{loctype}, "hor_acc": 100, "hor_acc_qos_class": 1 }
+		}]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">202</assert>
+            <assert name="response" type="response_data" lang="json">
+			<![CDATA[{  
+				"profile":"poisk",
+				"subscriberId":"msisdn+79850000003"
+			}]]>
+			</assert>
+         </asserts>
+      </step>	  
+      <step name="SLIS Request5" type="request"  host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slis" method="post" ContentType="application/json" authuser="gmlcgwuser1" authpass="test123" status="enabled">
+         <data lang="json">
+		 <![CDATA[{
+			"sender": "test1",
+			"profile": "poisk",
+			"subscriberId": "msisdn+79850000003",
+			"priority": 0,
+			"age": 61,
+			"sources": [ "locations", "cellid" ],
+			"inputs": [ 1 ],
+			"infolevel": 8191,
+			"lang": "en",
+			"gmlcparam": { "syncmode": 1, "loctype": #{loctype}, "hor_acc": 100, "hor_acc_qos_class": 1 }
+		}]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">202</assert>
+            <assert name="response" type="response_data" lang="json">
+			<![CDATA[{  
+				"profile":"poisk",
+				"subscriberId":"msisdn+79850000003"
+			}]]>
+			</assert>
+         </asserts>
+      </step>
+	  <step name="SLIS Request6" type="request"  host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slis" method="post" ContentType="application/json" authuser="gmlcgwuser1" authpass="test123" status="enabled">
+         <data lang="json">
+		 <![CDATA[{
+			"sender": "test1",
+			"profile": "poisk",
+			"subscriberId": "msisdn+79850000003",
+			"priority": 0,
+			"age": 61,
+			"sources": [ "locations", "cellid" ],
+			"inputs": [ 1 ],
+			"infolevel": 8191,
+			"lang": "en",
+			"gmlcparam": { "syncmode": 1, "loctype": #{loctype}, "hor_acc": 100, "hor_acc_qos_class": 1 }
+		}]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">202</assert>
+            <assert name="response" type="response_data" lang="json">
+			<![CDATA[{  
+				"profile":"poisk",
+				"subscriberId":"msisdn+79850000003"
+			}]]>
+			</assert>
+         </asserts>
+      </step>	  
+	  <step name="Delay" type="delay" status="enabled" seconds="1.0"/>
+	  <step name="Bulk test data" type="command" status="enabled" >
+		<data lang="shell_data">
+		<![CDATA[
+			cat #{servicelog} | grep 'sender":"gmlc' -A1 | grep send_request | awk 'FS=" " {print substr($2,7,2)}' | uniq -c | sort -r | awk '{print $1}' | head -1
+		]]>
+		</data>
+		<asserts>
+            <assert name="return_code" type="return_code">1</assert>
+        </asserts>		
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="1.0"/>
+   </steps>
+</testcase>

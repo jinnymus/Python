@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="testing auth fail">
+   <datapools>
+   <datapool name="basic">
+	<row>
+		<parameter value="hor_acc_qos_class" expected="expected"><value>0</value><expected>ASSURED</expected></parameter>
+	</row>
+  </datapool>  
+  </datapools>
+   <steps datapool="loctype">
+      <step name="Clear Log" type="clearlog" log="#{servicelog}" status="enabled"/>
+      <step name="Get tshark" type="tsharkdump" status="enabled"/>
+	  <step name="Delay" type="delay" status="enabled" seconds="4.0"/>
+      <step name="SLIS Request" type="request" host="#{host1}" port="#{port1}" uri="/gmlcgw/rest/v0/mlp32/slis" method="post" ContentType="application/json" status="enabled">
+         <data lang="json">
+		 <![CDATA[{
+			"sender": "test1",
+			"profile": "poisk",
+			"subscriberId": "msisdn+79850000003",
+			"priority": 0,
+			"age": 61,
+			"sources": [ "locations", "cellid" ],
+			"inputs": [ 12432 ],
+			"infolevel": 8191,
+			"lang": "en",
+			"gmlcparam": { "syncmode": 1, "loctype": 1, "hor_acc": 100, "hor_acc_qos_class": #{hor_acc_qos_class} }
+		}]]>
+		</data>
+        <asserts>
+            <assert name="status_code" type="status_code">401</assert>
+            <assert name="response" type="response_data" lang="json">
+			<![CDATA[{
+                "developerMessage": "\u041f\u043e\u043b\u0435 authorization: \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u0438\u043b\u0438 \u0443\u043a\u0430\u0437\u0430\u043d\u043e \u043d\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+                "errorCode": "AuthorizationRequired",
+                "errorMessage": "\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u044f.",
+                "profile": null,
+                "subscriberId": null
+            }]]>
+			</assert>
+         </asserts>
+      </step>
+	  <step name="Delay" type="delay" status="enabled" seconds="1.0"/>
+   </steps>
+</testcase>

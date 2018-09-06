@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ef3b75b-9c69-4920-b904-d1f4e6418abc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinkoff/1_Big_File/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tinkoff/1_Big_File/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinkoff/1_Big_File/search2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinkoff/3_Triangle/triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/tinkoff/3_Triangle/triangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinkoff/6_ObjectA/object_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/tinkoff/6_ObjectA/object_a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinkoff/8_Delete_double_strings/delete_double_strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tinkoff/8_Delete_double_strings/delete_double_strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinkoff/9_list_string/list_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/tinkoff/9_list_string/list_string.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,52 +14,120 @@
     <session id="637689938">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Dockerfile" value="3" />
           <entry key="bigfile" value="2" />
-          <entry key="gitignore" value="3" />
+          <entry key="dat" value="2" />
+          <entry key="gitignore" value="4" />
+          <entry key="groovy" value="1" />
+          <entry key="ini" value="4" />
+          <entry key="me" value="1" />
           <entry key="nodeids" value="1" />
-          <entry key="py" value="22" />
-          <entry key="sh" value="4" />
+          <entry key="py" value="64" />
+          <entry key="sh" value="32" />
           <entry key="txt" value="4" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="4" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="22" />
+          <entry key="Bash" value="32" />
+          <entry key="Dockerfile" value="3" />
+          <entry key="Ini" value="4" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="64" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="bigfile" value="39" />
           <entry key="dummy" value="4" />
-          <entry key="gitignore" value="6" />
-          <entry key="py" value="15919" />
-          <entry key="sh" value="106" />
+          <entry key="gitignore" value="13" />
+          <entry key="ini" value="4" />
+          <entry key="py" value="15932" />
+          <entry key="sh" value="113" />
           <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="106" />
-          <entry key="PLAIN_TEXT" value="155" />
-          <entry key="Python" value="15918" />
+          <entry key="Bash" value="113" />
+          <entry key="Ini" value="4" />
+          <entry key="PLAIN_TEXT" value="162" />
+          <entry key="Python" value="15931" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/get_dump.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/testplan.dat">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/cases/test.slis.auth.disable.sync/action.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/cases/test.slis.errors.resid.4.sync/action.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-945" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_framework_pytest/allure.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_framework_pytest/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_framework_pytest/runtest.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="117" selection-start-line="12" selection-start-column="117" selection-end-line="12" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/cases.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/create_testplan.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/sleep.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,20 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/grep/grepkir.py" />
-        <option value="$PROJECT_DIR$/currency/lib/currlib.py" />
-        <option value="$PROJECT_DIR$/currency/lib/CurrencyTab.py" />
-        <option value="$PROJECT_DIR$/currency/lib/AllCurrency.py" />
-        <option value="$PROJECT_DIR$/currency/lib/TopCurrency.py" />
-        <option value="$PROJECT_DIR$/currency/lib/Currency.py" />
-        <option value="$PROJECT_DIR$/currency/tests/CurrencyPage.py" />
-        <option value="$PROJECT_DIR$/currency/tests/Pages.py" />
-        <option value="$PROJECT_DIR$/currency/tests/BaseCase.py" />
-        <option value="$PROJECT_DIR$/currency/tests/locators.py" />
-        <option value="$PROJECT_DIR$/currency/tests/element.py" />
-        <option value="$PROJECT_DIR$/currency/tests/page.py" />
-        <option value="$PROJECT_DIR$/currency/pages/basepage.py" />
-        <option value="$PROJECT_DIR$/currency/pages/element.py" />
         <option value="$PROJECT_DIR$/currency/pages/locators.py" />
         <option value="$PROJECT_DIR$/currency/tests/test.py" />
         <option value="$PROJECT_DIR$/currency/pages/basecase.py" />
@@ -123,7 +170,6 @@
         <option value="$PROJECT_DIR$/japan/run.sh" />
         <option value="$PROJECT_DIR$/japan/tests/test_j.py" />
         <option value="$PROJECT_DIR$/tinkoff/FizzBuzz.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tinkoff/.gitignore" />
         <option value="$PROJECT_DIR$/tinkoff/1_Big_File/bigfile" />
         <option value="$PROJECT_DIR$/tinkoff/1_Big_File/create_big_file.sh" />
@@ -139,6 +185,23 @@
         <option value="$PROJECT_DIR$/tinkoff/9_list_string/list_string.py" />
         <option value="$PROJECT_DIR$/tinkoff/8_Delete_double_strings/delete_double_strings.py" />
         <option value="$PROJECT_DIR$/tinkoff/3_Triangle/triangle.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/bin/clear_and_start.sh" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/bin/clear.sh" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/bin/consumer.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/pytests/farming/cases/test_sf_db_operations.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/pytests/farming/cases/test_sf_e2e_operations.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/pytests/farming/cases/test_sf_drs_operations.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/pytests/farming/cases/test_sf_hds_operations.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/pytests/farming/cases/test_sf_info_operations.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/pytests/farming/cases/test_sf_kafka.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/pytests/farming/cases/test_sf_validator_operations.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/pytests/farming/cases/test_sf_hds_errors.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/pytests/poisk/cases/test_sf_drs_operations.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/pytests/lib/nistest/__init__.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/stubs/gmlc/config.ini" />
+        <option value="$PROJECT_DIR$/test_framework_xml/gmlc/bin/base64_decode.py" />
+        <option value="$PROJECT_DIR$/test_framework_pytest/runtest.sh" />
       </list>
     </option>
   </component>
@@ -172,17 +235,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tinkoff/2_FizzBuzz" />
-      <recent name="$PROJECT_DIR$/currency/pages" />
-      <recent name="$PROJECT_DIR$/currency" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tinkoff/1_Big_File" />
       <recent name="$PROJECT_DIR$/tinkoff" />
       <recent name="$PROJECT_DIR$/japan" />
       <recent name="$PROJECT_DIR$/notam" />
       <recent name="$PROJECT_DIR$/notam/libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_framework_pytest" />
+      <recent name="$PROJECT_DIR$/tinkoff/2_FizzBuzz" />
+      <recent name="$PROJECT_DIR$/currency/pages" />
+      <recent name="$PROJECT_DIR$/currency" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,6 +368,32 @@
       <window_info anchor="right" id="SciView" order="4" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -318,333 +408,218 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/currency/tests/Pages.py" />
-    <entry file="file://$PROJECT_DIR$/currency/lib/CurrencyTab.py" />
-    <entry file="file://$PROJECT_DIR$/currency/lib/Currency.py" />
-    <entry file="file://$PROJECT_DIR$/currency/lib/TopCurrency.py" />
-    <entry file="file://$PROJECT_DIR$/currency/tests/geckodriver.log" />
-    <entry file="file://$PROJECT_DIR$/currency/pages/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency/pages/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency/pages/basecase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency/pages/basepage.py">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/poisk/cases/TestLib.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/currency/pages/currency_page.py">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/farming/cases/test_sf_db_operations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/currency/geckodriver.log" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/pytest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notam/allure-2.6.0/bin/allure">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/pytest.ini">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/currency/pages/currency_page_f.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency/tests/test_ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency/tests/test_basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notam/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notam/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../notam-server/entities/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../notam-server/notam/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notam/libs/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../notam-server/notam/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notam/libs/notam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notam/libs/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notam/tests/test_notam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="169" column="24" selection-start-line="169" selection-start-column="24" selection-end-line="169" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notam/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/japan/tests/test_basic.py">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/lib/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/japan/.pytest_cache/v/cache/nodeids">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/japan/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/japan/tests/test_j.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grep/grepkir.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/japan/tests/test_ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium/site/test_one/test_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/bigfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="1182960" column="1" lean-forward="true" selection-start-line="1182960" selection-start-column="1" selection-end-line="1182960" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/create_big_file.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/4_Threads/test.py" />
-    <entry file="file://$PROJECT_DIR$/tinkoff/5_Txt/file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/2_FizzBuzz/FizzBuzz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="e#20#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="e#404#418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/7_Letter_count/letter_count.py">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="14" />
           <folding>
-            <element signature="e#144#158#0" expanded="true" />
-            <marker date="1535467401608" expanded="true" signature="513:514" ph="..." />
-            <marker date="1535467401608" expanded="true" signature="711:851" ph="..." />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/5_Txt/change_txt.py">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/lib/nistest/poisk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        <state>
           <folding>
-            <element signature="e#273#287#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/4_Threads/threads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="e#502#516#0" expanded="true" />
-            <marker date="1535467401748" expanded="true" signature="1890:3725" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/.gitignore">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/lib/nistest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/3_Triangle/triangle.py">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/lib/nistest/smartFarmingDevice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="115" column="8" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
+        <state>
           <folding>
-            <element signature="e#537#551#0" expanded="true" />
-            <marker date="1535544568000" expanded="true" signature="707:708" ph="..." />
-            <marker date="1535544568000" expanded="true" signature="707:766" ph="..." />
-            <marker date="1535544568000" expanded="true" signature="970:971" ph="..." />
-            <marker date="1535544568000" expanded="true" signature="1315:2226" ph="..." />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/9_list_string/list_string.py">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/lib/nistest/smartFarming.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+        <state>
           <folding>
-            <element signature="e#144#158#0" expanded="true" />
-            <marker date="1535531717445" expanded="true" signature="485:487" ph="..." />
-            <marker date="1535531717445" expanded="true" signature="511:512" ph="..." />
-            <marker date="1535531717445" expanded="true" signature="804:1027" ph="..." />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/8_Delete_double_strings/delete_double_strings.py">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/stubs/sleep.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/stubs/sos-server/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/stubs/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#319#333#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/6_ObjectA/object_a.py">
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/stubs/gmlc/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="135" selection-start-line="135" selection-end-line="135" selection-end-column="40" />
-          <folding>
-            <marker date="1535531717405" expanded="true" signature="2166:3358" ph="..." />
-          </folding>
+        <state relative-caret-position="271">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/stubs/gmlc/slia.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/stubs/gmlc/slia.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/stubs/gmlc/server_gmlc_dump.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/stubs/gmlc/server_gmlc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1890" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/stubs/gmlc/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/mail_report.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/copy_to_git.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/create_testplan.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/consumer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/jenkins.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/jenkins.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/el.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/test_db.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/start_mnp.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/start_lbs.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/start_jmeter.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/start_gmlcgw.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/start.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/sleep.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/producer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/config/gmlc-data.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1349" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/config/gmlc-gateway.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/test2.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/test_slis.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/test.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/base64_decode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/create_testplan.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/base64_tool.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/get_dump.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/testplan.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/cases/test.slis.auth.disable.sync/action.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/cases/test.slis.errors.resid.4.sync/action.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/allure.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/runtest.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="117" selection-start-line="12" selection-start-column="117" selection-end-line="12" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/cases.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
