@@ -1,0 +1,917 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1538654352296" stop="1538654353038">
+  <name>test_url</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1538654352296" status="broken" stop="1538654352885">
+      <description>
+
+        Открытие браузера
+
+        </description>
+      <name>Test_authorization.test_open_link_in_browser</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654352886" status="broken" stop="1538654352897">
+      <description>
+
+        Ввод данных в полня формы
+
+        </description>
+      <name>Test_authorization.test_enter_values_in_form</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654352897" status="broken" stop="1538654352908">
+      <description>
+
+        Проверка авторизации при неверном пароле
+
+        </description>
+      <name>Test_authorization.test_invalid_pass_auth</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654352908" status="broken" stop="1538654352933">
+      <description>
+
+        Проверка авторизации при неверном пользователе
+
+        </description>
+      <name>Test_authorization.test_invalid_user_auth</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654352933" status="broken" stop="1538654352945">
+      <description>
+
+        Проверка авторизации при пустых полях формы
+
+        </description>
+      <name>Test_authorization.test_empty_form</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654352945" status="broken" stop="1538654352956">
+      <description>
+
+        Проверка формы восттановления пароля
+
+        </description>
+      <name>Test_authorization.test_restore_form_valid</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654352957" status="broken" stop="1538654352968">
+      <description>
+
+        Проверка формы восттановления пароля при несоответствии паролей
+
+        </description>
+      <name>Test_authorization.test_restore_form_invalid_pass</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654352968" status="broken" stop="1538654352980">
+      <description>
+
+        Проверка формы восттановления пароля при пустых значениях в полях
+
+        </description>
+      <name>Test_authorization.test_restore_form_empty_valued</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654352981" status="broken" stop="1538654352992">
+      <description>
+        Проверка успешной авторизации
+        </description>
+      <name>Test_authorization.test_valid_auth</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654352993" status="broken" stop="1538654353003">
+      <description>
+
+        Пополнение баланса
+        используется бонус, валюта, сумма, платежная система
+            password.send_keys('pass1')
+
+        </description>
+      <name>Test_refill_balance.test_refill_balanse</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654353003" status="broken" stop="1538654353015">
+      <description>
+
+        Проверка статуса пользователя после пополнения
+        Mini, Silver, Gold, VIP
+
+        </description>
+      <name>Test_refill_balance.test_user_status</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654353015" status="broken" stop="1538654353027">
+      <description>
+
+        Проверка привилегий статусов
+
+        </description>
+      <name>Test_refill_balance.test_user_privelege</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1538654353027" status="broken" stop="1538654353038">
+      <description>
+
+        Проверка условий бонусной программы
+
+        </description>
+      <name>Test_refill_balance.test_terms_of_the_bonus_program</name>
+      <failure>
+        <message>ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.</message>
+        <stack-trace>request = &lt;SubRequest 'django_test_environment' for &lt;Function 'test_open_link_in_browser'&gt;&gt;
+
+    @pytest.fixture(autouse=True, scope='session')
+    def django_test_environment(request):
+        """
+        Ensure that Django is loaded and has its testing environment setup.
+    
+        XXX It is a little dodgy that this is an autouse fixture.  Perhaps
+            an email fixture should be requested in order to be able to
+            use the Django email machinery just like you need to request a
+            db fixture for access to the Django database, etc.  But
+            without duplicating a lot more of Django's test support code
+            we need to follow this model.
+        """
+        if django_settings_is_configured():
+            _setup_django()
+            from django.conf import settings as dj_settings
+            from django.test.utils import (setup_test_environment,
+                                           teardown_test_environment)
+&gt;           dj_settings.DEBUG = False
+
+/usr/local/lib/python3.6/dist-packages/pytest_django/plugin.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:71: in __setattr__
+    super().__setattr__(name, value)
+../../../.local/lib/python3.6/site-packages/django/utils/functional.py:243: in __setattr__
+    self._setup()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;LazySettings [Unevaluated]&gt;, name = None
+
+    def _setup(self, name=None):
+        """
+            Load the settings module pointed to by the environment variable. This
+            is used the first time settings are needed, if the user hasn't
+            configured settings manually.
+            """
+        settings_module = os.environ.get(ENVIRONMENT_VARIABLE)
+        if not settings_module:
+            desc = ("setting %s" % name) if name else "settings"
+            raise ImproperlyConfigured(
+                "Requested %s, but settings are not configured. "
+                "You must either define the environment variable %s "
+                "or call settings.configure() before accessing settings."
+&gt;               % (desc, ENVIRONMENT_VARIABLE))
+E           django.core.exceptions.ImproperlyConfigured: Requested settings, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+../../../.local/lib/python3.6/site-packages/django/conf/__init__.py:42: ImproperlyConfigured</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Функциональное тестирование"/>
+        <label name="story" value="Авторизация"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28310-MainThread"/>
+        <label name="host" value="Kir-PC-L"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

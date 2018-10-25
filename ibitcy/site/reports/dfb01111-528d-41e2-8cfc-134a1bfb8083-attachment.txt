@@ -1,2 +1,0 @@
-remote_connection.py       486 DEBUG    POST http://127.0.0.1:41249/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
-remote_connection.py       573 DEBUG    Finished Request

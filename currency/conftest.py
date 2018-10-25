@@ -44,8 +44,8 @@ def d(request):
     from selenium import webdriver
 
     driver = webdriver.Firefox()
-    #request.cls.driver = driver
-    yield driver
+    request.cls.driver = driver
+    #yield driver
 
     def fin():
         driver.quit()

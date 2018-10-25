@@ -45,6 +45,7 @@ def test_get_all_list():
     #assert False, str(self.all_list)
     #all_list = [1,5]
     #all_list = [1, 5]
+    def CurrencyPage_func():
 
     #globals()['all_list'] = [1, 5]
     #setattr(thismodule, 'all_list', [1,5])

@@ -20,4 +20,4 @@ class CurrencyPageLocators(object):
     TABS = (By.XPATH, "//div[contains(@class,'converter-tabItem')]")
     SELECTED_TAB = (By.XPATH, "//div[@class='converter-tabItem converter-tabItem__selected']")
 
-    BUTTON_CLOSE_WIDGET = (By.XPATH, "//button[@title='Close widget']")
+    #BUTTON_CLOSE_WIDGET = (By.XPATH, "//button[@title='Close widget']")

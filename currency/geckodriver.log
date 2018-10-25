@@ -218,3 +218,261 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 1530005658074	Marionette	INFO	Listening on port 38017
 1530005658134	Marionette	WARN	TLS certificate errors will be ignored for this session
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1538658698725	geckodriver	INFO	geckodriver 0.21.0
+1538658698739	geckodriver	INFO	Listening on 127.0.0.1:55609
+1538658699746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sSuDNBKxOPiB"
+
+(firefox:20404): Gtk-WARNING **: 16:11:40.827: Theme parsing error: <data>:1:31: Expected ')' in color definition
+
+(firefox:20404): Gtk-WARNING **: 16:11:40.827: Theme parsing error: <data>:1:75: Expected ')' in color definition
+1538658701766	Marionette	INFO	Listening on port 37467
+1538658701855	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538658701890	Marionette	DEBUG	[2147483649] Frame script loaded
+1538658701896	Marionette	DEBUG	[2147483649] Frame script registered
+1538658701905	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538658703223	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538658704288	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.exness.com/tools/converter/
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1288443846, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1288443846 line 1 > eval, line 1: unreachable code after return statement
+1538658710533	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538658710534	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1538658762516	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.exness.com/tools/converter/
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 20404, Gecko_IOThread] WARNING: pipe error (71): Соединение разорвано другой стороной: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538658789998	Marionette	INFO	Stopped listening on port 37467
+1538658791398	geckodriver	INFO	geckodriver 0.21.0
+1538658791400	geckodriver	INFO	Listening on 127.0.0.1:41291
+1538658791414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hmgwZ2wWAxSF"
+
+(firefox:21090): Gtk-WARNING **: 16:13:11.972: Theme parsing error: <data>:1:31: Expected ')' in color definition
+
+(firefox:21090): Gtk-WARNING **: 16:13:11.972: Theme parsing error: <data>:1:75: Expected ')' in color definition
+1538658792691	Marionette	INFO	Listening on port 34359
+1538658792724	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538658792758	Marionette	DEBUG	[2147483649] Frame script loaded
+1538658792762	Marionette	DEBUG	[2147483649] Frame script registered
+1538658792774	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538658794159	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538658795120	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.exness.com/tools/converter/
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=935131994, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=935131994, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=935131994 line 1 > eval, line 1: unreachable code after return statement
+1538658805059	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538658805060	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1538658842168	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.exness.com/tools/converter/
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 21090, Gecko_IOThread] WARNING: pipe error (72): Соединение разорвано другой стороной: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538658904312	Marionette	INFO	Stopped listening on port 34359
+1538658937664	geckodriver	INFO	geckodriver 0.21.0
+1538658937668	geckodriver	INFO	Listening on 127.0.0.1:34037
+1538658937681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PVuFbpvudHaC"
+
+(firefox:22358): Gtk-WARNING **: 16:15:38.831: Theme parsing error: <data>:1:31: Expected ')' in color definition
+
+(firefox:22358): Gtk-WARNING **: 16:15:38.831: Theme parsing error: <data>:1:75: Expected ')' in color definition
+1538658939726	Marionette	INFO	Listening on port 46603
+1538658939787	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538658939822	Marionette	DEBUG	[2147483649] Frame script loaded
+1538658939828	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 22358, Gecko_IOThread] WARNING: pipe error (72): Соединение разорвано другой стороной: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538658948071	Marionette	INFO	Stopped listening on port 46603
+1538659173628	geckodriver	INFO	geckodriver 0.21.0
+1538659173632	geckodriver	INFO	Listening on 127.0.0.1:37881
+1538659173721	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g9h0yl8cru7y"
+
+(firefox:24095): Gtk-WARNING **: 16:19:34.779: Theme parsing error: <data>:1:31: Expected ')' in color definition
+
+(firefox:24095): Gtk-WARNING **: 16:19:34.779: Theme parsing error: <data>:1:75: Expected ')' in color definition
+1538659175774	Marionette	INFO	Listening on port 33979
+1538659175838	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538659175867	Marionette	DEBUG	[2147483649] Frame script loaded
+1538659175874	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 24095, Gecko_IOThread] WARNING: pipe error (74): Соединение разорвано другой стороной: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538659177897	Marionette	INFO	Stopped listening on port 33979
+1538659367381	geckodriver	INFO	geckodriver 0.21.0
+1538659367384	geckodriver	INFO	Listening on 127.0.0.1:56115
+1538659368397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PDO6ToIPrPC2"
+
+(firefox:25341): Gtk-WARNING **: 16:22:48.950: Theme parsing error: <data>:1:31: Expected ')' in color definition
+
+(firefox:25341): Gtk-WARNING **: 16:22:48.950: Theme parsing error: <data>:1:75: Expected ')' in color definition
+1538659369674	Marionette	INFO	Listening on port 41899
+1538659369702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538659369732	Marionette	DEBUG	[2147483649] Frame script loaded
+1538659369735	Marionette	DEBUG	[2147483649] Frame script registered
+1538659369752	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538659370242	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: https://www.exness.com/tools/converter/, line 1577: ReferenceError: $ is not defined
+1538659371100	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.exness.com/tools/converter/
+JavaScript error: https://www.exness.com/tools/converter/, line 477: ReferenceError: $ is not defined
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=403289766, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=403289766 line 1 > eval, line 1: unreachable code after return statement
+1538659378450	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1538659378451	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1538659428798	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.exness.com/tools/converter/
+1538659428951	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.exness.com/tools/converter/
+1538659429150	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.exness.com/tools/converter/
+1538659429151	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.exness.com/tools/converter/
+1538659429441	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1538659429441	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1538659429441	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1538659429441	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1538659429441	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1538659429441	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1538659429441	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1538659429450	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+JavaScript error: https://www.exness.com/tools/converter/, line 1577: ReferenceError: $ is not defined
+1538659429722	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.exness.com/tools/converter/
+JavaScript error: https://www.exness.com/tools/converter/, line 477: ReferenceError: $ is not defined
+1538659429904	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483683
+1538659429905	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483687
+1538659538708	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.exness.com/tools/converter/
+1538659538777	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.exness.com/tools/converter/
+1538659539798	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.exness.com/tools/converter/
+1538659539799	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.exness.com/tools/converter/
+1538659540193	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483689
+1538659540193	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483685
+1538659540194	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1538659540194	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483679
+1538659540194	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483681
+1538659540194	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483691
+1538659540230	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.exness.com/tools/converter/
+1538659540613	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483701
+1538659540613	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483705
+1538659553385	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.exness.com/tools/converter/
+1538659553439	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.exness.com/tools/converter/
+1538659553445	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483707
+1538659553445	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483703
+1538659553446	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483695
+1538659553446	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483697
+1538659553446	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483699
+1538659553446	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483709
+1538659553446	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+[Parent 25341, Gecko_IOThread] WARNING: pipe error (71): Соединение разорвано другой стороной: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538659553585	Marionette	INFO	Stopped listening on port 41899
+1538659606353	geckodriver	INFO	geckodriver 0.21.0
+1538659606357	geckodriver	INFO	Listening on 127.0.0.1:54309
+1538659606369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FdZIqRZvP5fM"
+
+(firefox:26903): Gtk-WARNING **: 16:26:47.061: Theme parsing error: <data>:1:31: Expected ')' in color definition
+
+(firefox:26903): Gtk-WARNING **: 16:26:47.061: Theme parsing error: <data>:1:75: Expected ')' in color definition
+1538659607788	Marionette	INFO	Listening on port 36007
+1538659607874	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538659607905	Marionette	DEBUG	[2147483649] Frame script loaded
+1538659607905	Marionette	DEBUG	[2147483649] Frame script registered
+1538659607914	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538659609323	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538659610222	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.exness.com/tools/converter/
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=598658870, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=598658870, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=598658870 line 1 > eval, line 1: unreachable code after return statement
+1538659617303	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1538659617304	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1538659668623	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.exness.com/tools/converter/
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1538659746677	geckodriver	INFO	geckodriver 0.21.0
+1538659746680	geckodriver	INFO	Listening on 127.0.0.1:47575
+1538659746691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DpuHDEEpo1KE"
+
+(firefox:27885): Gtk-WARNING **: 16:29:07.216: Theme parsing error: <data>:1:31: Expected ')' in color definition
+
+(firefox:27885): Gtk-WARNING **: 16:29:07.216: Theme parsing error: <data>:1:75: Expected ')' in color definition
+1538659747968	Marionette	INFO	Listening on port 45841
+1538659747999	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538659748028	Marionette	DEBUG	[2147483649] Frame script loaded
+1538659748028	Marionette	DEBUG	[2147483649] Frame script registered
+1538659748041	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538659749651	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538659750537	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.exness.com/tools/converter/
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1176672464, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1176672464, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1176672464 line 1 > eval, line 1: unreachable code after return statement
+1538659755746	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538659755747	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1538659808838	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.exness.com/tools/converter/
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 27885, Gecko_IOThread] WARNING: pipe error (58): Соединение разорвано другой стороной: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538659813747	Marionette	INFO	Stopped listening on port 45841
+1538659893810	geckodriver	INFO	geckodriver 0.21.0
+1538659893813	geckodriver	INFO	Listening on 127.0.0.1:55131
+1538659893824	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xseniyrrmeCp"
+
+(firefox:28903): Gtk-WARNING **: 16:31:34.371: Theme parsing error: <data>:1:31: Expected ')' in color definition
+
+(firefox:28903): Gtk-WARNING **: 16:31:34.371: Theme parsing error: <data>:1:75: Expected ')' in color definition
+1538659895065	Marionette	INFO	Listening on port 41275
+1538659895132	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538659895161	Marionette	DEBUG	[2147483649] Frame script loaded
+1538659895162	Marionette	DEBUG	[2147483649] Frame script registered
+1538659895172	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538659896630	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538659897893	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.exness.com/tools/converter/
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=967018048, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=967018048, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=967018048 line 1 > eval, line 1: unreachable code after return statement
+1538659903691	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538659903692	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1538659933553	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.exness.com/tools/converter/
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 28903, Gecko_IOThread] WARNING: pipe error (75): Соединение разорвано другой стороной: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538659939325	Marionette	INFO	Stopped listening on port 41275
+1538659948587	geckodriver	INFO	geckodriver 0.21.0
+1538659948591	geckodriver	INFO	Listening on 127.0.0.1:47379
+1538659949610	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QVbDl7vZlrk0"
+
+(firefox:29494): Gtk-WARNING **: 16:32:30.393: Theme parsing error: <data>:1:31: Expected ')' in color definition
+
+(firefox:29494): Gtk-WARNING **: 16:32:30.393: Theme parsing error: <data>:1:75: Expected ')' in color definition
+1538659951106	Marionette	INFO	Listening on port 35271
+1538659951117	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538659951147	Marionette	DEBUG	[2147483649] Frame script loaded
+1538659951148	Marionette	DEBUG	[2147483649] Frame script registered
+1538659951162	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538659951471	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538659952764	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.exness.com/tools/converter/
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1154768363, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1154768363, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1154768363 line 1 > eval, line 1: unreachable code after return statement
+1538659961859	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1538659961860	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1538660010103	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.exness.com/tools/converter/
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1538660010402	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538660075693	geckodriver	INFO	geckodriver 0.21.0
+1538660075696	geckodriver	INFO	Listening on 127.0.0.1:49523
+1538660075710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iOJa6I74C5JU"
+
+(firefox:30485): Gtk-WARNING **: 16:34:36.390: Theme parsing error: <data>:1:31: Expected ')' in color definition
+
+(firefox:30485): Gtk-WARNING **: 16:34:36.390: Theme parsing error: <data>:1:75: Expected ')' in color definition
+1538660077019	Marionette	INFO	Listening on port 40435
+1538660077123	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538660077156	Marionette	DEBUG	[2147483649] Frame script loaded
+1538660077157	Marionette	DEBUG	[2147483649] Frame script registered
+1538660077166	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538660077626	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538660078479	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.exness.com/tools/converter/
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1301002826, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1301002826, line 1: unreachable code after return statement
+JavaScript warning: https://www.exness.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1301002826 line 1 > eval, line 1: unreachable code after return statement
+1538660083496	Marionette	DEBUG	[2147483668] Frame script loaded
+1538660083546	Marionette	DEBUG	[2147483668] Frame script registered
+1538660086109	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1538660086110	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1538660136640	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.exness.com/tools/converter/
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1538660137440	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538660347212	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1538660347212	addons.xpi	ERROR	Failed to download system add-on fxmonitor@mozilla.org: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1538660347212	addons.xpi	ERROR	Failed to download system add-on fxmonitor@mozilla.org: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1538660347212	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1538660347212	addons.xpi	ERROR	Failed to download system add-on telemetry-coverage-bug1487578@mozilla.org: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1538660347212	addons.xpi	ERROR	Failed to download system add-on telemetry-coverage-bug1487578@mozilla.org: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1538660347213	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+[Parent 30485, Gecko_IOThread] WARNING: pipe error (72): Соединение разорвано другой стороной: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538660347357	Marionette	INFO	Stopped listening on port 40435
+[Parent 29494, Gecko_IOThread] WARNING: pipe error (74): Соединение разорвано другой стороной: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538660350285	Marionette	INFO	Stopped listening on port 35271
+[Parent 26903, Gecko_IOThread] WARNING: pipe error (71): Соединение разорвано другой стороной: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538660663852	Marionette	INFO	Stopped listening on port 36007

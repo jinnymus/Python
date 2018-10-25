@@ -27,7 +27,7 @@ class AmountElement(BasePageElement):
     #The locator for search box where search string is entered
     locator = CurrencyPageLocators.AMOUNT
 
-CurrencyPage_func
+#CurrencyPage_func
 class BasePage(object):
     """Base class to initialize the base page that will be called from all pages"""
 
@@ -42,7 +42,7 @@ class CurrencyPage(BasePage):
 
     def is_title_matches(self):
         """Verifies that the appears in page title"""
-        return "EXNESS - Trader Calculator and Currency Converter" in self.driver.title
+        return "Exness - Trader Calculator and Currency Converter" in self.driver.title
 
     def click_clear_button(self):
         element = self.driver.find_element(*CurrencyPageLocators.BUTTON_CLEAR)
@@ -54,7 +54,7 @@ class CurrencyPage(BasePage):
         self.tab_from.init(0)
         self.tab_to = CurrencyPageTab(self.driver)
         self.tab_to.init(1)
-        self.close_widget()
+        #self.close_widget()
         self.init_top_list()
 
     def init_top_list(self):
@@ -71,9 +71,9 @@ class CurrencyPage(BasePage):
         else:
             return False
 
-    def close_widget(self):
-        element = self.driver.find_element(*CurrencyPageLocators.BUTTON_CLOSE_WIDGET)
-        element.click()
+    # def close_widget(self):
+    #     element = self.driver.find_element(*CurrencyPageLocators.BUTTON_CLOSE_WIDGET)
+    #     element.click()
 
 
 class CurrencyPageTab(CurrencyPage):

@@ -1,0 +1,27 @@
+---------------------------------------
+
+Analyzing network captures and protocols
+
+File "capture.pcap" contains a capture of networking packets on a machine.
+
+1. List the networking protocols that are present in the capture.
+
+NetBIOS
+DNS
+SSH
+TCP
+UDP
+ARP
+SSHv2
+Realtek Remote Control Protocol
+
+
+2. The capture contains a MIME-encoded Internet Message (RFC-5322), commonly known as email. Explain what are the multiparts present in the message.
+
+---------------------------------------
+
+1. application/octet-string. Binary file. The EICAR Anti-Virus Test File or EICAR test file
+Running this file in DOS system will printing string to stdout "EICAR-STANDARD-ANTIVIRUS-TEST-FILE!"
+
+
+

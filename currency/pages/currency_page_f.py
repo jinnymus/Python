@@ -74,9 +74,9 @@ def CurrencyPage_func():
             else:
                 return False
 
-        def close_widget(self):
-            element = self.driver.find_element(*CurrencyPageLocators.BUTTON_CLOSE_WIDGET)
-            element.click()
+        # def close_widget(self):
+        #     element = self.driver.find_element(*CurrencyPageLocators.BUTTON_CLOSE_WIDGET)
+        #     element.click()
 
 
     class CurrencyPageTab(CurrencyPage):

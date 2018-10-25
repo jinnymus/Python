@@ -2,182 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ef3b75b-9c69-4920-b904-d1f4e6418abc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/remove_dup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple/out.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/.idea/tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/.idea/tests.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/.pytest_cache/v/cache/nodeids" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/data/behaviors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/data/categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/data/test-cases/797b26a63c3055b8.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/data/test-cases/797b26a63c3055b8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/export/mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/export/mail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/history/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/history/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/plugins/behaviors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/plugins/behaviors/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/plugins/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/plugins/packages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/plugins/screen-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/plugins/screen-diff/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/plugins/screen-diff/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/environment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/executors.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/executors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure-report/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/bin/allure.bat" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/bin/allure.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/config/allure-cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/config/allure-cucumber.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/config/allure-junit.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/config/allure-junit.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/config/allure.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/config/allure.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/allure-commandline-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/allure-commandline-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/allure-generator-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/allure-generator-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/allure-plugin-api-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/allure-plugin-api-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/allure1-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/allure1-model-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/allure2-model-api-1.0-BETA4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/allure2-model-api-1.0-BETA4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/allure2-model-jackson-1.0-BETA4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/allure2-model-jackson-1.0-BETA4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/allure2-model-pojo-1.0-BETA4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/allure2-model-pojo-1.0-BETA4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/commons-beanutils-1.9.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/commons-codec-1.10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/commons-codec-1.10.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/commons-collections-3.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/commons-collections-3.2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/commons-io-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/commons-io-2.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/commons-lang3-3.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/commons-lang3-3.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/commons-logging-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/commons-text-1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/commons-text-1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/config/jetty-logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/config/jetty-logging.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/config/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/config/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/flexmark-0.28.18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/flexmark-0.28.18.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/flexmark-util-0.28.18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/flexmark-util-0.28.18.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/freemarker-2.3.23.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/freemarker-2.3.23.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/httpclient-4.5.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/httpclient-4.5.4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/httpcore-4.4.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/httpcore-4.4.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jackson-annotations-2.9.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jackson-core-2.9.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jackson-core-2.9.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jackson-databind-2.9.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jackson-databind-2.9.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jackson-dataformat-xml-2.9.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jackson-dataformat-xml-2.9.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jackson-dataformat-yaml-2.9.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jackson-dataformat-yaml-2.9.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jackson-module-jaxb-annotations-2.9.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jackson-module-jaxb-annotations-2.9.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jaxb-api-2.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jaxb-api-2.3.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jaxb-utils-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jaxb-utils-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jcommander-1.72.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jcommander-1.72.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jetty-http-9.4.8.v20171121.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jetty-http-9.4.8.v20171121.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jetty-io-9.4.8.v20171121.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jetty-io-9.4.8.v20171121.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jetty-server-9.4.8.v20171121.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jetty-server-9.4.8.v20171121.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/jetty-util-9.4.8.v20171121.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/jetty-util-9.4.8.v20171121.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/opencsv-4.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/opencsv-4.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/properties-2.0.RC5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/properties-2.0.RC5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/slf4j-api-1.7.25.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/snakeyaml-1.18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/snakeyaml-1.18.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/stax2-api-3.1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/stax2-api-3.1.4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/tika-core-1.16.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/tika-core-1.16.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/lib/woodstox-core-5.0.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/lib/woodstox-core-5.0.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/behaviors-plugin/plugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/behaviors-plugin/plugin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/behaviors-plugin/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/behaviors-plugin/static/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/junit-xml-plugin/junit-xml-plugin-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/junit-xml-plugin/junit-xml-plugin-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/packages-plugin/plugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/packages-plugin/plugin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/packages-plugin/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/packages-plugin/static/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/screen-diff-plugin/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/trx-plugin/trx-plugin-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/trx-plugin/trx-plugin-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/xctest-plugin/xctest-plugin-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/xctest-plugin/xctest-plugin-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-2.6.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-2.6.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/data/attachments/bf100939d74ad8cf.png" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/data/attachments/bf100939d74ad8cf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/data/behaviors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/data/categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/data/test-cases/8effd95361bb004c.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/data/test-cases/8effd95361bb004c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/export/mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/export/mail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/history/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/history/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/plugins/behaviors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/plugins/behaviors/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/plugins/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/plugins/packages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/plugins/screen-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/plugins/screen-diff/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/plugins/screen-diff/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/environment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/executors.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/executors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/allure-report/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/geckodriver.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/.pytest_cache/v/cache/nodeids" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/bugs/found.bugs" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/site/bugs/found.bugs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/site/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/geckodriver.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/reports/00abbd3a-fc85-444f-be08-5ac0b9f65651-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/site/reports/00abbd3a-fc85-444f-be08-5ac0b9f65651-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/reports/485d2fd6-6d26-48d4-b0c3-4f756b5e9454-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/site/reports/485d2fd6-6d26-48d4-b0c3-4f756b5e9454-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/reports/5899cc1e-3eee-4164-9603-7cd45b4b2846-testsuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/site/reports/5899cc1e-3eee-4164-9603-7cd45b4b2846-testsuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/reports/dfb01111-528d-41e2-8cfc-134a1bfb8083-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/site/reports/dfb01111-528d-41e2-8cfc-134a1bfb8083-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/reports/eba53dfe-a124-4b80-bbc6-09664eb39a8b-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/site/reports/eba53dfe-a124-4b80-bbc6-09664eb39a8b-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/test_one/geckodriver.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/site/test_one/test_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/ibitcy/site/test_one/test_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinkoff/1_Big_File/bigfile" beforeDir="false" afterPath="$PROJECT_DIR$/tinkoff/1_Big_File/bigfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/currency/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/currency/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/currency/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/pages/currency_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/pages/currency_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/pages/currency_page_f.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/pages/currency_page_f.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/currency/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/test_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/tests/test_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibitcy/site/reports/00abbd3a-fc85-444f-be08-5ac0b9f65651-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibitcy/site/reports/485d2fd6-6d26-48d4-b0c3-4f756b5e9454-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibitcy/site/reports/5899cc1e-3eee-4164-9603-7cd45b4b2846-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibitcy/site/reports/dfb01111-528d-41e2-8cfc-134a1bfb8083-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibitcy/site/reports/eba53dfe-a124-4b80-bbc6-09664eb39a8b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japan/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/japan/pages/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/japan/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/japan/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/japan/tests/test_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/japan/tests/test_ex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,12 +34,13 @@
     <session id="637689938">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -202,22 +50,26 @@
           <entry key="dat" value="2" />
           <entry key="gitignore" value="5" />
           <entry key="groovy" value="1" />
+          <entry key="html" value="1" />
           <entry key="ini" value="4" />
+          <entry key="log" value="2" />
           <entry key="me" value="1" />
           <entry key="nodeids" value="1" />
-          <entry key="py" value="81" />
-          <entry key="sh" value="33" />
+          <entry key="py" value="113" />
+          <entry key="sh" value="36" />
           <entry key="txt" value="4" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="33" />
+          <entry key="Bash" value="36" />
           <entry key="Dockerfile" value="3" />
+          <entry key="HTML" value="1" />
           <entry key="Ini" value="4" />
+          <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="81" />
+          <entry key="Python" value="113" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -227,17 +79,17 @@
           <entry key="dummy" value="4" />
           <entry key="gitignore" value="13" />
           <entry key="ini" value="4" />
-          <entry key="py" value="15932" />
-          <entry key="sh" value="113" />
+          <entry key="py" value="16804" />
+          <entry key="sh" value="147" />
           <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="113" />
+          <entry key="Bash" value="147" />
           <entry key="Ini" value="4" />
           <entry key="PLAIN_TEXT" value="167" />
-          <entry key="Python" value="15931" />
+          <entry key="Python" value="16803" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
@@ -245,104 +97,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ibitcy/site/test_one/test_url.py">
+      <file leaf-file-name="remove_dup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/remove_dup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="458">
+              <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency/pages/currency_page.py">
+      <file leaf-file-name="list.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple/list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="473">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency/pages/locators.py">
+      <file leaf-file-name="out.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple/out.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency/tests/test_ex.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-464">
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency/tests/test_basic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-104">
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency/pages/element.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency/pages/basepage.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency/pages/basecase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency/pages/currency_page_f.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -361,6 +136,9 @@
       <find>amount_element</find>
       <find>W+</find>
       <find>create_object_list</find>
+      <find>CurrencyPage_func</find>
+      <find>gbl</find>
+      <find>close_widget</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -369,23 +147,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/currency/pages/locators.py" />
-        <option value="$PROJECT_DIR$/currency/tests/test.py" />
-        <option value="$PROJECT_DIR$/currency/pages/basecase.py" />
-        <option value="$PROJECT_DIR$/currency/pages/currency_page.py" />
-        <option value="$PROJECT_DIR$/currency/pages/currency_page_f.py" />
-        <option value="$PROJECT_DIR$/currency/tests/test_basic.py" />
-        <option value="$PROJECT_DIR$/currency/run.sh" />
-        <option value="$PROJECT_DIR$/currency/tests/test_ex.py" />
-        <option value="$PROJECT_DIR$/currency/conftest.py" />
-        <option value="$PROJECT_DIR$/notam/conftest.py" />
-        <option value="$PROJECT_DIR$/notam/libs/auth.py" />
-        <option value="$PROJECT_DIR$/notam/pytest.ini" />
         <option value="$PROJECT_DIR$/notam/libs/notam.py" />
         <option value="$PROJECT_DIR$/notam/libs/webdriver.py" />
         <option value="$PROJECT_DIR$/notam/tests/test_notam.py" />
         <option value="$PROJECT_DIR$/notam/run.sh" />
-        <option value="$PROJECT_DIR$/japan/run.sh" />
         <option value="$PROJECT_DIR$/japan/tests/test_j.py" />
         <option value="$PROJECT_DIR$/tinkoff/FizzBuzz.py" />
         <option value="$PROJECT_DIR$/tinkoff/.gitignore" />
@@ -420,12 +185,31 @@
         <option value="$PROJECT_DIR$/test_framework_xml/gmlc/bin/base64_decode.py" />
         <option value="$PROJECT_DIR$/test_framework_pytest/runtest.sh" />
         <option value="$PROJECT_DIR$/tinkoff/1_Big_File/bigfile" />
+        <option value="$PROJECT_DIR$/simple/out.py" />
+        <option value="$PROJECT_DIR$/japan/run.sh" />
+        <option value="$PROJECT_DIR$/japan/tests/test_ex.py" />
+        <option value="$PROJECT_DIR$/currency/tests/test_ex.py" />
+        <option value="$PROJECT_DIR$/currency/run.sh" />
+        <option value="$PROJECT_DIR$/currency/conftest.py" />
+        <option value="$PROJECT_DIR$/currency/tests/test_basic.py" />
+        <option value="$PROJECT_DIR$/japan/pages/locators.py" />
+        <option value="$PROJECT_DIR$/currency/pages/currency_page_f.py" />
+        <option value="$PROJECT_DIR$/currency/pages/currency_page.py" />
+        <option value="$PROJECT_DIR$/f-secure/task.txt" />
+        <option value="$PROJECT_DIR$/leetcode/remove_dup.py" />
+        <option value="$PROJECT_DIR$/simple/list.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="y" value="28" />
-    <option name="width" value="1915" />
+    <option name="width" value="1914" />
     <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -441,6 +225,21 @@
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="tinkoff" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -449,6 +248,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -492,14 +292,12 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grep/grepkir.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="curr" type="tests" factoryName="py.test">
       <module name="Python" />
@@ -510,11 +308,11 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/currency/tests/test_basic.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.grep" />
@@ -555,36 +353,40 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1922" height="1025" extended-state="6" />
+    <frame x="0" y="28" width="1914" height="1024" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24881391" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.41311476" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32849163" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2593583" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Project Explorer" order="3" />
+      <window_info anchor="bottom" id="Console" order="14" />
+      <window_info anchor="bottom" id="DB Execution Console" order="15" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="DB Browser" order="4" />
+      <window_info id="Project Explorer" order="3" />
       <window_info id="Job Explorer" order="5" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.41311476" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32924107" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32924107" />
-      <window_info anchor="bottom" id="Console" order="14" />
-      <window_info anchor="bottom" id="DB Execution Console" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Find" order="2" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -626,124 +428,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/create_testplan.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/consumer.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/jenkins.sh" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/jenkins.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/el.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/test.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/test_db.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/start_mnp.sh" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/start_lbs.sh" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/start_jmeter.sh" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/start_gmlcgw.sh" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/start.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/sleep.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/producer.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/config/gmlc-data.ini" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/config/gmlc-gateway.ini" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/test2.sh" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/test_slis.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/test.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/test.groovy" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/base64_decode.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/create_testplan.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/base64_tool.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/get_dump.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tasks/tinkoff/3_Triangle/triangle.py" />
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/testplan.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/cases/test.slis.auth.disable.sync/action.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/cases/test.slis.errors.resid.4.sync/action.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_pytest/allure.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_pytest/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_pytest/runtest.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="117" selection-start-line="12" selection-start-column="117" selection-end-line="12" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_xml/bin/cases.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/lib/nistest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notam/libs/notam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/9_list_string/list_string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/create_big_file.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/bigfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/3_Triangle/triangle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-699" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/4_Threads/threads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="139" column="28" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/currency/pages/currency_page_f.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="1035">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="22" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -752,10 +440,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/currency/pages/currency_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="2145">
+          <caret line="148" column="65" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="65" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/pages/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/pages/basecase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/test.py" />
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/test.groovy" />
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/base64_decode.py" />
+    <entry file="file://$PROJECT_DIR$/test_framework_xml/gmlc/bin/base64_tool.py" />
+    <entry file="file://$PROJECT_DIR$/Tasks/tinkoff/3_Triangle/triangle.py" />
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/runtest.sh" />
+    <entry file="file://$PROJECT_DIR$/test_framework_pytest/pytests/lib/nistest/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/tinkoff/4_Threads/threads.py" />
+    <entry file="file://$PROJECT_DIR$/notam/tests/test_notam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notam/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/japan/run.sh" />
+    <entry file="file://$PROJECT_DIR$/japan/pages/currency_page.py" />
+    <entry file="file://$PROJECT_DIR$/japan/pages/currency_page_f.py" />
+    <entry file="file://$PROJECT_DIR$/japan/tests/test_j.py" />
+    <entry file="file://$PROJECT_DIR$/japan/tests/test_basic.py" />
+    <entry file="file://$PROJECT_DIR$/japan/pages/basecase.py" />
+    <entry file="file://$PROJECT_DIR$/japan/tests/test_ex.py" />
+    <entry file="file://$PROJECT_DIR$/ibitcy/site/test_one/test_url.py" />
+    <entry file="file://$PROJECT_DIR$/currency/test.log" />
+    <entry file="file://$PROJECT_DIR$/currency/geckodriver.log" />
+    <entry file="file://$PROJECT_DIR$/currency/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/tests/test_ex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/japan/pages/locators.py" />
+    <entry file="file://$PROJECT_DIR$/currency/pages/currency_page_f.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/pages/basecase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/tests/test_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -770,54 +569,92 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/currency/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/pages/currency_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="148" column="65" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f-secure/capture.pcap">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/currency/pages/basecase.py">
+    <entry file="file://$PROJECT_DIR$/f-secure/task.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/currency/pages/locators.py">
+    <entry file="file://$PROJECT_DIR$/tinkoff/7_Letter_count/letter_count.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/currency/conftest.py">
+    <entry file="file://$PROJECT_DIR$/tinkoff/2_FizzBuzz/FizzBuzz.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/bigfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinkoff/8_Delete_double_strings/delete_double_strings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinkoff/5_Txt/file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinkoff/9_list_string/list_string.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinkoff/5_Txt/change_txt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="278">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinkoff/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/create_big_file.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinkoff/3_Triangle/triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="21" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#404#418#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/currency/tests/test_ex.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/remove_dup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-464">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="458">
+          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/currency/tests/test_basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/simple/out.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ibitcy/site/test_one/test_url.py">
+    <entry file="file://$PROJECT_DIR$/simple/list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="473">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>

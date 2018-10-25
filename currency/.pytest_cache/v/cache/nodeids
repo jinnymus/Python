@@ -1,1 +1,3 @@
-[]
+[
+  "tests/test_basic.py::Test_basic::test_title_page"
+]
