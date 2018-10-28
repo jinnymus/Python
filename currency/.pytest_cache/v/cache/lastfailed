@@ -1,9 +1,0 @@
-{
-  "tests/test_basic.py::Test_basic::test_all_currency": true,
-  "tests/test_basic.py::Test_basic::test_check_clear_form": true,
-  "tests/test_basic.py::Test_basic::test_search_fail": true,
-  "tests/test_basic.py::Test_basic::test_search_ok": true,
-  "tests/test_basic.py::Test_basic::test_top_currency": true,
-  "tests/test_basic.py::Test_basic::test_top_currency_reverse": true,
-  "tests/test_ex.py::test_currency2": true
-}

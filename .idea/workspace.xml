@@ -2,26 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ef3b75b-9c69-4920-b904-d1f4e6418abc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/remove_dup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple/list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple/out.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbt/time_machine/cases.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/currency/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/currency/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/currency/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency/pages/currency_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/pages/currency_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency/pages/currency_page_f.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/pages/currency_page_f.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/currency/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency/tests/test_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/tests/test_basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibitcy/site/reports/00abbd3a-fc85-444f-be08-5ac0b9f65651-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibitcy/site/reports/485d2fd6-6d26-48d4-b0c3-4f756b5e9454-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibitcy/site/reports/5899cc1e-3eee-4164-9603-7cd45b4b2846-testsuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibitcy/site/reports/dfb01111-528d-41e2-8cfc-134a1bfb8083-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibitcy/site/reports/eba53dfe-a124-4b80-bbc6-09664eb39a8b-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/japan/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/japan/pages/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/japan/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/japan/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/japan/tests/test_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/japan/tests/test_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/.pytest_cache/v/cache/nodeids" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/.pytest_cache/v/cache/nodeids" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sbt/sql/cases.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/test-cases/1c25f35034fd31fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/test-cases/4c9819d70d6ad4a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/test-cases/9fd2bdee655011bd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/test-cases/b1602cd4b8108fbb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/test-cases/c39d83699e66cd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/test-cases/c941acbc190ed6a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/test-cases/f42b41a7efa1a947.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/allure/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/report/b75015c0-95b5-42b5-927a-1ec442cf640c-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/tests/test.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,27 +130,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="remove_dup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/remove_dup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simple/list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="out.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple/out.py">
+      <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sbt/selenium/run.sh">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="geckodriver.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sbt/selenium/geckodriver.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="locators.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sbt/selenium/pages/locators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calc_page.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sbt/selenium/pages/calc_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_basic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sbt/selenium/tests/test_basic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -140,6 +193,12 @@
       <find>gbl</find>
       <find>close_widget</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/sbt</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,9 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/notam/libs/notam.py" />
-        <option value="$PROJECT_DIR$/notam/libs/webdriver.py" />
-        <option value="$PROJECT_DIR$/notam/tests/test_notam.py" />
         <option value="$PROJECT_DIR$/notam/run.sh" />
         <option value="$PROJECT_DIR$/japan/tests/test_j.py" />
         <option value="$PROJECT_DIR$/tinkoff/FizzBuzz.py" />
@@ -198,6 +254,9 @@
         <option value="$PROJECT_DIR$/f-secure/task.txt" />
         <option value="$PROJECT_DIR$/leetcode/remove_dup.py" />
         <option value="$PROJECT_DIR$/simple/list.py" />
+        <option value="$PROJECT_DIR$/sbt/selenium/pages/locators.py" />
+        <option value="$PROJECT_DIR$/sbt/selenium/pages/calc_page.py" />
+        <option value="$PROJECT_DIR$/sbt/selenium/tests/test_basic.py" />
       </list>
     </option>
   </component>
@@ -209,8 +268,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="28" />
-    <option name="width" value="1914" />
-    <option name="height" value="1024" />
+    <option name="width" value="1280" />
+    <option name="height" value="664" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -228,17 +287,35 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="currency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+              <item name="time_machine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="simple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="tinkoff" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,18 +330,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tinkoff/1_Big_File" />
-      <recent name="$PROJECT_DIR$/tinkoff" />
-      <recent name="$PROJECT_DIR$/japan" />
-      <recent name="$PROJECT_DIR$/notam" />
-      <recent name="$PROJECT_DIR$/notam/libs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sbt/selenium" />
       <recent name="$PROJECT_DIR$/test_framework_pytest" />
       <recent name="$PROJECT_DIR$/tinkoff/2_FizzBuzz" />
       <recent name="$PROJECT_DIR$/currency/pages" />
       <recent name="$PROJECT_DIR$/currency" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sbt/time_machine" />
+      <recent name="$PROJECT_DIR$/tinkoff/1_Big_File" />
+      <recent name="$PROJECT_DIR$/tinkoff" />
+      <recent name="$PROJECT_DIR$/japan" />
+      <recent name="$PROJECT_DIR$/notam" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,19 +431,20 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1914" height="1024" extended-state="0" />
+    <frame x="0" y="28" width="1280" height="664" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.41311476" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32849163" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3283582" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32924107" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2593583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27621284" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.35675675" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
@@ -380,9 +459,8 @@
       <window_info id="Project Explorer" order="3" />
       <window_info id="Job Explorer" order="5" />
       <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Message" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,49 +506,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/currency/pages/currency_page_f.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency/pages/currency_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2145">
-          <caret line="148" column="65" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency/pages/basepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency/pages/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/currency/pages/basecase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,20 +543,10 @@
     <entry file="file://$PROJECT_DIR$/ibitcy/site/test_one/test_url.py" />
     <entry file="file://$PROJECT_DIR$/currency/test.log" />
     <entry file="file://$PROJECT_DIR$/currency/geckodriver.log" />
-    <entry file="file://$PROJECT_DIR$/currency/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/currency/tests/test_ex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,9 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,20 +579,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/currency/pages/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/currency/pages/basepage.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -579,14 +596,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2145">
           <caret line="148" column="65" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f-secure/capture.pcap">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/f-secure/task.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,36 +606,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/7_Letter_count/letter_count.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/2_FizzBuzz/FizzBuzz.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/bigfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/8_Delete_double_strings/delete_double_strings.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/5_Txt/file.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/9_list_string/list_string.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tinkoff/5_Txt/change_txt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinkoff/1_Big_File/create_big_file.sh">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tinkoff/3_Triangle/triangle.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -635,26 +622,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#404#418#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/remove_dup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+        <state relative-caret-position="320">
+          <caret line="119" column="34" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple/out.py">
+    <entry file="file://$PROJECT_DIR$/sbt/sql/cases.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple/list.py">
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/tests/test_ex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="-135">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/time_machine/cases.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/pages/basecase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/pages/currency_page_f.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/pages/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-523">
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/pages/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/test.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/run.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/tests/test_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbt/selenium/pages/calc_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

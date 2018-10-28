@@ -1,7 +1,0 @@
-============================= test session starts ==============================
-platform linux -- Python 3.6.5, pytest-3.6.2, py-1.5.3, pluggy-0.6.0 -- /usr/bin/python3
-cachedir: .pytest_cache
-rootdir: /home/kir/tests/Python/currency/tests, inifile:
-plugins: allure-adaptor-1.7.10, django-3.2.1, celery-4.1.0
-collecting ... 
-========================= no tests ran in 0.00 seconds =========================
