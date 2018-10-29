@@ -1,13 +1,20 @@
-from pages.element import BasePageElement
+#from pages.element import BasePageElement
 from pages.element import BaseHTMLPageElement
 from pages.locators import CalcPageLocators
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 import logging, sys
 from pages.basecase import BaseCase
 from selenium.webdriver.common.keys import Keys
+import logging
+import sys
+from selenium.common.exceptions import TimeoutException
+import time
 
-#logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
-#logger = logging.getLogger('test')
+logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
+logger = logging.getLogger('calc_page')
+
 
 class ObjectCostElement(BaseHTMLPageElement):
      locator = CalcPageLocators.OBJECT_COST
@@ -17,35 +24,11 @@ class InitialFeeElement(BaseHTMLPageElement):
 
 class CreditPeriodElement(BaseHTMLPageElement):
      locator = CalcPageLocators.CREDIT_PERIOD
-#
-# class PayCardBoxElement(BasePageElement):
-#     """This class gets the search text from the specified locator"""
-#
-#     locator = CalcPageLocators.PAY_CARD_BOX
-#
-# class LifeInsuranceBoxElement(BasePageElement):
-#     """This class gets the search text from the specified locator"""
-#
-#     locator = CalcPageLocators.LIFE_INSURANCE_BOX
-#
-# class ElecronicRegistrationBoxElement(BasePageElement):
-#     """This class gets the search text from the specified locator"""
-#
-#     locator = CalcPageLocators.ELECTRONIC_REGISTRATION_BOX
-#
-# class DeveloperDiscountBoxElement(BasePageElement):
-#     """This class gets the search text from the specified locator"""
-#
-#     locator = CalcPageLocators.DEVELOPER_DISCOUNT_BOX
-#
-#
-class MonthlyPaymentElement(BasePageElement):
-    """This class gets the search text from the specified locator"""
 
+class MonthlyPaymentElement(BaseHTMLPageElement):
     locator = CalcPageLocators.MONTHLY_PAYMENT
 
 class BasePage(object):
-    """Base class to initialize the base page that will be called from all pages"""
 
     def __init__(self, driver):
         self.driver = driver
@@ -53,7 +36,7 @@ class BasePage(object):
 
 class CalcPage(BasePage):
 
-    monthly_payment = MonthlyPaymentElement()
+    monthly_payment = None
     URI = 'https://ipoteka.domclick.ru'
 
 
@@ -61,28 +44,52 @@ class CalcPage(BasePage):
         self.driver.get(self.URI)
 
     def set_object_target(self, target):
-        element = self.driver.find_element(*CalcPageLocators.OBJECT_TARGET)
-        element.send_keys(Keys.CONTROL, 'a')
+        element = WebDriverWait(self.driver, 100).until(
+            lambda driver: driver.find_element(*CalcPageLocators.OBJECT_TARGET))
+        element.click()
         element.send_keys(target)
+
         
     def set_object_cost(self, cost):
-        #element = self.driver.find_element(*ObjectCostElement.locator)
-        #element.send_keys(Keys.CONTROL, 'a')
-        #element.send_keys(cost)
-        element = ObjectCostElement()
-        element = cost
+        element = WebDriverWait(self.driver, 100).until(
+            lambda driver: driver.find_element(*CalcPageLocators.OBJECT_COST))
+        element.send_keys(Keys.CONTROL, 'a')
+        element.send_keys(Keys.DELETE)
+        element.send_keys(cost)
+        element.send_keys(Keys.ENTER)
+        # time.sleep(2)
+        # element.send_keys(Keys.CONTROL, 'a')
+        # element.send_keys(Keys.DELETE)
+        # element.send_keys(cost)
+        # element.send_keys(Keys.ENTER)
+
+        #element.click()
 
     def set_initial_fee(self, fee):
-        element = self.driver.find_element(*CreditPeriodElement.locator)
-        #element.send_keys(Keys.CONTROL, 'a')
-        #element.send_keys(fee)
-        element = fee
+        element = WebDriverWait(self.driver, 100).until(
+            lambda driver: driver.find_element(*CalcPageLocators.INITIAL_FEE))
+        element.send_keys(Keys.CONTROL, 'a')
+        element.send_keys(Keys.DELETE)
+        element.send_keys(fee)
+        element.send_keys(Keys.ENTER)
+        # time.sleep(2)
+        # element.send_keys(Keys.CONTROL, 'a')
+        # element.send_keys(Keys.DELETE)
+        # element.send_keys(fee)
+        # element.send_keys(Keys.ENTER)
 
     def set_credit_period(self, period):
-        element = self.driver.find_element(*InitialFeeElement.locator)
-        #element.send_keys(Keys.CONTROL, 'a')
-        #element.send_keys(period)
-        element = period
+        element = WebDriverWait(self.driver, 100).until(
+            lambda driver: driver.find_element(*CalcPageLocators.CREDIT_PERIOD))
+        element.send_keys(Keys.CONTROL, 'a')
+        element.send_keys(Keys.DELETE)
+        element.send_keys(period)
+        element.send_keys(Keys.ENTER)
+        # time.sleep(2)
+        # element.send_keys(Keys.CONTROL, 'a')
+        # element.send_keys(Keys.DELETE)
+        # element.send_keys(period)
+        # element.send_keys(Keys.ENTER)
 
     def pay_card(self):
         element = self.driver.find_element(*CalcPageLocators.PAY_CARD_BOX)
@@ -100,90 +107,13 @@ class CalcPage(BasePage):
         element = self.driver.find_element(*CalcPageLocators.DEVELOPER_DISCOUNT_BOX)
         element.click()
 
+    def close_chat(self):
+        element = self.driver.find_element(*CalcPageLocators.CHAT)
+        element.click()
+
     def get_monthly_payment(self):
-        element = self.driver.find_element(*CalcPageLocators.MONTHLY_PAYMENT)
+        element = WebDriverWait(self.driver, 100).until(
+            lambda driver: driver.find_element(*CalcPageLocators.MONTHLY_PAYMENT))
         self.monthly_payment = element.text
-
-#
-# class CurrencyPageTab(CurrencyPage):
-#
-#     currency_element = CurrencyElement()
-#
-#     def init(self, num):
-#         self.num = num
-#
-#     def select(self):
-#         tab = self.driver.find_elements(*CurrencyPageLocators.TABS)[self.num]
-#         tab.click()
-#
-#     def select_top_currency(self, currency):
-#         self.select()
-#         self.select_currency(*CurrencyPageLocators.TOP_LIST, currency=currency)
-#         self.check_selected_currency(currency)
-#
-#     def select_all_currency(self, currency):
-#         self.select()
-#         self.select_currency(*CurrencyPageLocators.ALL_LIST, currency=currency)
-#         self.check_selected_currency(currency)
-#
-#     def get_all_list(self):
-#         self.select()
-#         elements = self.driver.find_elements(*CurrencyPageLocators.ALL_LIST)
-#         return elements
-#
-#     def get_all_list_names(self):
-#         all_list = list()
-#         elements = self.driver.find_elements(*CurrencyPageLocators.ALL_LIST)
-#         for cur in elements:
-#             cur_str = cur.get_attribute('innerHTML')
-#             all_list.append(cur_str)
-#         return all_list
-#
-#     def get_top_list_names(self):
-#         top_list = list()
-#         elements = self.driver.find_elements(*CurrencyPageLocators.TOP_LIST)
-#         for cur in elements:
-#             cur_str = cur.get_attribute('innerHTML')
-#             top_list.append(cur_str)
-#         return top_list
-#
-#     def check_selected_currency(self, currency):
-#         self.select()
-#         assert self.get_item(*CurrencyPageLocators.CURRENCY_SELECTED) == currency, self.get_item(*CurrencyPageLocators.CURRENCY_SELECTED)
-#         assert self.get_item(*CurrencyPageLocators.ALL_SELECTED_ITEM) == currency, self.get_item(*CurrencyPageLocators.ALL_SELECTED_ITEM)
-#         top_list = list()
-#         elements = self.driver.find_elements(*CurrencyPageLocators.TOP_LIST)
-#         for cur in elements:
-#             cur_str = cur.get_attribute('innerHTML')
-#             top_list.append(cur_str)
-#         if (currency in top_list):
-#             assert self.get_item(*CurrencyPageLocators.TOP_SELECTED_ITEM) == currency, self.get_item(*CurrencyPageLocators.TOP_SELECTED_ITEM)
-#
-#     def select_currency(self, *currencyListLocator, currency):
-#         self.select()
-#         elements = self.driver.find_elements(*currencyListLocator)
-#         for cur in elements:
-#             cur_str = cur.get_attribute('innerHTML')
-#             if (currency in cur_str):
-#                 cur.click()
-#
-#     def get_item(self, *currencyLocator):
-#         self.select()
-#         element = self.driver.find_element(*currencyLocator)
-#         selected_item = element.get_attribute('innerHTML')
-#         return selected_item
-#
-#     def set_amount(self, value):
-#         self.select()
-#         element = self.driver.find_elements(*CurrencyPageLocators.AMOUNT)[self.num]
-#         element.clear()
-#         element.send_keys(value)
-#
-#     def get_amount(self):
-#         self.select()
-#         element = self.driver.find_elements(*CurrencyPageLocators.AMOUNT)[self.num]
-#         amount = element.get_attribute('value')
-#         return amount
-
-
+        logger.debug('get payment: ' + str(element.text))
 

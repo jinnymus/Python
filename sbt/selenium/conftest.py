@@ -43,7 +43,10 @@ def firefox_driver_setup(request):
 def d(request):
     from selenium import webdriver
 
-    driver = webdriver.Firefox()
+    options = selenium.webdriver.firefox.options.Options()
+    options.log.level = 'trace'
+
+    driver = webdriver.Firefox(firefox_options=options)
     request.cls.driver = driver
     #yield driver
 
