@@ -9,7 +9,7 @@ class BaseHTMLPageElement(object):
         driver = obj.driver
         WebDriverWait(driver, 100).until(
             lambda driver: driver.find_element(*self.locator))
-        driver.find_element(*self.locator).clear()
+        driver.find_element(*self.locator).send_keys(Keys.CONTROL, 'a')
         driver.find_element(*self.locator).send_keys(value)
 
     def __get__(self, obj, owner):

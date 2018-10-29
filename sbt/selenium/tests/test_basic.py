@@ -34,12 +34,14 @@ class Test_basic(BaseCase):
         """
         calc_page = CalcPage(self.driver)
         calc_page.navigate()
-        calc_page.set_object_cost(4800000)
-        #calc_page.set_initial_fee(1000000)
-        #calc_page.set_credit_period(7)
+        #calc_page.set_object_target("Покупка квартиры в новостройке")
+        calc_page.set_object_cost("4800000")
+        #calc_page.set_initial_fee("1000000")
+        #calc_page.set_credit_period("7")
         #calc_page.pay_card()
         #calc_page.life_insurance()
         #calc_page.electronic_registration()
         #calc_page.developer_discount()
+        #calc_page.get_monthly_payment()
         assert calc_page.monthly_payment == 57539, "Payment doesn't match. Paid: " + str(self.driver.title)
 

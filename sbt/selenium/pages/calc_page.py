@@ -4,23 +4,19 @@ from pages.locators import CalcPageLocators
 from selenium.webdriver.common.by import By
 import logging, sys
 from pages.basecase import BaseCase
+from selenium.webdriver.common.keys import Keys
+
 #logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
 #logger = logging.getLogger('test')
 
-# class ObjectCostElement(BaseHTMLPageElement):
-#     """This class gets the search text from the specified locator"""
-#
-#     locator = CalcPageLocators.OBJECT_COST
-#
-# class InitialFeeElement(BaseHTMLPageElement):
-#     """This class gets the search text from the specified locator"""
-#
-#     locator = CalcPageLocators.INITIAL_FEE
-#
-# class CreditPeriodElement(BasePageElement):
-#     """This class gets the search text from the specified locator"""
-#
-#     locator = CalcPageLocators.CREDIT_PERIOD
+class ObjectCostElement(BaseHTMLPageElement):
+     locator = CalcPageLocators.OBJECT_COST
+
+class InitialFeeElement(BaseHTMLPageElement):
+     locator = CalcPageLocators.INITIAL_FEE
+
+class CreditPeriodElement(BaseHTMLPageElement):
+     locator = CalcPageLocators.CREDIT_PERIOD
 #
 # class PayCardBoxElement(BasePageElement):
 #     """This class gets the search text from the specified locator"""
@@ -64,20 +60,29 @@ class CalcPage(BasePage):
     def navigate(self):
         self.driver.get(self.URI)
 
+    def set_object_target(self, target):
+        element = self.driver.find_element(*CalcPageLocators.OBJECT_TARGET)
+        element.send_keys(Keys.CONTROL, 'a')
+        element.send_keys(target)
+        
     def set_object_cost(self, cost):
-        element = self.driver.find_element(*CalcPageLocators.OBJECT_COST)
-        element.clear()
-        element.send_keys(cost)
+        #element = self.driver.find_element(*ObjectCostElement.locator)
+        #element.send_keys(Keys.CONTROL, 'a')
+        #element.send_keys(cost)
+        element = ObjectCostElement()
+        element = cost
 
     def set_initial_fee(self, fee):
-        element = self.driver.find_element(*CalcPageLocators.INITIAL_FEE)
-        element.clear()
-        element.send_keys(fee)
+        element = self.driver.find_element(*CreditPeriodElement.locator)
+        #element.send_keys(Keys.CONTROL, 'a')
+        #element.send_keys(fee)
+        element = fee
 
     def set_credit_period(self, period):
-        element = self.driver.find_element(*CalcPageLocators.CREDIT_PERIOD)
-        element.clear()
-        element.send_keys(period)
+        element = self.driver.find_element(*InitialFeeElement.locator)
+        #element.send_keys(Keys.CONTROL, 'a')
+        #element.send_keys(period)
+        element = period
 
     def pay_card(self):
         element = self.driver.find_element(*CalcPageLocators.PAY_CARD_BOX)
@@ -97,7 +102,7 @@ class CalcPage(BasePage):
 
     def get_monthly_payment(self):
         element = self.driver.find_element(*CalcPageLocators.MONTHLY_PAYMENT)
-        self.monthly_payment = element.get_attribute('value')
+        self.monthly_payment = element.text
 
 #
 # class CurrencyPageTab(CurrencyPage):
